@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9655f911ad233ee9",
+        "id": "4ad70fdd6f431245",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "03-Projects/test/未命名1.md",
             "mode": "source"
           }
         }
@@ -84,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "03-Projects/test/未命名1.md"
               }
             }
           },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "03-Projects/test/未命名1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,23 +132,24 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 265
   },
-  "active": "9655f911ad233ee9",
+  "active": "4ad70fdd6f431245",
   "lastOpenFiles": [
+    "00-Inbox/未命名 1.md",
+    "01-Diary/2021-10-10.md",
+    "00-Inbox/未命名.md",
+    "01-Diary/2021-10-15.md",
     "README.md",
     "09-Templates/日志模板.md",
     "04-Post/obsidian入门.md",
     "05-Reading/pdfs/Bao2021.md",
     "01-Diary/2021-10-03.md",
-    "01-Diary/2021-10-10.md",
-    "09-Templates/博客随笔.md",
-    "08-Assets/Pasted image 20211010085018.png",
-    "03-Favorites/愿望清单.md",
-    "01-Diary/2021-10-08.md"
+    "09-Templates/博客随笔.md"
   ]
 }

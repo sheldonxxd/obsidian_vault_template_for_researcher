@@ -7,7 +7,7 @@
       "python ./02-Reading/pdfs/readPDF.py"
     ]
   ],
-  "trigger_on_file_creation": false,
+  "trigger_on_file_creation": true,
   "enable_system_commands": true,
   "shell_path": "C:\\Windows\\System32\\cmd.exe",
   "syntax_highlighting": true
