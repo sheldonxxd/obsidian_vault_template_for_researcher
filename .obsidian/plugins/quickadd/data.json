@@ -1,0 +1,73 @@
+{
+  "choices": [
+    {
+      "id": "13aa960e-9e3e-4aec-b6aa-35adf841a841",
+      "name": "timeStamp",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "01-Diary/{{DATE:YYYY-MM-DD}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "09-Templates/日志模板.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "- <% tp.date.now(\"HH:mm\") %> {{VALUE:Tracking}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Tracking",
+        "insertAtEnd": true,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "5e2dd8d4-b939-4d12-a766-9f8d4dc7e9db",
+      "name": "readPaper",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "<% tp.user.readPDF() %>"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": []
+}

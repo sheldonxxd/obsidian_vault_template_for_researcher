@@ -1,0 +1,10 @@
+{
+    "id": "obsidian-gallery",
+    "name": "Gallery",
+    "version": "0.5.8",
+    "minAppVersion": "0.10.11",
+    "description": "Main Gallery to tag / filter / add notes to images. Display blocks to embed images inside notes. Display block to an image information",
+    "author": "darakah",
+    "authorUrl": "https://github.com/Darakah/",
+    "isDesktopOnly": false
+}

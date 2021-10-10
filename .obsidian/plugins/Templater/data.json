@@ -1,0 +1,14 @@
+{
+  "command_timeout": 5,
+  "template_folder": "09-Templates",
+  "templates_pairs": [
+    [
+      "readPDF",
+      "python ./02-Reading/pdfs/readPDF.py"
+    ]
+  ],
+  "trigger_on_file_creation": false,
+  "enable_system_commands": true,
+  "shell_path": "C:\\Windows\\System32\\cmd.exe",
+  "syntax_highlighting": true
+}

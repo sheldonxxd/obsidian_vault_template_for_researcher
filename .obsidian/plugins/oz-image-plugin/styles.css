@@ -1,0 +1,104 @@
+div.oz-image-widget img {
+	max-width: 100%;
+	cursor: zoom-in;
+}
+
+div.oz-image-widget > img[alt$='#small'] {
+	max-width: 75% !important;
+	min-width: 200pt !important;
+}
+
+div.oz-image-widget > img[alt$='#x-small'] {
+	max-width: 50% !important;
+	min-width: 100pt !important;
+}
+
+div.oz-image-widget > img[alt$='#xx-small'] {
+	max-width: 25% !important;
+	min-width: 50pt !important;
+}
+
+.CodeMirror-linewidget img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.theme-dark img[alt$='#invert'],
+.theme-dark div.oz-image-widget > img[alt$='#invert'] {
+	filter: invert(1) hue-rotate(180deg);
+	mix-blend-mode: screen;
+}
+
+.oz-transclusion-widget {
+	padding: 3px 3px 3px 19px;
+	border-left: 2px solid var(--text-muted);
+}
+
+.oz-coffee-div {
+	text-align: center;
+	margin-top: 20px;
+}
+
+/* Image Zoom */
+div.oz-image-widget img:active {
+	width: auto;
+	max-height: 95vh;
+	cursor: zoom-out;
+}
+
+/* Line Numbers In Editor CodeBlock Renders */
+pre[class*='language-'].line-numbers {
+	position: relative;
+	padding-left: 3.8em;
+	counter-reset: linenumber;
+}
+pre[class*='language-'].line-numbers > code {
+	position: relative;
+	white-space: inherit;
+}
+.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 0;
+	font-size: 100%;
+	left: -3.8em;
+	width: 3em; /* works for line-numbers below 1000 lines */
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+}
+.line-numbers-rows > span:before {
+	content: counter(linenumber);
+	color: #999;
+	display: block;
+	padding-right: 0.8em;
+	text-align: right;
+}
+
+/* Admonition */
+#oz-admonition-title {
+	text-transform: capitalize;
+}
+
+.mermaid-error-information {
+	color: red;
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+
+.oz-modal-center {
+	text-align: center;
+	margin: 20px 10px 20px 10px;
+}
+
+.oz-modal-title {
+	text-align: center;
+}

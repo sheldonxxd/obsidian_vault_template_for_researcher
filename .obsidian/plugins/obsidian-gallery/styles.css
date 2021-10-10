@@ -1,0 +1,130 @@
+.ob-gallery-control {
+    height: 100%;
+    width: 100%;
+    position: unset;
+    float: right;
+    background-color: var(--background-secondary);
+}
+
+.ob-gallery-display {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    float: left;
+    background-color: var(--background-primary);
+    overflow-x: auto;
+}
+
+.ob-gallery-filter {
+    height: 70px;
+    width: 100%;
+    position: relative;
+    border: none;
+    background-color: var(--background-secondary);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.ob-gallery-filter-input {
+    width: 20%;
+    left: 20px;
+    position: static;
+    margin-right: 20px;
+}
+
+.ob-gallery-image-focus {
+    display: none;
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(16, 17, 17, 0.83);
+    ;
+}
+
+.ob-gallery-image-focus>img {
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    display: block;
+    padding: 40px;
+    float: unset !important;
+}
+
+.image-info-edit {
+    position: fixed;
+    right: 0px;
+    margin: 10px;
+    color: var(--text-normal) !important;
+}
+
+.image-info-edit:hover {
+    color: var(--text-a) !important;
+}
+
+.image-info-open {
+    position: fixed;
+    right: 30px;
+    top: 5px;
+    color: var(--text-normal) !important;
+}
+
+.image-info-open:hover {
+    color: var(--text-a) !important;
+}
+
+.gallery-span-info {
+    display: none;
+}
+
+
+/* active-thumb View CSS */
+
+.gallery-widget {
+    background: var(--background-secondary);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.gallery-container {
+    max-width: auto;
+    width: auto;
+}
+
+.gallery-span-info br {
+    display: none;
+}
+
+.gallery-grid-img {
+    opacity: 0.9;
+    transition: 0.1;
+}
+
+.gallery-grid-img:hover {
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.gallery-resources-alert {
+    padding: 20px;
+    background-color: var(--background-modifier-error-hover);
+    color: var(--light0-hard);
+}
+
+.ob-gallery-video-focus {
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    display: block;
+    padding: 40px;
+    float: unset !important;
+}

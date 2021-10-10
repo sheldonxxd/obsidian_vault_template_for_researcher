@@ -1,0 +1,10 @@
+{
+	"id": "oz-image-plugin",
+	"name": "Ozan's Image in Editor Plugin",
+	"version": "1.5.7",
+	"minAppVersion": "0.12.3",
+	"description": "View Images, Transclusions, iFrames and PDF Files within the Editor without a necessity to switch to Preview.",
+	"author": "Ozan Tellioglu",
+	"authorUrl": "https://ozan.pl/aboutme/",
+	"isDesktopOnly": true
+}

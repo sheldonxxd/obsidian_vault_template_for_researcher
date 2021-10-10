@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "减肥18斤必胜",
+      "path": "06-Life/减肥18斤必胜.md"
+    },
+    {
+      "type": "file",
+      "title": "美食集锦",
+      "path": "06-Life/美食集锦.md"
+    },
+    {
+      "type": "file",
+      "title": "愿望清单",
+      "path": "03-Favorites/愿望清单.md"
+    },
+    {
+      "type": "file",
+      "title": "人生经验汇总",
+      "path": "03-Favorites/人生经验汇总.md"
+    },
+    {
+      "type": "file",
+      "title": "obsidian入门",
+      "path": "04-Post/obsidian入门.md"
+    },
+    {
+      "type": "file",
+      "title": "FNA-PAINT草稿",
+      "path": "02-Projects/FNA-PAINT/FNA-PAINT草稿.md"
+    }
+  ]
+}
