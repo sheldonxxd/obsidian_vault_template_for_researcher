@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "2cb184c3804350bc",
+    "id": "64671e31c15df13e",
     "type": "split",
     "children": [
       {
-        "id": "4ad70fdd6f431245",
+        "id": "f40bd9c151782eaf",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "03-Projects/test/未命名1.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -57,7 +57,7 @@
             }
           },
           {
-            "id": "900f423e5e686cf2",
+            "id": "702aafbecaea40ba",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -68,7 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236
+    "width": 205
   },
   "right": {
     "id": "6e7011190a6a4416",
@@ -78,33 +78,6 @@
         "id": "2c47daab7a7f6b09",
         "type": "tabs",
         "children": [
-          {
-            "id": "450ad81cf27a4dff",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "03-Projects/test/未命名1.md"
-              }
-            }
-          },
-          {
-            "id": "227681cc38450669",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "03-Projects/test/未命名1.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "ec1d354533e6cbd2",
             "type": "leaf",
@@ -117,39 +90,76 @@
             }
           },
           {
-            "id": "28960003402368f7",
+            "id": "582cbcba2c5af393",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "57643264956dfd42",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
+      },
+      {
+        "id": "4f101d806a54a17c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "450ad81cf27a4dff",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          },
+          {
+            "id": "227681cc38450669",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1617c7fd3576c80b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 265
+    "width": 251
   },
-  "active": "4ad70fdd6f431245",
+  "active": "f40bd9c151782eaf",
   "lastOpenFiles": [
-    "00-Inbox/未命名 1.md",
-    "01-Diary/2021-10-10.md",
-    "00-Inbox/未命名.md",
-    "01-Diary/2021-10-15.md",
     "README.md",
+    "00-Inbox/任务看板.md",
+    "09-Templates/实验记录.md",
     "09-Templates/日志模板.md",
-    "04-Post/obsidian入门.md",
-    "05-Reading/pdfs/Bao2021.md",
-    "01-Diary/2021-10-03.md",
-    "09-Templates/博客随笔.md"
+    "09-Templates/每周小结.md",
+    "09-Templates/论文初稿.md",
+    "09-Templates/草稿模板.md",
+    "09-Templates/标注模版.md",
+    "01-Diary/2021-10-30.md",
+    "01-Diary/2021-10-10.md"
   ]
 }

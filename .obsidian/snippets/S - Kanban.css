@@ -1,0 +1,211 @@
+/*Credit: https://github.com/Braweria/Spectrum*/
+/*
+Heavily edited version of Maned's Kanban css from their theme.
+Full credit to Manedblackwolf for such amazing work!
+*/
+
+.theme-dark {
+    --td: #030a1445;
+    --hvr: rgba(var(--interactive-accent-rgb), 0.2);
+    --hvr2: rgba(var(--interactive-accent-rgb), 0.2);
+    
+}
+.theme-light {
+    --td: #d0ddef32;
+    --hvr: rgba(var(--interactive-accent-rgb), 0.2);
+    --hvr2: rgba(var(--interactive-accent-rgb), 0.2);
+}
+
+
+/*Widen Page*/
+.kanban .markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 100% !important;
+}
+/*Reduce Padding at Top Kanban of Page*/
+.kanban {
+    padding-top: 10px;
+}
+
+
+/*Remove Text Spacing from bullet/number*/
+.kanban .task-list-item-checkbox {
+    margin-left: 20px;
+    margin-top: 2px;
+}
+/*Fix List Checkbox Margins*/
+.kanban ol .task-list-item-checkbox {
+    margin-left: 4px;
+}
+.kanban ol > li.task-list-item {
+    padding-left: 0px;
+}
+
+
+/*Hide Bullet*/
+.kanban ul, 
+ul.kanban {
+    list-style: none;
+}
+
+.kanban ul li::before,
+ul.kanban li::before {
+    content: "";
+    margin-left: 0px;
+    padding: 0;
+}
+
+.kanban ul, 
+.kanban ol,
+ul.kanban, 
+ol.kanban {
+    display: flex;
+    flex-direction: row;
+    border-radius: 0;
+    flex-wrap: wrap;
+    padding-inline-start: 0px;
+}
+
+.kanban ul li,
+ul.kanban li {
+    flex: 1 1 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0;
+}
+.kanban ol li,
+ol.kanban li {
+    flex: 1 1 20%;
+    margin-right: 10px;
+    margin-left: 30px;
+    border: 0;
+}
+
+.kanban ul ul, 
+ul.kanban ul,
+.kanban ol ol,
+ol.kanban ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 5px;
+    background: none;
+}
+/*Kaban Lines*/
+.kanban ul ul,
+ul.kanban ul {
+    margin-left: 5px;
+    border-left: 2px solid var(--background-modifier-border);
+}
+.kanban ol ol
+ol.kanban ol {
+    margin-left: -15px;
+    padding-left: 20px;
+    border-left: 2px solid var(--background-modifier-border);
+}
+/*Color & Formatting*/
+.kanban ul ul li,
+ul.kanban ul li {
+    width: 100%;
+    display: block;
+    background: var(--td);
+    border-radius: 0;
+}
+.kanban ol ol li,
+ol.kanban ol li {
+    width: 100%;
+    background: var(--td);
+    margin-left: 14px;
+}
+
+/*Alternating Colors*/
+.kanban ul ul li:nth-child(even),
+ul.kanban ul li:nth-child(even),
+.kanban ol ol li:nth-child(even),
+ol.kanban ol li:nth-child(even) {
+    background: var(--background-primary);
+    border: 0;
+}
+
+/*Hover Colors*/
+.kanban ul ul li:hover,
+ul ul li.kanban:hover,
+.kanban ol ol li:hover,
+ol.kanban ol li:hover {
+    background: var(--hvr);
+}
+
+.kanban ul li:hover,
+ul.kanban li:hover,
+.kanban ol li:hover,
+ol.kanban li:hover {
+    background: var(--hvr2);
+}
+/*-Arrows-*/
+.kanban .list-collapse-indicator,
+.list-collapse-indicator.kanban {
+    width: 20px;
+}
+/*Bullet Arrows*/
+.kanban ul .list-collapse-indicator,
+ul.kanban .list-collapse-indicator {
+    margin-left: -22px;
+    padding-left: 10px;
+}
+.kanban .task-list-item .list-collapse-indicator,
+.task-list-item.kanban .list-collapse-indicator {
+    position: relative;
+}
+/*Numbered List + Numbered Checklist*/
+.kanban ol .list-collapse-indicator, 
+.kanban ol .task-list-item .list-collapse-indicator, 
+ol.kanban .list-collapse-indicator,
+ol.kanban .task-list-item .list-collapse-indicator {
+    margin-left: -38px;
+    padding-left: 5px;
+}
+/*Fix Arrow When bullets Spaced*/
+.kanban ul li > p {
+    margin-block-start: 0;
+}
+
+
+
+/*----Personal Edits----*/
+/*Fix Margins/Padding*/
+.kanban .internal-embed blockquote {
+    padding: 1%;
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 15px;
+    border-left-width: 3px;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+/*Shrink margins*/
+.kanban .markdown-preview-view .markdown-embed,
+.kanban .markdown-preview-view .file-embed {
+    margin: 0;
+}
+
+.kanban .internal-embed .markdown-embed .markdown-preview-view {
+    margin: 0;
+    padding: 6px;
+}
+
+/*Reduce Hr Height*/
+.kanban hr {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+/*Kanban Mobile*/
+.is-mobile .kanban ul, 
+.is-mobile .kanban ol,
+.is-mobile ul.kanban, 
+.is-mobile ol.kanban {
+    padding-inline-start: 0;
+}

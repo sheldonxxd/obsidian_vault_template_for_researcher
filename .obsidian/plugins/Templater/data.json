@@ -3,12 +3,17 @@
   "template_folder": "09-Templates",
   "templates_pairs": [
     [
-      "readPDF",
-      "python ./02-Reading/pdfs/readPDF.py"
+      "toDOCX",
+      "python ./02-Reading/pdfs/paper2docx.py <% tp.file.path() %>"
+    ],
+    [
+      "getCitationKeys",
+      "python ./02-Reading/pdfs/getCitationKeys.py"
     ]
   ],
   "trigger_on_file_creation": true,
   "enable_system_commands": true,
   "shell_path": "C:\\Windows\\System32\\cmd.exe",
+  "empty_file_template": "09-Templates/草稿模板",
   "syntax_highlighting": true
 }

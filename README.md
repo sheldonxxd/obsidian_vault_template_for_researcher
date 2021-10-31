@@ -2,184 +2,94 @@
 
 从接触到使用 obsidian 已经有一段时间了，感觉这个工具用好了应该对搞科研有较大帮助。
 
-## Obsidian安装和配置
+## 安装部署
 
-### 下载安装软件
+下载安装软件：目前 obsidian 是开源免费的跨平台软件，可以直接到[官网](https://obsidian.md/download)下载安装包。
 
-目前 obsidian 是开源免费的跨平台软件，可以直接到[官网](https://obsidian.md/download)下载安装包。
+### 下载模板vault
 
-### 子目录结构推荐
+1. 综合网上各种建议，和结合自己`阅读文献`和`写日志`的需求，此模板vault包含以下几个子文件夹：
+	- 00-Inbox：临时性内容
+	- 01-Diary：存放模板化的日志
+	- 02-Reading：存放文献库和文献阅读笔记
+	- 03-Projects：按各种实际的项目分类存储相关笔记
+	- 08-Assets：存放附件，包括插图、视频、以及各种其它文件
+	- 09-Templates： 存放笔记模板
+	> 注意子文件夹数目不要超过 10 个，否则会比较混乱。
+2. 下载了vault模板之后，解压到一个指定位置，可以是电脑上的硬盘，也可以是移动硬盘甚至U盘，然后重命名vault。比如我把 vault 命名为 working，然后放到了移动硬盘的 projects 目录下：`X:\projects\working`。
 
-安装 obsidian 之后可以新建一个 vault（选择一个空文件夹），然后综合网上各种建议和阅读文献和写日记的需求，可以新建以下几个子文件夹：
+### 安装zotero和相关插件
 
-- 00-Inbox：临时性内容
-- 01-Diary：存放模板化的日志
-- 02-Reading：存放文献库和文献阅读笔记
-- 03-Projects：存放各种实际的项目
-- 08-Assets：存放附件
-- 09-Templates： 存放笔记模板
+- [Zotero](https://www.zotero.org/)：文献管理工具，有浏览器插件，支持直接拖拽pdf或者输入doi等方式快捷导入条目
+- [Zotfile](https://github.com/jlegewie/zotfile/releases)：自动 rename 附件，然后复制到制定目录，还能从 pdf 中提取高亮注释
+- [Mdnotes](https://github.com/argenos/zotero-mdnotes/releases/tag/0.1.3)：将文献记录按照模板生成 markdown 笔记
+- [Better Bibtex](https://github.com/retorquere/zotero-better-bibtex/releases/tag/v5.5.4)：生成 citation key，导出为更好的 bibtex 记录，也可以是 json，配合 obsidian 的 citations 插件使用。
 
-注意子文件夹数目不要超过 10 个，否则会比较混乱。
-
-### 配置软件
-
-![Pasted image 20210928205237](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020210928205237.png)
-可以到关于-语言中选择简体中文，默认是英文。
-
-![Pasted image 20210928204919](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020210928204919.png)
-指定删除文件到 `.trash` 目录，新建文件到 `00-Inbox` 目录。
-
-![Pasted image 20210928204955](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020210928204955.png)
-指定附件添加到`08-Assets` 目录。
-
-![Pasted image 20210928205136](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020210928205136.png)
-obsidian 默认黑色，还是有点不习惯，可修改为明亮。至于其它主题，推荐 [YinAndYang](https://github.com/chetachiezikeuzor/Yin-and-Yang-Theme)。
-
-![Pasted image 20210928205411](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020210928205411.png)
-核心插件，按需开启，感觉除了**发布**、**同步**、**卡片**、**漫游**之外都可以开启。
-
-![Pasted image 20210928205545](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020210928205545.png)
-关闭安全模式，只有这样你才能安装第三方插件。
-
-### 安装插件
-
-obsidian 最大的特色就是有很多插件。但入门阶段用不了那么多。目前我主要是用来做文献阅读笔记，以及简单的写一下日记。基于这些需求，推荐的插件如下：
-
-- `日记`：内置核心插件，根据模板创建日志
-- `Calender`：第三方插件，主要与日记连用
-- `Recent Files`：显示最近打开过的文档
-- `Ozan's Image in Editor Plugin`：支持编辑模式下预览图片
-- `Annotator`：文献pdf的批注插件
-- `Collapse All`：可以折叠或打开 vault 中的文件夹列表
-- `Copy Block Link`：复制块引用，实现更高精度的笔记链接
-- `Sliding Panes`：开启多个笔记面板的时候会自动调整
-- `Templater`：模板插件，有灵活丰富的自定义玩法
-- `QuickAdd`: 组合自定义动作的一个插件，配合模板方便快速插入内容
-- `Remember Cursor Position`：记住光标在文档中的位置
-- `Mind Map`：将markdown按大纲级别渲染为思维导图
-- `Clear Unused Images`：清除一些没有被引用的垃圾图片
-- `Gallery`：把所有图片放到一起看
-- `Checklist`: 把所有带 todo 标签的代办事项汇总起来查看
-- `星标`：内置核心插件，可把非常重要的笔记搞进去
-
-如何开启和安装这些插件不再赘述，可以直接从 obsidian 安装第三方插件，也可自信搜索到github下载，相关教程网上很多。但最好的方式，就是直接使用我的**vault模板**，内置上述提及的所有第三方插件。部分插件的设置将在后面实战部分介绍说明。
-
-### 最终界面一览
-
-![Pasted image 20211010082956](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211010082956.png)
-*使用了 Ying and Yang 这个 obsidian 主题，感觉挺好的。*
-
-## Obsidian简单使用
-
-### 写日记
-
-写日记是最重要最基础的，强烈推荐从每天日记出发，链接延伸到其它笔记去。
-
-#### 设置日志模板
-
-![Pasted image 20211010083521](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211010083521.png)
-
-#### 设置日记插件
-
-![Pasted image 20211010083642](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211010083642.png)
-
-#### 创建日记
-
-![Pasted image 20211010083849](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211010083849.png)
-
-注意日历需要安装 Calender 插件。
-
-#### 一键Tracking
-
-实时跟踪记录自己的行为，需要输入时间戳和内容，并添加到当天日记的 Tracking 部分。为了简化这一串操作，可以使用QuickAdd插件，具体配置如下：
-
-![Pasted image 20211010084816](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211010084816.png)
-在 QuickAdd 设置中新增一个 Capture 命令之后，具体配置如下：
-
-![Pasted image 20211010085018](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211010085018.png)
-
-然后给这个 `timeStamp` 的命令分配一个快捷键：`Ctrl+Shift+I`
-
-![Pasted image 20211010085141](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211010085141.png)
-
-然后你只需要按下快捷键，不管当前 active 的是哪个文档，都可以向当日的日记内插入带有时间戳的记录，有点像 fleeting notes。
-
-#### 写日记的建议
-
-- 网上有很多教程推荐 Day Planner 插件，这里并不推荐，因为实际使用过程中，完全不如手机日历好用和实用。每天有一个简单的重要事务清单（最好是不超过3件）即可，更重要的是Tracking。
-
-- Tracking 按照无序列表的方式进行撰写，前面带有时间戳，后面可以跟标签。一般无需在日志中插入图片，如果有这个需求，可以放在两条 track 之间。
-
-- 每天可以从日记开始，从Tracking部分创建双链指向其它笔记，形成一个自然的主干分支结构。
-
-- 每个月（勤快一点可以每周）可以整理回顾一下日志，撰写小结。
-
-### 读文献
-
-使用 obsidian 做文献阅读笔记有着无与伦比的优势（相对于其它工具）。
-
-#### 使用JabRef管理文献库
-
-![Pasted image 20211010091818](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211010091818.png)
-
-JabRef 是一款开源免费的文献管理工具，甚至可以免安装放到移动硬盘中。它的文献库就是一个 bib 文件，非常简单方便（如果您使用 LaTeX 写作则更方便）。
-
-此文献阅读工作流依赖于 JabRef，但是您无需担心使用 JabRef 管理文献库会影响后续撰写文章插入参考文献。因为现在主流的文献管理工具，如 EndNote、Mendeley、Zotero 都支持从 bib 文件导入文献记录。
-
-#### Reading目录设置
-
-可以在 Reading 目录下新建一个 pdfs 的子文件夹，专门用于存放 JabRef 文献库 bib 文件，以及文献条目对应的全文 pdf 文件。然后修改一下 JabRef 的首选项设置：
-
-![Pasted image 20211010092303](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211010092303.png)
-
-#### 从DOI创建条目并下载pdf
-
-![Pasted image 20211010092646](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211010092646.png)
-至于下载 pdf，有了 doi 号之后，无论是 scihub 还是从校园网都是比较方便的，可以直接下载到电脑桌面。
-
-#### 重命名并归档pdf
-
-![Pasted image 20211010093111](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211010093111.png)
+> 注意先安装插件，弄好设置之后，再登录zotero账户同步。
 
 
-#### 生成pdf的阅读笔记页
+### zotero设置
 
-在 obsidian 中推荐使用 Annotater 插件做 pdf 的阅读笔记，但是这个使用上稍微有点奇葩，你需要自己创建一个页面，然后在 front matter 中指定要被做标记的 pdf 文件：
+![[Pasted image 20211030121613.png]]
+如上图所示注意保持一致，注意zotero附件**根目录设置为 vault 下的 `\02-Reading\pdf`，并选择使用相对路径**。另外先不要注册账户并登录同步，等到插件设置好了再说！
 
-![Pasted image 20211010093552](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211010093552.png)
+### zotfile插件设置
+![[Pasted image 20211030122453.png]]
+zotfile 是 zotero 中最强大的插件，注意**将 pdf下载的临时目录设置为桌面**，以后每次从网上下载 pdf 到桌面，该插件可以半自动把 pdf 重命名并转移到**指定目录**（`\02-Reading\pdf`）去，然后创建相对链接。
 
-显然每次都要输入这么多信息是比较繁琐的，这里可以结合 QuickAdd、Templater 插件以及我自己写的一段 python 脚本来实现这个阅读笔记页面的自动化创建。由于相对复杂，具体过程不再赘述，如果你使用我的 **vault模板**，敲快捷键 `Ctrl+Shift+R` 就可以根据 pdf文件自动创建其对应的阅读笔记。
+### mdnotes插件设置
+![[Pasted image 20211030122711.png]]
+同上，注意一些路径的设定修改。
 
-```python
-import os, glob, sys
+### Better_Bibtex插件设置
+![[Pasted image 20211030122849.png]]
+注意修改 citation key 的格式，如上图所示。
 
-def write(wks):
-    fps = glob.glob(os.path.join(wks, '*.pdf'))
-    keys = [os.path.split(x)[-1].split(' ')[0] for x in fps]
-    for idx, key in enumerate(keys):
-        md_fp = os.path.join(wks, key+'.md')
-        if not os.path.exists(md_fp):
-            with open(md_fp, 'w', encoding='utf-8') as f:
-                pdf_fname = os.path.split(fps[idx])[-1]
-                content = f'---\nannotation-target: {pdf_fname}\nalias: {key}\ntags: pdf笔记\n---\n'
-                f.write(content)
-                print(f'阅读文献[[{key}]]\n,')  
-				# 当被 templater 插件调用时可以直接把内容输入到笔记中
+### 注册zotero账户并登录
+![[Pasted image 20211030123014.png]]
+可以使用 zotero 同步自己的文献条目，但是尤其要注意不要同步全文内容（pdf），不然 zotero 提供的 200 M 空间是远远不够的。新用户注册[点此进入](https://www.zotero.org/user/register)。
 
-if __name__ == '__main__':
-	# 指定 pdf 文件存放目录
-    wks = r'X:\projects\playground\02-Reading\pdfs'
-    write(wks)
+### Zotero文献库目录设计
+![[Pasted image 20211030123407.png]]
+目录结构非常重要，建议现有一个缓冲区`00-Inbox`，作为主题分类不清晰的文献的暂存目录，快速扫读之后再拖拽分类到其它目录中。
+
+### 向Zotero中导入文献
+![[Pasted image 20211030123608.png]]
+推荐输入 DOI 的方式插入文献条目，这种方式抓取到的信息是最完整准确的。
+
+### 导出整个文献库到vault
+![[Pasted image 20211030123827.png]]
+先导出为 JSON 文件，导出到 **指定目录**（`\02-Reading\pdf`）去，注意文件名修改为英文`MyLibrary`；然后再导出为 Better BibLaTeX（如下图所示），同样修改为英文名，导出到同上目录。
+
+![[Pasted image 20211030123935.png]]
+
+### 设置obsidian-citations插件
+![[Pasted image 20211030124039.png]]
+然后设置 citation 插件，注意修改一些路径，如上图所示。
+
+
+### 安装python和依赖项
+
+一些自定义功能依赖于 python 脚本代码实现，建议安装 anaconda （清华TUNA镜像源）并将其添加到环境变量（安装时全打勾）。
+
+使用cmd命令行工具安装以下 python 模块：
+
+```bash
+pip install pyperclip bibtexparser
 ```
 
-#### 阅读标注笔记效果
 
-![Pasted image 20211010094510](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211010094510.png)
+## 写日记
 
-## Obsidian使用体会
+1. 按快捷键`Ctrl+Q`，打开 QuickAdd 命令面板，选择`💎timeStamp`进行当天的日志记录，如[[2021-10-30]]。
+2. 按快捷键`Ctrl+Q`，打开 QuickAdd 命令面板，选择`⚡newTask`，可以快速添加一个新的代办事项到[[任务看板]]。
+3. 按快捷键`Ctrl+Q`，打开 QuickAdd 命令面板，选择`📊weekNote`，可以快速创建周小结，自动提取日志记录关键内容。
 
-- 学习成本是真的高，不过有了这个教程和 vault 模板后会简单很多。
-- 所有资料都在本地 vault 里边，可以放到移动硬盘里边，也可以同步到云盘，比较安全放心。
-- 使用插件注意克制，一定要根据自己真实的需求做出选择，实现最佳的自定义。
-- 做笔记什么的也要注意克制，不要有太多废话，优先把事情做好。
-- 软件、插件都只是工具（提高整理笔记效率），更重要的还是自己有定期整理笔记的习惯。
+**强烈建议每天从日志开始撰写，右上角有一个小日历，点击对应日期即可打开每日日志**
+
+
+## 读文献
+
+1. 初次阅读：文献条目和pdf附件使用 `zotero` 软件管理，pdf的阅读和标注使用 `foxit-reader` 完成。
+2. 专题阅读：在每日日志中键入`[[专题名称]]`双链，然后点击这个双链直接在 `00-Inbox` 创建好新的空白文档。然后从 zotero 中导出 citationKeys 到桌面的「导出的条目.txt」文件，再使用 QuickAdd 命令面板中的 `⚔️citationKeys`，快速批量插入引用文献。并完成文献概要笔记。
+

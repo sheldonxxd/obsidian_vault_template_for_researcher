@@ -1,0 +1,137 @@
+/*
+Resources to help with icons:
+
+Search for icons:
+https://iconify.design/icon-sets/
+
+Convert the SVG code into CSS ready code:
+https://yoksel.github.io/url-encoder/
+
+*/
+
+
+/*----Align Icons----*/
+.nav-folder-children .nav-folder-title-content::before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: text-top;
+}
+
+
+/*Theme: Add Your Colors and Icons Here*/
+.theme-dark {
+    /*Add your icon here for easy referencing.
+    Change i to whatever variable name you want*/
+    --i: url(""); 
+
+    /*Add your folder colors here. 
+    Change c to whatever variable name you want*/
+    --c: gray;
+    --c2: #000000;
+}
+
+.theme-light {
+    /*Add your icon here for easy referencing.
+    Change i to whatever variable name you want*/
+    --i: url(""); 
+    
+    /*Add your folder colors here. 
+    Change c to whatever variable name you want*/
+    --c: gray;
+    --c2: #000000;
+}
+
+
+
+/*----Template Code----*/
+/*--Add Icons--*/
+.nav-folder-title[data-path=""] .nav-folder-title-content::before {
+    content: url();
+}
+
+/*--Folder Color Styling--*/
+/*Color Root Folder*/
+.nav-folder-title[data-path=""] { /*Add "folder title"*/
+    color: var(--c);              /*change to your variable*/
+    background: var(--c2);
+    border-bottom: 2px solid var(--c2);
+}
+/*Color Sub Folder Lines*/
+.nav-folder-title[data-path*=""],
+.nav-folder-title[data-path*=""] + .nav-folder-children,
+.nav-file-title[data-path*=""] { 
+    border-left: 3px solid var(--c2); 
+    margin-left: -3px; 
+}
+/*Color Sub Folder Lines When Hovering Over Folder*/
+.nav-folder-title[data-path*=""]:hover,
+.nav-folder-title[data-path*=""] + .nav-folder-children:hover,
+.nav-file-title[data-path*=""]:hover { 
+    border-color: var(--c);
+}
+
+
+
+
+
+
+
+
+
+
+/*----Example (Delete Me Later)----*/
+.theme-dark {
+    /*Darkmode Icon*/
+    --f-i: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' focusable='false' width='16px' height='16px' style='vertical-align: -0.125em;-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);' preserveAspectRatio='xMidYMid meet' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%238e93a7' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M16.5 19a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5zM10 5l2-2m-4.5 7a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5zm.5 6l8-8M5.5 21a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5zm13-13a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5zM12 21l2-2'/%3E%3Crect x='0' y='0' width='24' height='24' fill='rgba(0, 0, 0, 0)' /%3E%3C/svg%3E");
+    
+    /*Darker Color for 2*/
+    --f-c: #5d7085;
+    --f-c2: #000000;
+}
+
+.theme-light {
+    /*Lightmode Icon*/
+    --f-i: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' focusable='false' width='16px' height='16px' style='vertical-align: -0.125em;-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);' preserveAspectRatio='xMidYMid meet' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%238e93a7' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M16.5 19a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5zM10 5l2-2m-4.5 7a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5zm.5 6l8-8M5.5 21a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5zm13-13a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5zM12 21l2-2'/%3E%3Crect x='0' y='0' width='24' height='24' fill='rgba(0, 0, 0, 0)' /%3E%3C/svg%3E");
+
+    /*Darker Color for 1*/
+    --f-c: #000000;
+    --f-c2: #5d7085;
+}
+
+/*Changes Icon of folder "Template" and all its subfolders.
+Remove *= if you only want it on root folder*/
+.nav-folder-title[data-path*="Template"] .nav-folder-title-content::before {
+    content: var(--f-i);
+}
+/*Colors The Folder
+Skip this if you only want to add icons.*/
+.nav-folder-title[data-path="Template"] { 
+    color: var(--f-c);             
+    background: var(--f-c2);
+    border-bottom: 2px solid var(--f-c2);
+}
+.nav-folder-title[data-path*="Template"],
+.nav-folder-title[data-path*="Template"] + .nav-folder-children,
+.nav-file-title[data-path*="Template"] { 
+    border-left: 3px solid var(--f-c2); 
+    margin-left: -3px; 
+}
+.nav-folder-title[data-path*="Template"]:hover,
+.nav-folder-title[data-path*="Template"] + .nav-folder-children:hover,
+.nav-file-title[data-path*="Template"]:hover { 
+    border-color: var(--f-c);
+}
+/*----Example End (Delete Me)----*/
+
+
+
+
+
+
+
+
+
+
+
+/*----Add Your Folder CSS Here----*/

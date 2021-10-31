@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -8,30 +8,51 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:日志",
+      "query": "path:01-Diary",
       "color": {
         "a": 1,
         "rgb": 14048348
       }
     },
     {
-      "query": "tag:pdf笔记",
+      "query": "path:02-Reading/pdfs",
       "color": {
         "a": 1,
-        "rgb": 6084192
+        "rgb": 5420918
+      }
+    },
+    {
+      "query": "path:02-Reading/people",
+      "color": {
+        "a": 1,
+        "rgb": 15451397
+      }
+    },
+    {
+      "query": "path:02-Reading/annotations",
+      "color": {
+        "a": 1,
+        "rgb": 3669760
+      }
+    },
+    {
+      "query": "path:02-Reading/topics",
+      "color": {
+        "a": 1,
+        "rgb": 652022
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.18888888888889,
-  "lineSizeMultiplier": 1.98461538461538,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
+  "nodeSizeMultiplier": 1.77176470588235,
+  "lineSizeMultiplier": 0.561176470588235,
+  "collapse-forces": false,
+  "centerStrength": 0.210382513661202,
   "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.37790355574097595,
+  "linkStrength": 0.603739754098361,
+  "linkDistance": 30,
+  "scale": 0.03537773058850353,
   "close": true
 }

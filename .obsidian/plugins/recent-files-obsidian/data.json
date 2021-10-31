@@ -1,84 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "未命名1",
-      "path": "03-Projects/test/未命名1.md"
-    },
-    {
-      "basename": "2021-10-10",
-      "path": "01-Diary/2021-10-10.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "00-Inbox/未命名.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "obsidian入门",
-      "path": "04-Post/obsidian入门.md"
+      "basename": "任务看板",
+      "path": "00-Inbox/任务看板.md"
     },
     {
-      "basename": "Bao2021",
-      "path": "05-Reading/pdfs/Bao2021.md"
-    },
-    {
-      "basename": "2021-10-03",
-      "path": "01-Diary/2021-10-03.md"
-    },
-    {
-      "basename": "博客随笔",
-      "path": "09-Templates/博客随笔.md"
+      "basename": "实验记录",
+      "path": "09-Templates/实验记录.md"
     },
     {
       "basename": "日志模板",
       "path": "09-Templates/日志模板.md"
     },
     {
-      "basename": "Pasted image 20211010085018",
-      "path": "08-Assets/Pasted image 20211010085018.png"
+      "basename": "每周小结",
+      "path": "09-Templates/每周小结.md"
     },
     {
-      "basename": "愿望清单",
-      "path": "03-Favorites/愿望清单.md"
+      "basename": "论文初稿",
+      "path": "09-Templates/论文初稿.md"
     },
     {
-      "basename": "2021-10-08",
-      "path": "01-Diary/2021-10-08.md"
+      "basename": "草稿模板",
+      "path": "09-Templates/草稿模板.md"
     },
     {
-      "basename": "2021-10-07",
-      "path": "01-Diary/2021-10-07.md"
+      "basename": "2021-10-30",
+      "path": "01-Diary/2021-10-30.md"
     },
     {
-      "basename": "美食集锦",
-      "path": "06-Life/美食集锦.md"
+      "basename": "蛋白分子振动",
+      "path": "02-Reading/topics/蛋白分子振动.md"
     },
     {
-      "basename": "测试博客模板",
-      "path": "00-Inbox/测试博客模板.md"
+      "basename": "分子机器专题阅读",
+      "path": "02-Reading/topics/分子机器专题阅读.md"
     },
     {
-      "basename": "测试Templater插件",
-      "path": "02-Projects/obsidian学习/测试Templater插件.md"
+      "basename": "框架核酸及其应用",
+      "path": "02-Reading/topics/框架核酸及其应用.md"
     },
     {
-      "basename": "2021-10-09",
-      "path": "01-Diary/2021-10-09.md"
+      "basename": "膜张力的情况",
+      "path": "02-Reading/topics/膜张力的情况.md"
     },
     {
-      "basename": "03-小组会",
-      "path": "09-Templates/实验室/03-小组会.md"
+      "basename": "纳米颗粒布朗运动专题阅读",
+      "path": "02-Reading/topics/纳米颗粒布朗运动专题阅读.md"
     },
     {
-      "basename": "04-文献汇报",
-      "path": "09-Templates/实验室/04-文献汇报.md"
+      "basename": "微流控系统调研",
+      "path": "02-Reading/topics/微流控系统调研.md"
     },
     {
-      "basename": "02-当期杂志",
-      "path": "09-Templates/实验室/02-当期杂志.md"
+      "basename": "微纳机器人的运动和应用",
+      "path": "02-Reading/topics/微纳机器人的运动和应用.md"
+    },
+    {
+      "basename": "细胞分子力学专题",
+      "path": "02-Reading/topics/细胞分子力学专题.md"
+    },
+    {
+      "basename": "荧光相关光谱成像",
+      "path": "02-Reading/topics/荧光相关光谱成像.md"
+    },
+    {
+      "basename": "SPT成像",
+      "path": "02-Reading/topics/SPT成像.md"
+    },
+    {
+      "basename": "研究方向思考",
+      "path": "07-Archives/研究方向思考.md"
+    },
+    {
+      "basename": "使用规范",
+      "path": "00-Inbox/使用规范.md"
     }
   ],
   "omittedPaths": [

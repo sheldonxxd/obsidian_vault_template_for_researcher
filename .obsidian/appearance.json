@@ -1,6 +1,16 @@
 {
-  "baseFontSize": 17,
+  "baseFontSize": 16,
   "translucency": false,
   "theme": "moonstone",
-  "cssTheme": "obsidian"
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "S - Images Adjustments",
+    "S - Admonitions",
+    "S - Aside",
+    "S - Checkboxes",
+    "S - Embed Adjustments",
+    "S - Encoded Icons",
+    "S - External Link Icons",
+    "S - Kanban"
+  ]
 }

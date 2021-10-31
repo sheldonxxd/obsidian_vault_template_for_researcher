@@ -22,13 +22,18 @@
     },
     {
       "type": "file",
-      "title": "obsidian入门",
-      "path": "04-Post/obsidian入门.md"
+      "title": "FNA-PAINT草稿",
+      "path": "02-Projects/FNA-PAINT/FNA-PAINT草稿.md"
     },
     {
       "type": "file",
-      "title": "FNA-PAINT草稿",
-      "path": "02-Projects/FNA-PAINT/FNA-PAINT草稿.md"
+      "title": "任务看板",
+      "path": "00-Inbox/任务看板.md"
+    },
+    {
+      "type": "file",
+      "title": "利用obsidian搞科研",
+      "path": "03-Projects/obsidian-tutorial/利用obsidian搞科研.md"
     }
   ]
 }

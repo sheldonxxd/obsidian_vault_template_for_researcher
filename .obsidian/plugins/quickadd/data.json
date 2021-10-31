@@ -2,7 +2,7 @@
   "choices": [
     {
       "id": "13aa960e-9e3e-4aec-b6aa-35adf841a841",
-      "name": "timeStamp",
+      "name": "💎timeStamp",
       "type": "Capture",
       "command": true,
       "appendLink": false,
@@ -35,8 +35,70 @@
       "openFileInMode": "default"
     },
     {
-      "id": "5e2dd8d4-b939-4d12-a766-9f8d4dc7e9db",
-      "name": "readPaper",
+      "id": "38c1c363-5d3e-4203-b7f4-7e18d7c7b9f1",
+      "name": "⚡newTask",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "00-Inbox/任务看板.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{VALUE:New Task}} @{<% tp.date.now(\"YYYY-MM-DD\") %>} @@{<% tp.date.now(\"HH:mm:ss\") %>}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Todo",
+        "insertAtEnd": true,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "aaebfa0f-d697-4c2c-8da5-e31a341b2354",
+      "name": "📊weekNote",
+      "type": "Template",
+      "command": true,
+      "templatePath": "09-Templates/每周小结.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE}}_周小结"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "01-Diary"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": true,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "88121e9b-e85f-4694-b662-e6661326db48",
+      "name": "⚔️citationKeys",
       "type": "Capture",
       "command": true,
       "appendLink": false,
@@ -49,7 +111,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "<% tp.user.readPDF() %>"
+        "format": "<% tp.user.getCitationKeys() %>"
       },
       "insertAfter": {
         "enabled": false,

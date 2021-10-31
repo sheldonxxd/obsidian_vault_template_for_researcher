@@ -27,7 +27,7 @@
   "quickadd:choice:13aa960e-9e3e-4aec-b6aa-35adf841a841": [
     {
       "modifiers": [
-        "Mod",
+        "Alt",
         "Shift"
       ],
       "key": "I"
@@ -67,6 +67,49 @@
         "Shift"
       ],
       "key": "P"
+    }
+  ],
+  "quickadd:choice:9ccf74df-935e-4554-abef-7e7188ebccba": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "slides:start": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "quickadd:choice:38c1c363-5d3e-4203-b7f4-7e18d7c7b9f1": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "editor:attach-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Insert"
     }
   ]
 }

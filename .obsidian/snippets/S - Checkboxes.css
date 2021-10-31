@@ -1,0 +1,212 @@
+/* @settings
+name: SlRvb's Checkboxes
+id: checkbox
+settings:
+    - 
+        title: Colorful Task Text
+        description: Add color to the text of the task.
+        id: check-color
+        type: class-toggle
+    -
+        title: Checkbox Padding Fix
+        description: Toggle off for ITS Theme
+        id: chck-pad
+        type: class-toggle
+        default: true
+
+*/
+
+.theme-dark {
+    --q: #fdaf00;
+    --h: #5c7699;
+    --d: #3e4552;
+    --i: #c22a2a;
+    --a: #f872b5;
+    --R: var(--text-muted);
+}
+
+.theme-light {
+    --q: #fdaf00;
+    --h: #a8b1bd;
+    --d: #cad3eb;
+    --i: #db0101;
+    --a: #f872b5;
+    --R: #9fbadf;
+}
+
+/*Restyle Checkboxes*/
+.markdown-preview-view li:not(li[data-task="x"]) .task-list-item-checkbox:checked {
+    -webkit-appearance: none;
+    border: 1px solid var(--interactive-accent);
+    position: relative;
+    width: 14px;
+    height: 14px;
+    filter: none;
+    cursor: pointer;
+}
+/* Hide Checkbox Border */
+.markdown-preview-view li:not(li[data-task="x"]) > .task-list-item-checkbox:checked,
+.markdown-preview-view li:not(li[data-task="x"]) p .task-list-item-checkbox:checked /* Spaced Checklist */ {
+    border: none;
+    background-color: var(--interactive-accent);
+}
+/* Checkbox Icon Setup*/
+.markdown-preview-view :not(li[data-task="x"]) > .task-list-item-checkbox:checked::before,
+.markdown-preview-view :not(li[data-task="x"]) p .task-list-item-checkbox:checked::before {
+    content: ' ';
+    position: absolute;
+    width: 12px;
+    height: 14px;
+    padding-left: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+/*Checked Text*/
+.markdown-preview-view ul > li.task-list-item.is-checked, 
+.markdown-preview-view ol > li.task-list-item.is-checked {
+    text-decoration: unset;
+    color: var(--lines, var(--text-faint));
+    font-weight: bold;
+}
+/* Padding Fix */
+.chck-pad .markdown-preview-view ul > li.task-list-item.is-checked,
+.chck-pad .markdown-preview-view ol > li.task-list-item.is-checked {
+    padding-left: 5px;
+    margin-left: -5px;
+}
+
+
+/*--Theme Specific Fixes--*/
+/* Yin & Yang Theme */
+.is-flashing input[type="checkbox"]:checked:before,
+li:not(li[data-task="x"]) > input[type="checkbox"]:checked:before {
+    background-image: url();
+}
+/* Minimal Theme */
+.todo-list .group .item.compact > .toggle .checked,
+.is-flashing input[type=checkbox]:checked,
+li:not(li[data-task="x"]) > input[type=checkbox]:checked {
+    background-image: url();
+    background-color: transparent !important;
+}
+/*----*/
+
+
+
+
+
+
+
+/*--Checkbox Type Icons--*/
+
+/* SVG check mark for done ('- [x]') */
+.markdown-preview-view li[data-task="X"]>.task-list-item-checkbox:checked::before,
+.markdown-preview-view li[data-task="X"] p .task-list-item-checkbox:checked::before {
+    background-color: var(--accent2-lite, var(--text-accent));
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' role='img' width='14' height='14' preserveAspectRatio='xMidYMid meet' viewBox='0 0 24 24'%3E%3Cg fill='none'%3E%3Cpath d='M8.818 19.779l-6.364-6.364l2.83-2.83l3.534 3.544l9.898-9.908l2.83 2.83L8.818 19.779z' fill='currentColor'/%3E%3C/g%3E%3C/svg%3E");
+}
+.check-color ul li[data-task="X"].task-list-item.is-checked {
+    color: var(--text-faint);
+}
+
+
+/* SVG Plane for Forward ('- [>]') */
+.markdown-preview-view li[data-task=">"]>.task-list-item-checkbox:checked::before,
+.markdown-preview-view li[data-task=">"] p .task-list-item-checkbox:checked::before {
+    background-color: var(--text-normal);
+    margin-left: -1px;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' role='img' width='14' height='14' preserveAspectRatio='xMidYMid meet' viewBox='0 0 24 24'%3E%3Cpath d='M13.761 12.01l-10.76-1.084L3 4.074a1.074 1.074 0 0 1 1.554-.96l15.852 7.926a1.074 1.074 0 0 1 0 1.92l-15.85 7.926a1.074 1.074 0 0 1-1.554-.96v-6.852l10.76-1.064z' fill='currentColor' fill-rule='nonzero'/%3E%3C/svg%3E");
+}
+.check-color ul li[data-task=">"].task-list-item.is-checked {
+    color: var(--text-normal);
+}
+
+
+/* SVG Calendar for deferred/scheduled ('- [D]') */
+.markdown-preview-view li[data-task="D"]>.task-list-item-checkbox:checked::before,
+.markdown-preview-view li[data-task="D"] p .task-list-item-checkbox:checked::before {
+    background-color: var(--h);
+    margin-left: -1px;
+    width: 14px;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' role='img' width='14' height='14' preserveAspectRatio='xMidYMid meet' viewBox='0 0 24 24'%3E%3Cg transform='translate(24 0) scale(-1 1)'%3E%3Cpath d='M5 22h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2h-2V2h-2v2H9V2H7v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2zM5 7h14v2H5V7z' fill='currentColor'/%3E%3C/g%3E%3C/svg%3E");
+}
+.check-color ul li[data-task="D"].task-list-item.is-checked {
+    color: var(--h);
+}
+
+
+/* SVG line for cancelled/non-task ('- [-]') */
+.markdown-preview-view li[data-task="-"]>.task-list-item-checkbox:checked::before,
+.markdown-preview-view li[data-task="-"] p .task-list-item-checkbox:checked::before {
+    background-color: var(--d);
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' role='img' width='14' height='14' preserveAspectRatio='xMidYMid meet' viewBox='0 0 1200 1200'%3E%3Cpath d='M0 430.078h1200v339.844H0V430.078z' fill='currentColor'/%3E%3C/svg%3E");
+}
+.check-color ul li[data-task="-"].task-list-item.is-checked {
+    color: var(--d);
+}
+
+
+/* '?' for question/more info task ('- [?]') */
+.markdown-preview-view li[data-task="?"]>.task-list-item-checkbox:checked::before,
+.markdown-preview-view li[data-task="?"] p .task-list-item-checkbox:checked::before {
+    margin-left: -1px;
+    background-color: var(--q);
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' role='img' style='vertical-align: -0.125em;' width='14' height='14' preserveAspectRatio='xMidYMid meet' viewBox='0 0 17 24'%3E%3Cpath d='M11.403 18.751v4.499c-.01.41-.34.74-.748.75H6.159a.768.768 0 0 1-.749-.748v-4.5c.01-.41.34-.739.749-.749h4.5c.41.01.74.34.75.749v.001zm5.923-11.247a6.306 6.306 0 0 1-.962 3.354l.015-.026a5.462 5.462 0 0 1-1.021 1.108l-.01.008c-.321.282-.672.55-1.042.794l-.036.022q-.413.253-1.144.665a3.71 3.71 0 0 0-1.275 1.204l-.009.014a2.535 2.535 0 0 0-.515 1.243l-.001.012a.978.978 0 0 1-.226.611l.001-.002a.652.652 0 0 1-.524.29h-4.5a.563.563 0 0 1-.479-.343l-.001-.004a1.394 1.394 0 0 1-.197-.702v-.845a4.356 4.356 0 0 1 1.219-2.935l-.001.001A7.945 7.945 0 0 1 9.251 9.96l.048-.02a4.627 4.627 0 0 0 1.574-1.049l.001-.001a2.094 2.094 0 0 0 .469-1.429v.005a1.695 1.695 0 0 0-.863-1.382l-.009-.004a3.436 3.436 0 0 0-2.018-.599h.003a3.53 3.53 0 0 0-2.039.552l.014-.009A12.825 12.825 0 0 0 4.45 8.149l-.025.035a.73.73 0 0 1-.581.3a.897.897 0 0 1-.472-.152l.003.002L.301 5.991a.732.732 0 0 1-.29-.464L.01 5.523a.747.747 0 0 1 .105-.527l-.002.003C1.77 2 4.912.003 8.522.003c.103 0 .205.002.307.005h-.015a8.362 8.362 0 0 1 3.074.602l-.057-.02a10.2 10.2 0 0 1 2.757 1.571l-.02-.016a7.838 7.838 0 0 1 1.966 2.349l.02.041c.483.857.768 1.881.769 2.971z' fill='currentColor'/%3E%3C/svg%3E");
+}
+.check-color ul li[data-task="?"].task-list-item.is-checked {
+    color: var(--q);
+}
+
+
+/* '!' for important task ('- [!]') */
+.markdown-preview-view li[data-task="!"]>.task-list-item-checkbox:checked::before,
+.markdown-preview-view li[data-task="!"] p .task-list-item-checkbox:checked::before {
+    background-color: var(--i);
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' role='img' width='14' height='14' preserveAspectRatio='xMidYMid meet' viewBox='0 0 448 1408'%3E%3Cg transform='translate(448 0) scale(-1 1)'%3E%3Cpath d='M416 1120v224q0 26-19 45t-45 19H96q-26 0-45-19t-19-45v-224q0-26 19-45t45-19h256q26 0 45 19t19 45zM446 64l-28 768q-1 26-20.5 45T352 896H96q-26 0-45.5-19T30 832L2 64Q1 38 19.5 19T64 0h320q26 0 44.5 19T446 64z' fill='currentColor'/%3E%3C/g%3E%3C/svg%3E");
+}
+.check-color ul li[data-task="!"].task-list-item.is-checked {
+    color: var(--i);
+}
+
+
+/* '+' for adding a task ('- [+]') */
+.markdown-preview-view li[data-task="+"]>.task-list-item-checkbox:checked::before,
+.markdown-preview-view li[data-task="+"] p .task-list-item-checkbox:checked::before {
+    margin-left: -.5px;
+    background-color: var(--a);
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' role='img' width='13' height='13' preserveAspectRatio='xMidYMid meet' viewBox='0 0 24 24'%3E%3Cpath d='M15 2.013H9V9H2v6h7v6.987h6V15h7V9h-7z' fill='currentColor'/%3E%3C/svg%3E");
+}
+.check-color ul li[data-task="+"].task-list-item.is-checked {
+    color: var(--a);
+}
+
+
+/* "/" Half done */
+.markdown-preview-view li[data-task="/"]>.task-list-item-checkbox:checked::before,
+.markdown-preview-view li[data-task="/"] p .task-list-item-checkbox:checked::before {
+    width: 0;
+    height: 0;
+    border-left: 14px solid transparent;
+    border-bottom: 14px solid var(--background-primary);
+    background-color: var(--interactive-accent) !important;
+}
+.workspace-tabs .markdown-preview-view li[data-task="/"]>.task-list-item-checkbox:checked::before {
+    border-bottom: 14px solid var(--background-secondary);
+}
+.check-color ul li[data-task="/"].task-list-item.is-checked {
+    background: linear-gradient(to right, var(--accent, var(--interactive-accent)) 0%, var(--d) 10%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+/* "R" Research */
+.markdown-preview-view li[data-task="R"]>.task-list-item-checkbox:checked::before,
+.markdown-preview-view li[data-task="R"] p .task-list-item-checkbox:checked::before {
+    background-color: var(--R);
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' role='img' width='12px' height='14px' preserveAspectRatio='xMidYMid meet' viewBox='0 0 1200 1200'%3E%3Cg transform='translate(1200 0) scale(-1 1)'%3E%3Cpath d='M672.633 0C389.326 0 159.634 229.652 159.634 512.958c0 100.662 28.986 194.563 79.083 273.79c-.368.16-.729.305-1.098.471l-223.21 223.172L204.019 1200l231.249-231.288c-.069-.326-.162-.651-.234-.979c71.035 37.19 151.865 58.224 237.6 58.224c283.309 0 512.959-229.69 512.959-512.997C1185.59 229.652 955.939 0 672.633 0zm0 227.877c157.441 0 285.041 127.639 285.041 285.081s-127.6 285.081-285.041 285.081c-157.442 0-285.082-127.639-285.082-285.081S515.19 227.877 672.633 227.877z' fill='currentColor'/%3E%3C/g%3E%3C/svg%3E");
+}
+.check-color ul li[data-task="R"].task-list-item.is-checked,
+.check-color ul li[data-task="R"].task-list-item.is-checked {
+    color: var(--R);
+}

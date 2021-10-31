@@ -1,0 +1,190 @@
+.theme-dark, .theme-light {
+    /*Sizes*/
+    --radius: 0px;
+    --tiny: 100px;
+    --small: 200px;
+    --small-med: 300px;
+    --med-small: 400px;
+    --medium: 500px;
+    --med-tall: 600px;
+    --tall: 700px;
+}
+
+/*----Embed Adjustments----*/
+.internal-embed {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Embed Link Hide/Move*/
+.internal-embed[alt*="no-lk"]:not(:hover) .markdown-embed-link,
+.internal-embed:not(:hover).nlk .markdown-embed-link {
+    display: none;
+}
+
+.internal-embed[alt*="lk-l"] .markdown-embed-link,
+.internal-embed.lk-l .markdown-embed-link {
+    left: 10px;
+    right: unset;
+}
+
+.internal-embed[alt*="lk-clear"] .markdown-embed-link,
+.internal-embed.lk-clear .markdown-embed-link {
+    background-color: transparent;
+}
+
+
+/*Title Hide/Show*/
+.internal-embed[alt*="no-title"] .markdown-embed-title,
+.file-embed-title,
+.internal-embed.no-title .markdown-embed-title {
+    display: none;
+}
+
+.internal-embed[alt*="ttl"] .markdown-embed-title,
+.file-embed-title,
+.internal-embed.ttl .markdown-embed-title {
+    display: block;
+}
+
+.internal-embed[alt*="right"],
+.internal-embed.right {
+    float: right;
+    margin-left: .5em;
+}
+.internal-embed[alt*="left"],
+.internal-embed.left {
+    float: left;
+    margin-right: .5em;
+}
+.internal-embed[alt*="center"],
+.internal-embed.center {
+    margin: auto;
+}
+
+.internal-embed[alt*="nob"] li, 
+.internal-embed[alt*="nob"] li::before {
+    list-style: none;
+    margin: 0;
+    display: none;
+}
+.internal-embed[alt*="nob"] ul{
+    padding-inline-start: 0;
+}
+.internal-embed[alt*="em+"] .markdown-embed .markdown-preview-view,
+.markdown-preview-view .internal-embed[alt*="em+"]:not(.image-embed) {
+    padding: 20px 10px;
+    display: block !important;
+    width: 100%;
+    background-color: var(--embed-bg);
+}
+.internal-embed[alt*="em+"] .markdown-embed-link{
+    color: var(--accent);
+}
+
+.internal-embed[alt*="clean"] .markdown-embed,
+.internal-embed[alt*="clean"] .markdown-embed .markdown-preview-view,
+.internal-embed[alt*="clean"] .markdown-embed-content p {
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0;
+    border: 0;
+}
+.internal-embed[alt*="nmg"] .markdown-embed,
+.internal-embed[alt*="nmg"] .markdown-embed .markdown-preview-view {
+    margin: 0;
+    padding: 0;
+}
+
+/*Hide Headings*/
+.internal-embed[alt*="no-h"] .markdown-embed h1,
+.internal-embed[alt*="no-h"] .markdown-embed h2,
+.internal-embed[alt*="no-h"] .markdown-embed h3,
+.internal-embed[alt*="no-h"] .markdown-embed h4,
+.internal-embed[alt*="no-h"] .markdown-embed h5,
+.internal-embed[alt*="no-h"] .markdown-embed h6,
+.internal-embed.no-h .markdown-embed h1,
+.internal-embed.no-h .markdown-embed h2,
+.internal-embed.no-h .markdown-embed h3,
+.internal-embed.no-h .markdown-embed h4,
+.internal-embed.no-h .markdown-embed h5,
+.internal-embed.no-h .markdown-embed h6 {
+    display: none;
+}
+/*Hide Specific Headings*/
+.internal-embed[alt*="n-h1"] .markdown-embed h1,
+.internal-embed[alt*="n-h2"] .markdown-embed h2,
+.internal-embed[alt*="n-h3"] .markdown-embed h3,
+.internal-embed[alt*="n-h4"] .markdown-embed h4,
+.internal-embed[alt*="n-h5"] .markdown-embed h5,
+.internal-embed[alt*="n-h6"] .markdown-embed h6,
+.internal-embed.n-h1 .markdown-embed h1,
+.internal-embed.n-h2 .markdown-embed h2,
+.internal-embed.n-h3 .markdown-embed h3,
+.internal-embed.n-h4 .markdown-embed h4,
+.internal-embed.n-h5 .markdown-embed h5,
+.internal-embed.n-h6 .markdown-embed h6 {
+    display: none;
+}
+
+
+
+/*Height Adjustment*/
+.internal-embed[alt*="htiny"] .markdown-embed-content,
+.internal-embed.htiny .markdown-embed-content {
+    height: var(--tiny);
+}
+.internal-embed[alt*="hsmall"] .markdown-embed-content,
+.internal-embed.hsmall .markdown-embed-content {
+    height: var(--small);
+}
+.internal-embed[alt*="hs-med"] .markdown-embed-content,
+.internal-embed.hs-med .markdown-embed-content {
+    height: var(--small-med);
+}
+.internal-embed[alt*="hm-sm"] .markdown-embed-content,
+.internal-embed.hm-sm .markdown-embed-content {
+    height: var(--med-small);
+}
+.internal-embed[alt*="hmed"] .markdown-embed-content,
+.internal-embed.hmed .markdown-embed-content {
+    height: var(--medium);
+}
+.internal-embed[alt*="htall"] .markdown-embed-content,
+.internal-embed.htall .markdown-embed-content {
+    height: var(--tall);
+}
+
+/*Width Adjustment*/
+.internal-embed[alt*="wtiny"],
+.internal-embed.wtiny {
+    width: 20%;
+}
+.internal-embed[alt*="wsmall"],
+.internal-embed.wsmall{
+    width: 30%;
+}
+.internal-embed[alt*="ws-med"],
+.internal-embed.ws-med{
+    width: 40%;
+}
+.internal-embed[alt*="wm-sm"],
+.internal-embed.wm-sm{
+    width: 50%;
+}
+.internal-embed[alt*="wmed"],
+.internal-embed.wmed{
+    width: 60%;
+}
+.internal-embed[alt*="wm-tl"],
+.internal-embed.wm-tl{
+    width: 80%;
+}
+.internal-embed[alt*="wtall"],
+.internal-embed.wtall{
+    width: 95%;
+}
+.internal-embed[alt*="full"] .markdown-embed-content,
+.internal-embed[alt*="full"] .markdown-embed-content > .markdown-preview-view { 
+    max-height: unset;
+}

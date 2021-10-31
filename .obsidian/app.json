@@ -13,5 +13,6 @@
   "foldHeading": true,
   "showLineNumber": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "00-Inbox"
+  "newFileFolderPath": "00-Inbox",
+  "fileSortOrder": "alphabeticalReverse"
 }
