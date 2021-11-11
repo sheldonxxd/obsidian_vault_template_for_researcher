@@ -30,41 +30,41 @@
 
 ### zotero设置
 
-![[Pasted image 20211030121613.png]]
+![](08-Assets/Pasted image 20211030122453.png)
 如上图所示注意保持一致，注意zotero附件**根目录设置为 vault 下的 `\02-Reading\pdf`，并选择使用相对路径**。另外先不要注册账户并登录同步，等到插件设置好了再说！
 
 ### zotfile插件设置
-![[Pasted image 20211030122453.png]]
-zotfile 是 zotero 中最强大的插件，注意**将 pdf下载的临时目录设置为桌面**，以后每次从网上下载 pdf 到桌面，该插件可以半自动把 pdf 重命名并转移到**指定目录**（`\02-Reading\pdf`）去，然后创建相对链接。
+![](README/Pasted image 20211030122453.png)
+zotfile 是 zotero 中最强大的插件，注意**将 pdf下载的临时目录设置为桌面**，以后每次从网上下载 pdf 到桌面，该插件可以半自动把 pdf 重命名并转移到**指定目录**（`\02-Reading\pdf`)去，然后创建相对链接。
 
 ### mdnotes插件设置
-![[Pasted image 20211030122711.png]]
+![](README/Pasted image 20211030122711.png)
 同上，注意一些路径的设定修改。
 
 ### Better_Bibtex插件设置
-![[Pasted image 20211030122849.png]]
+![](README/Pasted image 20211030122849.png)
 注意修改 citation key 的格式，如上图所示。
 
 ### 注册zotero账户并登录
-![[Pasted image 20211030123014.png]]
+![](README/Pasted image 20211030123014.png)
 可以使用 zotero 同步自己的文献条目，但是尤其要注意不要同步全文内容（pdf），不然 zotero 提供的 200 M 空间是远远不够的。新用户注册[点此进入](https://www.zotero.org/user/register)。
 
 ### Zotero文献库目录设计
-![[Pasted image 20211030123407.png]]
+![](README/Pasted image 20211030123407.png)
 目录结构非常重要，建议现有一个缓冲区`00-Inbox`，作为主题分类不清晰的文献的暂存目录，快速扫读之后再拖拽分类到其它目录中。
 
 ### 向Zotero中导入文献
-![[Pasted image 20211030123608.png]]
+![](README/Pasted image 20211030123608.png)
 推荐输入 DOI 的方式插入文献条目，这种方式抓取到的信息是最完整准确的。
 
 ### 导出整个文献库到vault
-![[Pasted image 20211030123827.png]]
-先导出为 JSON 文件，导出到 **指定目录**（`\02-Reading\pdf`）去，注意文件名修改为英文`MyLibrary`；然后再导出为 Better BibLaTeX（如下图所示），同样修改为英文名，导出到同上目录。
+![](README/Pasted image 20211030123827.png)
+先导出为 JSON 文件，导出到 **指定目录**（`\02-Reading\pdf`）去，注意文件名修改为英文`MyLibrary`；然后再导出为 Better BibLaTeX（如下图所示)，同样修改为英文名，导出到同上目录。
 
-![[Pasted image 20211030123935.png]]
+![](README/Pasted image 20211030123935.png)
 
 ### 设置obsidian-citations插件
-![[Pasted image 20211030124039.png]]
+![](README/Pasted image 20211030124039.png)
 然后设置 citation 插件，注意修改一些路径，如上图所示。
 
 
@@ -91,5 +91,5 @@ pip install pyperclip bibtexparser
 ## 读文献
 
 1. 初次阅读：文献条目和pdf附件使用 `zotero` 软件管理，pdf的阅读和标注使用 `foxit-reader` 完成。
-2. 专题阅读：在每日日志中键入`[[专题名称]]`双链，然后点击这个双链直接在 `00-Inbox` 创建好新的空白文档。然后从 zotero 中导出 citationKeys 到桌面的「导出的条目.txt」文件，再使用 QuickAdd 命令面板中的 `⚔️citationKeys`，快速批量插入引用文献。并完成文献概要笔记。
+2. 专题阅读：在每日日志中键入`[[专题名称]]`双链，然后点击这个双链直接在 `00-Inbox` 创建好新的空白文档。然后从 zotero 中导出 citationKeys 到`\02-Reading\pdfs`的「导出的条目.txt」文件（zotero附件根目录），再使用 QuickAdd 命令面板中的 `⚔️citationKeys`，快速批量插入引用文献。并完成文献概要笔记。
 
