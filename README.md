@@ -1,6 +1,8 @@
 # obsidian_vault_template_for_researcher
 
-从接触到使用 obsidian 已经有一段时间了，感觉这个工具用好了应该对搞科研有较大帮助。
+从接触到使用 obsidian 已经有一段时间了，感觉这个工具用好了应该对搞科研有较大帮助。软件界面如下：
+
+![image-20211120145712338](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/image-20211120145712338.png)
 
 ## 安装部署
 
