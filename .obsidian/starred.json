@@ -28,12 +28,17 @@
     {
       "type": "file",
       "title": "任务看板",
-      "path": "00-Inbox/任务看板.md"
+      "path": "00-MOC/任务看板.md"
     },
     {
       "type": "file",
-      "title": "利用obsidian搞科研",
-      "path": "03-Projects/obsidian-tutorial/利用obsidian搞科研.md"
+      "title": "FNA-PAINT文章新的逻辑框架",
+      "path": "03-Projects/FNA-PAINT/FNA-PAINT文章新的逻辑框架.md"
+    },
+    {
+      "type": "file",
+      "title": "FNA-PAINT的scheme",
+      "path": "03-Projects/FNA-PAINT/FNA-PAINT的scheme.md"
     }
   ]
 }

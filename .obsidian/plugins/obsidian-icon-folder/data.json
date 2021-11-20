@@ -1,0 +1,24 @@
+{
+  "settings": {
+    "enableRemixiconsLine": true,
+    "enableRemixiconsFill": false,
+    "enableFontawesomeFill": false,
+    "enableFontawesomeLine": false,
+    "enableFontawesomeBrands": false,
+    "fontSize": 16,
+    "iconColor": null,
+    "extraPadding": {
+      "top": 2,
+      "right": 2,
+      "bottom": 2,
+      "left": 2
+    }
+  },
+  "09-Templates": "RiAndroidLine",
+  "08-Assets": "RiAttachment2",
+  "07-Archives": "RiArchiveLine",
+  "03-Projects": "RiAddCircleLine",
+  "02-Reading": "RiArticleLine",
+  "01-Diary": "RiBaiduLine",
+  "00-MOC": "RiBankLine"
+}

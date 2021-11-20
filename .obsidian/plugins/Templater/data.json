@@ -13,7 +13,7 @@
   ],
   "trigger_on_file_creation": true,
   "enable_system_commands": true,
-  "shell_path": "C:\\Windows\\System32\\cmd.exe",
+  "shell_path": "",
   "empty_file_template": "09-Templates/草稿模板",
   "syntax_highlighting": true
 }

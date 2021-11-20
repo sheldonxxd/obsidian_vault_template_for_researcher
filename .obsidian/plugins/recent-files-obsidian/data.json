@@ -5,80 +5,76 @@
       "path": "README.md"
     },
     {
+      "basename": "更新vault模板",
+      "path": "01-Diary/本周事务/更新vault模板.md"
+    },
+    {
       "basename": "任务看板",
-      "path": "00-Inbox/任务看板.md"
+      "path": "00-MOC/任务看板.md"
     },
     {
-      "basename": "实验记录",
-      "path": "09-Templates/实验记录.md"
+      "basename": "本周事务表",
+      "path": "00-MOC/本周事务表.md"
     },
     {
-      "basename": "日志模板",
-      "path": "09-Templates/日志模板.md"
+      "basename": "大牛通讯录",
+      "path": "00-MOC/大牛通讯录.md"
     },
     {
-      "basename": "每周小结",
-      "path": "09-Templates/每周小结.md"
+      "basename": "文献大组会-20211120",
+      "path": "01-Diary/本周事务/文献大组会-20211120.md"
     },
     {
-      "basename": "论文初稿",
-      "path": "09-Templates/论文初稿.md"
+      "basename": "FCS荧光相关光谱拟合",
+      "path": "03-Projects/软件工具/python/FCS荧光相关光谱拟合.md"
     },
     {
-      "basename": "草稿模板",
-      "path": "09-Templates/草稿模板.md"
+      "basename": "2021-11-04",
+      "path": "01-Diary/2021-11-04.md"
     },
     {
-      "basename": "2021-10-30",
-      "path": "01-Diary/2021-10-30.md"
+      "basename": "尼罗红细胞膜TIRF成像实验",
+      "path": "01-Diary/本周事务/尼罗红细胞膜TIRF成像实验.md"
     },
     {
-      "basename": "蛋白分子振动",
-      "path": "02-Reading/topics/蛋白分子振动.md"
+      "basename": "Drawing 2021-11-20 13.16.40.excalidraw",
+      "path": "08-Assets/Excalidraw/Drawing 2021-11-20 13.16.40.excalidraw.md"
     },
     {
-      "basename": "分子机器专题阅读",
-      "path": "02-Reading/topics/分子机器专题阅读.md"
+      "basename": "框架核酸细胞力学超分辨成像初步实验方案",
+      "path": "01-Diary/本周事务/框架核酸细胞力学超分辨成像初步实验方案.md"
     },
     {
-      "basename": "框架核酸及其应用",
-      "path": "02-Reading/topics/框架核酸及其应用.md"
+      "basename": "Chunhai Fan",
+      "path": "02-Reading/people/Chunhai Fan.md"
     },
     {
-      "basename": "膜张力的情况",
-      "path": "02-Reading/topics/膜张力的情况.md"
+      "basename": "i-Motif",
+      "path": "02-Reading/topics/纳米/i-Motif.md"
     },
     {
-      "basename": "纳米颗粒布朗运动专题阅读",
-      "path": "02-Reading/topics/纳米颗粒布朗运动专题阅读.md"
+      "basename": "制定细胞力学超分辨成像初步计划",
+      "path": "01-Diary/本周事务/制定细胞力学超分辨成像初步计划.md"
     },
     {
-      "basename": "微流控系统调研",
-      "path": "02-Reading/topics/微流控系统调研.md"
+      "basename": "整理一下本科生大创项目计划书",
+      "path": "01-Diary/本周事务/整理一下本科生大创项目计划书.md"
     },
     {
-      "basename": "微纳机器人的运动和应用",
-      "path": "02-Reading/topics/微纳机器人的运动和应用.md"
+      "basename": "搞一下工作简报PPT",
+      "path": "03-Projects/组会汇报/搞一下工作简报PPT.md"
     },
     {
-      "basename": "细胞分子力学专题",
-      "path": "02-Reading/topics/细胞分子力学专题.md"
+      "basename": "周小结ppt",
+      "path": "01-Diary/本周事务/周小结ppt.md"
     },
     {
-      "basename": "荧光相关光谱成像",
-      "path": "02-Reading/topics/荧光相关光谱成像.md"
+      "basename": "常规细胞实验方法整理",
+      "path": "01-Diary/本周事务/常规细胞实验方法整理.md"
     },
     {
-      "basename": "SPT成像",
-      "path": "02-Reading/topics/SPT成像.md"
-    },
-    {
-      "basename": "研究方向思考",
-      "path": "07-Archives/研究方向思考.md"
-    },
-    {
-      "basename": "使用规范",
-      "path": "00-Inbox/使用规范.md"
+      "basename": "购买一个移动保温箱",
+      "path": "01-Diary/本周事务/购买一个移动保温箱.md"
     }
   ],
   "omittedPaths": [

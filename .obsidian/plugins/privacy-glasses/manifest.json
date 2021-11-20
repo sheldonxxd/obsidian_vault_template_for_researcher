@@ -1,0 +1,10 @@
+{
+	"id": "privacy-glasses",
+	"name": "Privacy Glasses",
+	"version": "0.4.3",
+	"minAppVersion": "0.11.9",
+	"description": "Provides a button and command to obfuscate onscreen text for better privacy in public settings.",
+	"author": "Jill Alberts",
+	"authorUrl": "https://github.com/jillalberts/privacy-glasses",
+	"isDesktopOnly": false
+}

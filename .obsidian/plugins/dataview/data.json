@@ -1,0 +1,14 @@
+{
+  "renderNullAs": "\\-",
+  "warnOnEmptyResult": true,
+  "refreshInterval": 1000,
+  "defaultDateFormat": "yyyy-MM-dd",
+  "defaultDateTimeFormat": "yyyy-MM-dd HH:mm:ss",
+  "maxRecursiveRenderDepth": 6,
+  "tableIdColumnName": "File",
+  "tableGroupColumnName": "Group",
+  "inlineQueryPrefix": "=",
+  "inlineJsQueryPrefix": "$=",
+  "enableDataviewJs": true,
+  "schemaVersion": 1
+}

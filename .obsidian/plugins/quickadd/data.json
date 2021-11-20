@@ -1,10 +1,44 @@
 {
   "choices": [
     {
-      "id": "13aa960e-9e3e-4aec-b6aa-35adf841a841",
-      "name": "💎timeStamp",
+      "id": "38c1c363-5d3e-4203-b7f4-7e18d7c7b9f1",
+      "name": "⚡新增任务",
       "type": "Capture",
-      "command": true,
+      "command": false,
+      "appendLink": false,
+      "captureTo": "00-MOC/任务看板.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{VALUE:New Task}} @[[<% tp.date.now(\"YYYY-MM-DD\") %>]] @@{<% tp.date.now(\"HH:mm:ss\") %>}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Todo",
+        "insertAtEnd": true,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "13aa960e-9e3e-4aec-b6aa-35adf841a841",
+      "name": "⏱️随手记记",
+      "type": "Capture",
+      "command": false,
       "appendLink": false,
       "captureTo": "01-Diary/{{DATE:YYYY-MM-DD}}.md",
       "captureToActiveFile": false,
@@ -35,44 +69,66 @@
       "openFileInMode": "default"
     },
     {
-      "id": "38c1c363-5d3e-4203-b7f4-7e18d7c7b9f1",
-      "name": "⚡newTask",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "00-Inbox/任务看板.md",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
+      "id": "7fd22a75-876e-4c0b-8a9f-9a73161be569",
+      "name": "⭐文献调研",
+      "type": "Template",
+      "command": false,
+      "templatePath": "09-Templates/文献调研.md",
+      "fileNameFormat": {
         "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
+        "format": ""
       },
-      "format": {
+      "folder": {
         "enabled": true,
-        "format": "- [ ] {{VALUE:New Task}} @{<% tp.date.now(\"YYYY-MM-DD\") %>} @@{<% tp.date.now(\"HH:mm:ss\") %>}"
+        "folders": [
+          "02-Reading/topics"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
       },
-      "insertAfter": {
-        "enabled": true,
-        "after": "## Todo",
-        "insertAtEnd": true,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
+      "appendLink": true,
+      "incrementFileName": true,
       "openFileInNewTab": {
         "enabled": false,
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "e39d4897-4983-4819-8fa0-713039d8aa67",
+      "name": "▶️代码整理",
+      "type": "Template",
+      "command": false,
+      "templatePath": "09-Templates/代码整理.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "03-Projects/软件工具/python"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": true,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
       "openFileInMode": "default"
     },
     {
       "id": "aaebfa0f-d697-4c2c-8da5-e31a341b2354",
-      "name": "📊weekNote",
+      "name": "📊每周小结",
       "type": "Template",
-      "command": true,
+      "command": false,
       "templatePath": "09-Templates/每周小结.md",
       "fileNameFormat": {
         "enabled": true,
@@ -93,43 +149,36 @@
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
       "openFileInMode": "default"
     },
     {
-      "id": "88121e9b-e85f-4694-b662-e6661326db48",
-      "name": "⚔️citationKeys",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "<% tp.user.getCitationKeys() %>"
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
+      "id": "e8830f40-9257-48b6-a5de-7e7939c21092",
+      "name": "🎅添加人物",
+      "type": "Macro",
+      "command": false,
+      "macroId": "2751c8b9-04af-452e-8a77-f722155996fd"
     }
   ],
-  "macros": []
+  "macros": [
+    {
+      "name": "定向内容",
+      "id": "2751c8b9-04af-452e-8a77-f722155996fd",
+      "commands": [
+        {
+          "name": "Templater: Insert Template",
+          "type": "Obsidian",
+          "id": "b5d02fb5-1949-40fd-889e-fce5a5704134",
+          "commandId": "templater-obsidian:insert-templater"
+        },
+        {
+          "name": "文件列表: 将文件移动到其他文件夹",
+          "type": "Obsidian",
+          "id": "a7c2da82-1a68-4743-b4f7-84f0b7822ae8",
+          "commandId": "file-explorer:move-file"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ]
 }

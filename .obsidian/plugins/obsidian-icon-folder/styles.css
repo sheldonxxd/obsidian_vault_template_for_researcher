@@ -1,0 +1,17 @@
+.obsidian-icon-folder-icon {
+  border: 1px solid transparent;
+  padding: 2px 2px 2px 2px;
+  display: flex;
+  margin: auto 0;
+}
+
+.obsidian-icon-folder-icon-preview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 7px;
+}
+
+.obsidian-icon-folder-setting .setting-item-control .dropdown {
+  margin-right: 12px;
+}

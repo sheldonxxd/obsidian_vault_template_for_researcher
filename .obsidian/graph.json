@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -8,17 +8,17 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:01-Diary",
+      "query": "tag:#日志",
       "color": {
         "a": 1,
-        "rgb": 14048348
+        "rgb": 13070326
       }
     },
     {
       "query": "path:02-Reading/pdfs",
       "color": {
         "a": 1,
-        "rgb": 5420918
+        "rgb": 11924170
       }
     },
     {
@@ -29,17 +29,24 @@
       }
     },
     {
-      "query": "path:02-Reading/annotations",
-      "color": {
-        "a": 1,
-        "rgb": 3669760
-      }
-    },
-    {
       "query": "path:02-Reading/topics",
       "color": {
         "a": 1,
-        "rgb": 652022
+        "rgb": 3726463
+      }
+    },
+    {
+      "query": "file:任务看板",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "tag:#周小结",
+      "color": {
+        "a": 1,
+        "rgb": 714229
       }
     }
   ],
@@ -49,10 +56,10 @@
   "nodeSizeMultiplier": 1.77176470588235,
   "lineSizeMultiplier": 0.561176470588235,
   "collapse-forces": false,
-  "centerStrength": 0.210382513661202,
-  "repelStrength": 10,
-  "linkStrength": 0.603739754098361,
-  "linkDistance": 30,
-  "scale": 0.03537773058850353,
+  "centerStrength": 0.11978021978022,
+  "repelStrength": 9.60302197802198,
+  "linkStrength": 0.568063186813187,
+  "linkDistance": 134,
+  "scale": 0.18744498328495215,
   "close": true
 }

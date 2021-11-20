@@ -1,10 +1,22 @@
 {
   "main": {
-    "id": "64671e31c15df13e",
+    "id": "9a0780749afe3857",
     "type": "split",
     "children": [
       {
-        "id": "f40bd9c151782eaf",
+        "id": "d42ba77187668271",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "kanban",
+          "state": {
+            "file": "00-MOC/任务看板.md"
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "cc2b8156e50d8589",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -12,6 +24,19 @@
             "file": "README.md",
             "mode": "source"
           }
+        }
+      },
+      {
+        "id": "ac1f02af6ddbac7d",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "00-MOC/本周事务表.md",
+            "mode": "preview"
+          },
+          "pinned": true
         }
       }
     ],
@@ -41,8 +66,8 @@
               "state": {
                 "query": "",
                 "matchingCase": true,
-                "explainSearch": false,
-                "collapseAll": false,
+                "explainSearch": true,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -57,7 +82,7 @@
             }
           },
           {
-            "id": "702aafbecaea40ba",
+            "id": "60ed30d1cc6d4c8d",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -68,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205
+    "width": 201
   },
   "right": {
     "id": "6e7011190a6a4416",
@@ -77,6 +102,7 @@
       {
         "id": "2c47daab7a7f6b09",
         "type": "tabs",
+        "dimension": 40.609137055837564,
         "children": [
           {
             "id": "ec1d354533e6cbd2",
@@ -90,10 +116,18 @@
             }
           },
           {
-            "id": "582cbcba2c5af393",
+            "id": "0d92b31ac7bc3511",
             "type": "leaf",
             "state": {
               "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b4bbb6d3769d62dc",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
@@ -103,6 +137,7 @@
       {
         "id": "4f101d806a54a17c",
         "type": "tabs",
+        "dimension": 59.390862944162436,
         "children": [
           {
             "id": "450ad81cf27a4dff",
@@ -130,18 +165,6 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "1617c7fd3576c80b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "README.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
           }
         ]
       }
@@ -149,17 +172,17 @@
     "direction": "horizontal",
     "width": 251
   },
-  "active": "f40bd9c151782eaf",
+  "active": "cc2b8156e50d8589",
   "lastOpenFiles": [
     "README.md",
-    "00-Inbox/任务看板.md",
-    "09-Templates/实验记录.md",
-    "09-Templates/日志模板.md",
-    "09-Templates/每周小结.md",
-    "09-Templates/论文初稿.md",
-    "09-Templates/草稿模板.md",
-    "09-Templates/标注模版.md",
-    "01-Diary/2021-10-30.md",
-    "01-Diary/2021-10-10.md"
+    "01-Diary/本周事务/更新vault模板.md",
+    "00-MOC/任务看板.md",
+    "00-MOC/本周事务表.md",
+    "01-Diary/2021-11-20.md",
+    "00-MOC/大牛通讯录.md",
+    "01-Diary/本周事务/文献大组会-20211120.md",
+    "03-Projects/软件工具/python/FCS荧光相关光谱拟合.md",
+    "01-Diary/2021-11-04.md",
+    "01-Diary/本周事务/尼罗红细胞膜TIRF成像实验.md"
   ]
 }

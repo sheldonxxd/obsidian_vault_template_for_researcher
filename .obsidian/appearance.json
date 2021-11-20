@@ -1,8 +1,8 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 17,
   "translucency": false,
   "theme": "moonstone",
-  "cssTheme": "Minimal",
+  "cssTheme": "Blue Topaz",
   "enabledCssSnippets": [
     "S - Images Adjustments",
     "S - Admonitions",
