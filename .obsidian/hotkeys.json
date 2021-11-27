@@ -111,5 +111,14 @@
       ],
       "key": "Insert"
     }
+  ],
+  "obsidian-excalidraw-plugin:toggle-lock": [],
+  "workspace:toggle-pin": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
   ]
 }

@@ -16,17 +16,6 @@
         }
       },
       {
-        "id": "cc2b8156e50d8589",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "README.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "ac1f02af6ddbac7d",
         "type": "leaf",
         "pinned": true,
@@ -37,6 +26,30 @@
             "mode": "preview"
           },
           "pinned": true
+        }
+      },
+      {
+        "id": "3f45b94ba2a5f0a4",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "00-MOC/阅读清单.md",
+            "mode": "preview"
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "c441defc370e48ca",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -64,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#扩散",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -166,23 +179,24 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 251
+    "width": 304
   },
-  "active": "cc2b8156e50d8589",
+  "active": "c441defc370e48ca",
   "lastOpenFiles": [
     "README.md",
-    "01-Diary/本周事务/更新vault模板.md",
-    "00-MOC/任务看板.md",
+    "01-Diary/日志存档/2021-11-27.md",
+    "00-MOC/阅读清单.md",
     "00-MOC/本周事务表.md",
-    "01-Diary/2021-11-20.md",
+    "00-MOC/任务看板.md",
+    "01-Diary/本周事务/测试.md",
+    "01-Diary/本周事务/更新vault模板.md",
     "00-MOC/大牛通讯录.md",
-    "01-Diary/本周事务/文献大组会-20211120.md",
-    "03-Projects/软件工具/python/FCS荧光相关光谱拟合.md",
-    "01-Diary/2021-11-04.md",
-    "01-Diary/本周事务/尼罗红细胞膜TIRF成像实验.md"
+    "03-Projects/组会汇报/周小结ppt.md",
+    "01-Diary/本周事务/计划imager基底面成像实验.md"
   ]
 }

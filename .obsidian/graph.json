@@ -8,7 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#日志",
+      "query": "tag:#dailynote",
       "color": {
         "a": 1,
         "rgb": 13070326
@@ -43,10 +43,17 @@
       }
     },
     {
-      "query": "tag:#周小结",
+      "query": "tag:#WeeklyNote",
       "color": {
         "a": 1,
         "rgb": 714229
+      }
+    },
+    {
+      "query": "path:02-Reading/fast",
+      "color": {
+        "a": 1,
+        "rgb": 15212949
       }
     }
   ],
@@ -60,6 +67,6 @@
   "repelStrength": 9.60302197802198,
   "linkStrength": 0.568063186813187,
   "linkDistance": 134,
-  "scale": 0.18744498328495215,
+  "scale": 0.1502411137169121,
   "close": true
 }

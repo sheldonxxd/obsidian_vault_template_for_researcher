@@ -17,7 +17,9 @@
 	- 03-Projects：按各种实际的项目分类存储相关笔记
 	- 08-Assets：存放附件，包括插图、视频、以及各种其它文件
 	- 09-Templates： 存放笔记模板
-	> 注意子文件夹数目不要超过 10 个，否则会比较混乱。
+
+> 注意子文件夹数目不要超过 10 个，否则会比较混乱。
+
 2. 下载了vault模板之后，解压到一个指定位置，可以是电脑上的硬盘，也可以是移动硬盘甚至U盘，然后重命名vault。比如我把 vault 命名为 working，然后放到了移动硬盘的 projects 目录下：`X:\projects\working`。
 
 ### 安装zotero和相关插件
@@ -32,7 +34,7 @@
 
 ### zotero设置
 
-![](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211030122453-1636615483184.png)
+![image-20211127121213818](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/image-20211127121213818.png)
 如上图所示注意保持一致，注意zotero附件**根目录设置为 vault 下的 `\02-Reading\pdf`，并选择使用相对路径**。另外先不要注册账户并登录同步，等到插件设置好了再说！
 
 ### zotfile插件设置
@@ -96,8 +98,8 @@ pip install pyperclip bibtexparser
 1. 设置Better Bibtex 插件，Export>QuickCopy>format = Roam Cite Key
 2. 设置 zotero，导出，默认格式设置为 Better BibTex Quick Copy: Roam Cite Key
 
-## 看板工作流推荐
+## 看板工作流说明
 
-1. 使用 QuickAdd 开启相应的工作流。快捷键是 `Ctrl+Q`，打开 QuickAdd 面板，默认置顶的是`新建任务`，任务将被添加到看板的`TODO`板块。
+1. 使用 QuickAdd 开启相应的工作流。快捷键是 `Ctrl+Q`，打开 QuickAdd 面板，默认置底的是`🐮新建任务`，任务将被添加到看板的`TODO`板块。
 2. 切换到[[任务看板]]，如果要开始做某项任务，可以把它拖拽到`Doing`板块，如果任务较为复杂，需要记录，可右键单击任务卡片，从卡片新建笔记。新建文件默认自动放置到`01-Diary/本周事务`中。从[[本周事务表]]可以查看所有存在于该目录中的文件并统计任务持续时间。完成任务后，可以把任务卡片拖拽到`Done`板块，并归档。
-3. 工作流以一周为周期，可以固定在每周日进行周小结。在周日的当天日志中，打开 QuickAdd 命令面板，选择`📊每周小结`，可以快速创建周小结。然后把将[[任务看板]]用 markdown 打开，将归档的内容剪切拷贝至周小结。然后将`01-Diary/本周事务`中已经完成的笔记，按照特定主题转移至相应的foler中。
+3. 工作流以一周为周期，可以固定在每周日进行周小结。在周日的当天日志中，打开 QuickAdd 命令面板，选择`🐷每周小结`，可以快速创建周小结。然后把将[[任务看板]]用 markdown 打开，将归档的内容剪切拷贝至周小结。然后将`01-Diary/本周事务`中已经完成的笔记，按照特定主题转移至相应的foler中。

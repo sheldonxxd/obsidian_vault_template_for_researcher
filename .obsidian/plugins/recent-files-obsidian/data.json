@@ -5,76 +5,80 @@
       "path": "README.md"
     },
     {
-      "basename": "更新vault模板",
-      "path": "01-Diary/本周事务/更新vault模板.md"
+      "basename": "2021-11-27",
+      "path": "01-Diary/日志存档/2021-11-27.md"
     },
     {
-      "basename": "任务看板",
-      "path": "00-MOC/任务看板.md"
+      "basename": "阅读清单",
+      "path": "00-MOC/阅读清单.md"
     },
     {
       "basename": "本周事务表",
       "path": "00-MOC/本周事务表.md"
     },
     {
+      "basename": "任务看板",
+      "path": "00-MOC/任务看板.md"
+    },
+    {
+      "basename": "测试",
+      "path": "01-Diary/本周事务/测试.md"
+    },
+    {
+      "basename": "更新vault模板",
+      "path": "01-Diary/本周事务/更新vault模板.md"
+    },
+    {
       "basename": "大牛通讯录",
       "path": "00-MOC/大牛通讯录.md"
     },
     {
-      "basename": "文献大组会-20211120",
-      "path": "01-Diary/本周事务/文献大组会-20211120.md"
+      "basename": "周小结ppt",
+      "path": "03-Projects/组会汇报/周小结ppt.md"
     },
     {
-      "basename": "FCS荧光相关光谱拟合",
-      "path": "03-Projects/软件工具/python/FCS荧光相关光谱拟合.md"
+      "basename": "计划imager基底面成像实验",
+      "path": "01-Diary/本周事务/计划imager基底面成像实验.md"
     },
     {
-      "basename": "2021-11-04",
-      "path": "01-Diary/2021-11-04.md"
+      "basename": "购买抗体和适配体",
+      "path": "01-Diary/本周事务/购买抗体和适配体.md"
+    },
+    {
+      "basename": "@Schroeder2021",
+      "path": "02-Reading/pdfs/@Schroeder2021.md"
     },
     {
       "basename": "尼罗红细胞膜TIRF成像实验",
-      "path": "01-Diary/本周事务/尼罗红细胞膜TIRF成像实验.md"
+      "path": "03-Projects/3-细胞力学成像/尼罗红细胞膜TIRF成像实验.md"
     },
     {
-      "basename": "Drawing 2021-11-20 13.16.40.excalidraw",
-      "path": "08-Assets/Excalidraw/Drawing 2021-11-20 13.16.40.excalidraw.md"
+      "basename": "@Ghosh2021",
+      "path": "02-Reading/pdfs/@Ghosh2021.md"
     },
     {
-      "basename": "框架核酸细胞力学超分辨成像初步实验方案",
-      "path": "01-Diary/本周事务/框架核酸细胞力学超分辨成像初步实验方案.md"
+      "basename": "用ssDNA-imager对细胞基底面成像",
+      "path": "01-Diary/本周事务/用ssDNA-imager对细胞基底面成像.md"
     },
     {
-      "basename": "Chunhai Fan",
-      "path": "02-Reading/people/Chunhai Fan.md"
+      "basename": "@Zhang2021a",
+      "path": "02-Reading/pdfs/@Zhang2021a.md"
     },
     {
-      "basename": "i-Motif",
-      "path": "02-Reading/topics/纳米/i-Motif.md"
+      "basename": "@Saha2021",
+      "path": "02-Reading/pdfs/@Saha2021.md"
     },
     {
-      "basename": "制定细胞力学超分辨成像初步计划",
-      "path": "01-Diary/本周事务/制定细胞力学超分辨成像初步计划.md"
+      "basename": "@Pegg2021",
+      "path": "02-Reading/pdfs/@Pegg2021.md"
     },
     {
-      "basename": "整理一下本科生大创项目计划书",
-      "path": "01-Diary/本周事务/整理一下本科生大创项目计划书.md"
+      "basename": "2021-11-26",
+      "path": "01-Diary/日志存档/2021-11-26.md"
     },
     {
-      "basename": "搞一下工作简报PPT",
-      "path": "03-Projects/组会汇报/搞一下工作简报PPT.md"
-    },
-    {
-      "basename": "周小结ppt",
-      "path": "01-Diary/本周事务/周小结ppt.md"
-    },
-    {
-      "basename": "常规细胞实验方法整理",
-      "path": "01-Diary/本周事务/常规细胞实验方法整理.md"
-    },
-    {
-      "basename": "购买一个移动保温箱",
-      "path": "01-Diary/本周事务/购买一个移动保温箱.md"
+      "basename": "2021-11-25",
+      "path": "01-Diary/日志存档/2021-11-25.md"
     }
   ],
   "omittedPaths": [

@@ -1,8 +1,124 @@
 {
   "choices": [
     {
+      "id": "13aa960e-9e3e-4aec-b6aa-35adf841a841",
+      "name": "⏱️随手记记",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "01-Diary/日志存档/{{DATE:YYYY-MM-DD}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "09-Templates/日志模板.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "- <% tp.date.now(\"HH:mm\") %> {{VALUE:Tracking}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Tracking",
+        "insertAtEnd": true,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "7fd22a75-876e-4c0b-8a9f-9a73161be569",
+      "name": "🐶文献调研",
+      "type": "Template",
+      "command": false,
+      "templatePath": "09-Templates/草稿模板.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": true,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "e39d4897-4983-4819-8fa0-713039d8aa67",
+      "name": "😺代码整理",
+      "type": "Template",
+      "command": false,
+      "templatePath": "09-Templates/lab/代码整理.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "03-Projects/软件工具/python"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": true,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "aaebfa0f-d697-4c2c-8da5-e31a341b2354",
+      "name": "🐷每周小结",
+      "type": "Template",
+      "command": false,
+      "templatePath": "09-Templates/每周小结.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE}}_周小结"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "01-Diary/周小结"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": true,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
       "id": "38c1c363-5d3e-4203-b7f4-7e18d7c7b9f1",
-      "name": "⚡新增任务",
+      "name": "🐮新增任务",
       "type": "Capture",
       "command": false,
       "appendLink": false,
@@ -33,131 +149,6 @@
       },
       "openFile": false,
       "openFileInMode": "default"
-    },
-    {
-      "id": "13aa960e-9e3e-4aec-b6aa-35adf841a841",
-      "name": "⏱️随手记记",
-      "type": "Capture",
-      "command": false,
-      "appendLink": false,
-      "captureTo": "01-Diary/{{DATE:YYYY-MM-DD}}.md",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": true,
-        "createWithTemplate": true,
-        "template": "09-Templates/日志模板.md"
-      },
-      "format": {
-        "enabled": true,
-        "format": "- <% tp.date.now(\"HH:mm\") %> {{VALUE:Tracking}}\n"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "## Tracking",
-        "insertAtEnd": true,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "7fd22a75-876e-4c0b-8a9f-9a73161be569",
-      "name": "⭐文献调研",
-      "type": "Template",
-      "command": false,
-      "templatePath": "09-Templates/文献调研.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "02-Reading/topics"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": true,
-      "incrementFileName": true,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "e39d4897-4983-4819-8fa0-713039d8aa67",
-      "name": "▶️代码整理",
-      "type": "Template",
-      "command": false,
-      "templatePath": "09-Templates/代码整理.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "03-Projects/软件工具/python"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": true,
-      "incrementFileName": true,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "aaebfa0f-d697-4c2c-8da5-e31a341b2354",
-      "name": "📊每周小结",
-      "type": "Template",
-      "command": false,
-      "templatePath": "09-Templates/每周小结.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{DATE}}_周小结"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "01-Diary"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": true,
-      "incrementFileName": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "e8830f40-9257-48b6-a5de-7e7939c21092",
-      "name": "🎅添加人物",
-      "type": "Macro",
-      "command": false,
-      "macroId": "2751c8b9-04af-452e-8a77-f722155996fd"
     }
   ],
   "macros": [

@@ -1,20 +1,17 @@
 ---
 alias: %(citekey)
+tags: unread
+rating: ⭐
 ---
 
 {{title}}
 <cite>{{author}}</cite>
 
-{{tags}}
-
-{{url}}
-
 {{DOI}}
 
 {{localLibrary}}
 
-{{pdfAttachments}}
-
 ***
 
-{{notes}}
+### 泛读笔记
+
