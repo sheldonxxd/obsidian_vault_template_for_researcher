@@ -1,5 +1,5 @@
 {
-  "baseFontSize": 17,
+  "baseFontSize": 15,
   "translucency": false,
   "theme": "moonstone",
   "cssTheme": "Blue Topaz",
@@ -12,5 +12,6 @@
     "S - Encoded Icons",
     "S - External Link Icons",
     "S - Kanban"
-  ]
+  ],
+  "baseFontSizeAction": false
 }

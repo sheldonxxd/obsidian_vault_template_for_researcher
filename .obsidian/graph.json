@@ -48,13 +48,6 @@
         "a": 1,
         "rgb": 714229
       }
-    },
-    {
-      "query": "path:02-Reading/fast",
-      "color": {
-        "a": 1,
-        "rgb": 15212949
-      }
     }
   ],
   "collapse-display": false,
@@ -67,6 +60,6 @@
   "repelStrength": 9.60302197802198,
   "linkStrength": 0.568063186813187,
   "linkDistance": 134,
-  "scale": 0.1502411137169121,
+  "scale": 0.22920135941749584,
   "close": true
 }

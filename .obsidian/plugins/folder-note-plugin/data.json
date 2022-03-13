@@ -1,0 +1,9 @@
+{
+  "folderNoteHide": true,
+  "folderNoteType": "inside",
+  "folderNoteName": "_about_",
+  "folderNoteKey": "ctrl",
+  "folderNoteAutoRename": true,
+  "folderDelete2Note": false,
+  "folderNoteStrInit": "# {{FOLDER_NAME}} Overview\n```ccard\ntype: folder_brief_live\nimagePrefix: '08-Assets/'\nnoteOnly: true\nstyle: card\n```"
+}

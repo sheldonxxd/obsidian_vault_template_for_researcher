@@ -1,88 +1,206 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "2021-11-27",
-      "path": "01-Diary/日志存档/2021-11-27.md"
-    },
-    {
-      "basename": "阅读清单",
-      "path": "00-MOC/阅读清单.md"
+      "basename": "readme",
+      "path": "00-MOC/readme.md"
     },
     {
       "basename": "本周事务表",
       "path": "00-MOC/本周事务表.md"
     },
     {
+      "basename": "阅读清单",
+      "path": "00-MOC/阅读清单.md"
+    },
+    {
+      "basename": "2022-03-12",
+      "path": "01-Diary/日志存档/2022-03-12.md"
+    },
+    {
+      "basename": "ppt发布页",
+      "path": "07-Archives/ppt发布页.md"
+    },
+    {
+      "basename": "obsidian导出库模板",
+      "path": "01-Diary/本周事务/obsidian导出库模板.md"
+    },
+    {
+      "basename": "2022-03-11",
+      "path": "01-Diary/日志存档/2022-03-11.md"
+    },
+    {
+      "basename": "2022-03-10",
+      "path": "01-Diary/日志存档/2022-03-10.md"
+    },
+    {
+      "basename": "日志模板",
+      "path": "09-Templates/日志模板.md"
+    },
+    {
+      "basename": "卡片模板",
+      "path": "09-Templates/卡片模板.md"
+    },
+    {
+      "basename": "每月总结",
+      "path": "09-Templates/每月总结.md"
+    },
+    {
+      "basename": "每周小结",
+      "path": "09-Templates/每周小结.md"
+    },
+    {
+      "basename": "草稿模板",
+      "path": "09-Templates/草稿模板.md"
+    },
+    {
+      "basename": "试剂库存管理",
+      "path": "00-MOC/试剂库存管理.md"
+    },
+    {
       "basename": "任务看板",
       "path": "00-MOC/任务看板.md"
     },
     {
-      "basename": "测试",
-      "path": "01-Diary/本周事务/测试.md"
+      "basename": "作息时间表",
+      "path": "01-Diary/作息时间表.md"
     },
     {
-      "basename": "更新vault模板",
-      "path": "01-Diary/本周事务/更新vault模板.md"
+      "basename": "FNA-PAINT的信息加密新方案设计",
+      "path": "01-Diary/本周事务/FNA-PAINT的信息加密新方案设计.md"
     },
     {
-      "basename": "大牛通讯录",
-      "path": "00-MOC/大牛通讯录.md"
+      "basename": "toDOCX",
+      "path": "09-Templates/functions/toDOCX.md"
     },
     {
-      "basename": "周小结ppt",
-      "path": "03-Projects/组会汇报/周小结ppt.md"
+      "basename": "从obsidian导出docx-2",
+      "path": "03-Projects/x-Obsidian探索与教程/从obsidian导出docx-2.md"
     },
     {
-      "basename": "计划imager基底面成像实验",
-      "path": "01-Diary/本周事务/计划imager基底面成像实验.md"
+      "basename": "记录下obsidian中常用的query",
+      "path": "03-Projects/x-Obsidian探索与教程/记录下obsidian中常用的query.md"
     },
     {
-      "basename": "购买抗体和适配体",
-      "path": "01-Diary/本周事务/购买抗体和适配体.md"
+      "basename": "了解一下mermaid做甘特图",
+      "path": "03-Projects/x-Obsidian探索与教程/了解一下mermaid做甘特图.md"
     },
     {
-      "basename": "@Schroeder2021",
-      "path": "02-Reading/pdfs/@Schroeder2021.md"
+      "basename": "VAE分子共振荧光增强",
+      "path": "02-Reading/topics/成像/VAE分子共振荧光增强.md"
     },
     {
-      "basename": "尼罗红细胞膜TIRF成像实验",
-      "path": "03-Projects/3-细胞力学成像/尼罗红细胞膜TIRF成像实验.md"
+      "basename": "膜张力的情况",
+      "path": "02-Reading/topics/细胞/膜张力的情况.md"
     },
     {
-      "basename": "@Ghosh2021",
-      "path": "02-Reading/pdfs/@Ghosh2021.md"
+      "basename": "蛋白分子振动",
+      "path": "02-Reading/topics/细胞/蛋白分子振动.md"
     },
     {
-      "basename": "用ssDNA-imager对细胞基底面成像",
-      "path": "01-Diary/本周事务/用ssDNA-imager对细胞基底面成像.md"
+      "basename": "@Mu2022",
+      "path": "02-Reading/pdfs/@Mu2022.md"
     },
     {
-      "basename": "@Zhang2021a",
-      "path": "02-Reading/pdfs/@Zhang2021a.md"
+      "basename": "@Guo2022",
+      "path": "02-Reading/pdfs/@Guo2022.md"
+    },
+    {
+      "basename": "@Jo2022",
+      "path": "02-Reading/pdfs/@Jo2022.md"
+    },
+    {
+      "basename": "@Banskota2022",
+      "path": "02-Reading/pdfs/@Banskota2022.md"
+    },
+    {
+      "basename": "@Zhu2021",
+      "path": "02-Reading/pdfs/@Zhu2021.md"
+    },
+    {
+      "basename": "@Bauer2021",
+      "path": "02-Reading/pdfs/@Bauer2021.md"
+    },
+    {
+      "basename": "@Wang2022a",
+      "path": "02-Reading/pdfs/@Wang2022a.md"
+    },
+    {
+      "basename": "@Quinodoz2021",
+      "path": "02-Reading/pdfs/@Quinodoz2021.md"
+    },
+    {
+      "basename": "@deLuis2022",
+      "path": "02-Reading/pdfs/@deLuis2022.md"
+    },
+    {
+      "basename": "@Peng2022",
+      "path": "02-Reading/pdfs/@Peng2022.md"
+    },
+    {
+      "basename": "@Nuti2022",
+      "path": "02-Reading/pdfs/@Nuti2022.md"
+    },
+    {
+      "basename": "@Nakao2022",
+      "path": "02-Reading/pdfs/@Nakao2022.md"
+    },
+    {
+      "basename": "@Buzzo2021",
+      "path": "02-Reading/pdfs/@Buzzo2021.md"
+    },
+    {
+      "basename": "@Stehr2021a",
+      "path": "02-Reading/pdfs/@Stehr2021a.md"
+    },
+    {
+      "basename": "@Qiao2022",
+      "path": "02-Reading/pdfs/@Qiao2022.md"
+    },
+    {
+      "basename": "@Yang2021c",
+      "path": "02-Reading/pdfs/@Yang2021c.md"
+    },
+    {
+      "basename": "@Jangili2022",
+      "path": "02-Reading/pdfs/@Jangili2022.md"
+    },
+    {
+      "basename": "@Gimber2021",
+      "path": "02-Reading/pdfs/@Gimber2021.md"
+    },
+    {
+      "basename": "@Heinrich2021",
+      "path": "02-Reading/pdfs/@Heinrich2021.md"
+    },
+    {
+      "basename": "@Blanchard2021",
+      "path": "02-Reading/pdfs/@Blanchard2021.md"
+    },
+    {
+      "basename": "@Li2021b",
+      "path": "02-Reading/pdfs/@Li2021b.md"
     },
     {
       "basename": "@Saha2021",
       "path": "02-Reading/pdfs/@Saha2021.md"
     },
     {
-      "basename": "@Pegg2021",
-      "path": "02-Reading/pdfs/@Pegg2021.md"
+      "basename": "@Erlich2017",
+      "path": "02-Reading/pdfs/@Erlich2017.md"
     },
     {
-      "basename": "2021-11-26",
-      "path": "01-Diary/日志存档/2021-11-26.md"
+      "basename": "@Thornburg2022",
+      "path": "02-Reading/pdfs/@Thornburg2022.md"
     },
     {
-      "basename": "2021-11-25",
-      "path": "01-Diary/日志存档/2021-11-25.md"
+      "basename": "@Reinkemeier2021",
+      "path": "02-Reading/pdfs/@Reinkemeier2021.md"
+    },
+    {
+      "basename": "@Chou2022",
+      "path": "02-Reading/pdfs/@Chou2022.md"
     }
   ],
-  "omittedPaths": [
-    ""
-  ],
-  "maxLength": 20
+  "omittedPaths": [],
+  "maxLength": null
 }

@@ -27,18 +27,8 @@
     },
     {
       "type": "file",
-      "title": "任务看板",
-      "path": "00-MOC/任务看板.md"
-    },
-    {
-      "type": "file",
-      "title": "FNA-PAINT文章新的逻辑框架",
-      "path": "03-Projects/1-FNA-PAINT/FNA-PAINT文章新的逻辑框架.md"
-    },
-    {
-      "type": "file",
-      "title": "FNA-PAINT的scheme",
-      "path": "03-Projects/1-FNA-PAINT/FNA-PAINT的scheme.md"
+      "title": "FNA-PAINT开足马力搞起来",
+      "path": "01-Diary/本周事务/FNA-PAINT开足马力搞起来.md"
     }
   ]
 }

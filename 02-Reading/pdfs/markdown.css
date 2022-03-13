@@ -1,0 +1,310 @@
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  color: #444;
+  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+  font-size: 16px;
+  line-height: 1.7;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+ /* 后面的覆盖前面的 */
+  max-width: 44em;
+  background: #ffffff;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  box-shadow:0 0 0 1px #cacaca,0 0 0 4px #eee
+}
+
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0b0080;
+}
+
+a:hover {
+  color: #06e;
+}
+
+a:active {
+  color: #faa700;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+*::-moz-selection {
+  background: rgba(255, 255, 0, 0.3);
+  color: #000;
+}
+
+*::selection {
+  background: rgba(255, 255, 0, 0.3);
+  color: #000;
+}
+
+a::-moz-selection {
+  background: rgba(255, 255, 0, 0.3);
+  color: #0645ad;
+}
+
+a::selection {
+  background: rgba(255, 255, 0, 0.3);
+  color: #0645ad;
+}
+
+p {
+  margin: 1em 0;
+}
+/*给图片也增加圆角，而且稍微缩放一下*/
+img {
+  max-width: 85%;
+  border-radius: 4px;
+}
+/* 增加 video 样式，使之不越界 */
+video {
+  max-width: 85%;
+  display: block;
+  margin: 0px auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #111;
+  line-height: 125%;
+  margin-top: 1em;
+  font-weight: normal;
+}
+
+h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.1em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.9em;
+}
+
+/*给引用块加点背景颜色，并调整间距*/
+blockquote {
+  color: rgb(128, 128, 128);
+  background-color: rgb(240, 240, 240);
+  margin: 0;
+  margin-bottom: 16px;
+  padding-left: 0.3em;
+  border-left: 0.5em rgb(210, 210, 210) solid;
+  font-size: 85%;
+  display: block;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #eee;
+  margin: 1em 0;
+  padding: 0;
+}
+
+pre, code, kbd, samp {
+  color: rgb(65, 8, 8);
+  font-family:Consolas,'Liberation Mono',Courier,monospace;
+  _font-family: 'consolas', monospace;
+  font-size: 0.95em;
+}
+code{
+  background-color: #e7e7e7;
+  padding: 2px 2px;
+  border-radius: 4px;
+}
+/*解决代码块中的代码溢出问题，直接在浏览器中调试抄袭*/
+pre > code.sourceCode > span {
+  white-space: pre-wrap;
+  display: inline-block;
+  line-height: 1.25;
+}
+/*增加圆角*/
+pre {
+  padding: 1em;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: #e7e7e7;
+  border-radius: 4px;
+  overflow: auto;
+  word-wrap: normal;
+  word-break: normal;
+}
+/*让加粗的显示高亮，而且文字背景是圆角的*/
+b, strong {
+  font-weight: bold;
+  /* background-color: #7ac1f0c5; */
+  border-radius: 3px;
+}
+
+dfn {
+  font-style: italic;
+}
+
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 2em;
+}
+
+/*减少缩进*/
+ul li{
+  margin-left: 2%;
+}
+
+li p:last-child {
+  margin-bottom: 0;
+}
+
+ul ul, ol ol {
+  margin: .3em 0;
+}
+
+dl {
+  margin-bottom: 1em;
+}
+
+dt {
+  font-weight: bold;
+  margin-bottom: .8em;
+}
+
+dd {
+  margin: 0 0 .8em 2em;
+}
+
+dd:last-child {
+  margin-bottom: 0;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+figure {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+figure img {
+  border: none;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 0 0 .8em;
+}
+
+/*表格居中对齐，表格内容也居中*/
+table {
+  width: max-content;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  max-width: 100%;
+  overflow: auto;
+  margin-bottom: 2em;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-spacing: 0;
+  border-collapse: collapse;
+  text-align: center;
+  display: block;
+}
+
+table th {
+  padding: .2em 1em;
+  background-color: #eee;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+table td {
+  padding: .2em 1em;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.author {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+@media only screen and (min-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}

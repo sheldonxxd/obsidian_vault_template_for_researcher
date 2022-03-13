@@ -1,6 +1,40 @@
 {
   "choices": [
     {
+      "id": "38c1c363-5d3e-4203-b7f4-7e18d7c7b9f1",
+      "name": "🐮新增任务",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "00-MOC/任务看板.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{VALUE:New Task}} @[[<% tp.date.now(\"YYYY-MM-DD\") %>]] @@{<% tp.date.now(\"HH:mm:ss\") %>}\\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Todo",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
       "id": "13aa960e-9e3e-4aec-b6aa-35adf841a841",
       "name": "⏱️随手记记",
       "type": "Capture",
@@ -20,7 +54,7 @@
       "insertAfter": {
         "enabled": true,
         "after": "## Tracking",
-        "insertAtEnd": true,
+        "insertAtEnd": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
       },
@@ -107,7 +141,7 @@
         "createInSameFolderAsActiveFile": false
       },
       "appendLink": true,
-      "incrementFileName": true,
+      "incrementFileName": false,
       "openFileInNewTab": {
         "enabled": false,
         "direction": "vertical",
@@ -117,13 +151,41 @@
       "openFileInMode": "default"
     },
     {
-      "id": "38c1c363-5d3e-4203-b7f4-7e18d7c7b9f1",
-      "name": "🐮新增任务",
+      "id": "175a90c9-c98f-422b-90f5-54268ccfdf72",
+      "name": "🦁月度总结",
+      "type": "Template",
+      "command": false,
+      "templatePath": "09-Templates/每月总结.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE}}_月总结"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "01-Diary/月总结"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": true,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "a506b2f6-0d81-421d-993f-1347c3da1873",
+      "name": "📂插入路径",
       "type": "Capture",
       "command": false,
       "appendLink": false,
-      "captureTo": "00-MOC/任务看板.md",
-      "captureToActiveFile": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
       "createFileIfItDoesntExist": {
         "enabled": false,
         "createWithTemplate": false,
@@ -131,16 +193,50 @@
       },
       "format": {
         "enabled": true,
-        "format": "- [ ] {{VALUE:New Task}} @[[<% tp.date.now(\"YYYY-MM-DD\") %>]] @@{<% tp.date.now(\"HH:mm:ss\") %>}"
+        "format": "[📂{{VALUE}}](file:///{{VALUE}})"
       },
       "insertAfter": {
-        "enabled": true,
-        "after": "## Todo",
-        "insertAtEnd": true,
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
       },
       "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "29479691-5d49-4903-b5eb-024596b21132",
+      "name": "👑导出笔记",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "<% tp.user.toDOCX() %>"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
       "task": false,
       "openFileInNewTab": {
         "enabled": false,

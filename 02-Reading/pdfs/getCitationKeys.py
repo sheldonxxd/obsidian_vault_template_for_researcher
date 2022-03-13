@@ -5,6 +5,7 @@ def fetch(test=False):
     在zotero中批量导出选中的多个条目的citationkey（需要better bibtex插件）到reading/pdfs，
     注意就使用默认命名“导出的条目.txt”，然后在obsidian中运行此代码实现内容抓取
     '''
+    # fp = os.path.expanduser('~/Desktop/导出的条目.txt')
     script_path = sys.argv[0]
     lib_path, script_fname = os.path.split(script_path)
     fp = os.path.join(lib_path, '导出的条目.txt')

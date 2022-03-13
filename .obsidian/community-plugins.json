@@ -12,15 +12,14 @@
   "table-editor-obsidian",
   "tag-wrangler",
   "obsidian-kanban",
-  "obsidian-citation-plugin",
-  "sliding-panes-obsidian",
   "dataview",
-  "obsidian-mind-map",
   "obsidian-admonition",
-  "privacy-glasses",
   "obsidian-charts",
   "obsidian-excalidraw-plugin",
   "obsidian-style-settings",
   "obsidian-icon-folder",
-  "obsidian-gallery"
+  "obsidian-gallery",
+  "folder-note-plugin",
+  "oz-image-plugin",
+  "sliding-panes-obsidian"
 ]

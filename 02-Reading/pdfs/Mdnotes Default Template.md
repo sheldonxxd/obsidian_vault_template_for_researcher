@@ -2,6 +2,7 @@
 alias: %(citekey)
 tags: unread
 rating: ⭐
+share: false
 ---
 
 {{title}}
@@ -15,3 +16,4 @@ rating: ⭐
 
 ### 泛读笔记
 
+comment:: 
