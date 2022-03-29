@@ -1,0 +1,57 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "09-Templates",
+  "templates_pairs": [
+    [
+      "toDOCX",
+      "python ./08-Assets/Scripts/paper2docx.py <% tp.file.path() %>"
+    ],
+    [
+      "annotate_pdf",
+      "python ./08-Assets/Scripts/annotate_pdf.py <% tp.file.path() %>\n"
+    ],
+    [
+      "export_slides_embedding",
+      "python ./08-Assets/Scripts/export_slides_embedding.py <% tp.file.path() %>"
+    ],
+    [
+      "auto_transfer",
+      "python ./08-Assets/Scripts/auto_transfer.py <% tp.file.path() %>"
+    ],
+    [
+      "author_count",
+      "python ./08-Assets/Scripts/author_count.py <% tp.file.path() %>"
+    ],
+    [
+      "ref_list",
+      "python ./08-Assets/Scripts/ref_list.py <% tp.file.path() %>"
+    ],
+    [
+      "export_project",
+      "python ./08-Assets/Scripts/export_project.py <% tp.file.path() %>"
+    ],
+    [
+      "archived_task_gantt",
+      "python ./08-Assets/Scripts/archived_task_gantt.py <% tp.file.path() %>"
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": true,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "01-Diary/本周事务",
+      "template": "09-Templates/草稿模板.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    "09-Templates/草稿模板.md"
+  ]
+}

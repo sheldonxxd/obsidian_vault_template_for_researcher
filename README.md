@@ -5,188 +5,90 @@ date: 2022-03-13 09:57:43
 
 # obsidian_vault_template_for_researcher
 
-## 写在前面
+### 写在前面
 
 从接触到使用 obsidian 已经有一段时间了，感觉这个工具用好了应该对搞科研有较大帮助。软件界面如下：
 
 ![obsidian界面概览](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/image-20211120145712338.png)
 
-2022年3月13日：使用了obsidian大半年之后，还是觉得很好用。但这并不是因为它的花里胡哨的「关系图谱」或者其它非常fancy的一些插件和主题效果，而是因为自己**一直在写养成了习惯**。目前使用频率最高的仍然是结合 zotero 写「文献阅读笔记」和「写日志」。在使用过程中，发现各种碎片信息需要定期整合并输出，然后**分享有用的东西给别人**。只有这样积累资料和笔记才不至于陷入「囤积症」的窘境。为了完善「收集（草稿）→整理（小结）→输出（发布）」的闭环，我完善了更为丰富的自定义笔记导出功能。
+- 2022年3月13日：使用了obsidian大半年之后，还是觉得很好用。但这并不是因为它的花里胡哨的「关系图谱」或者其它非常fancy的一些插件和主题效果，而是因为自己**一直在写养成了习惯**。目前使用频率最高的仍然是结合 zotero 写「文献阅读笔记」和「写日志」。在使用过程中，发现各种碎片信息需要定期整合并输出，然后**分享有用的东西给别人**。只有这样积累资料和笔记才不至于陷入「囤积症」的窘境。为了完善「收集（草稿）→整理（小结）→输出（发布）」的闭环，我完善了更为丰富的自定义笔记导出功能。
 
-## 安装部署
 
-下载安装软件：目前 obsidian 是开源免费的跨平台软件，可以直接到[官网](https://obsidian.md/download)下载安装包。
+### 下载并打开vault模板库并查看说明书
 
-### 下载模板vault
-
-1. 综合网上各种建议，和结合自己`阅读文献`和`写日志`的需求，此模板vault包含以下几个子文件夹：
-	- 00-MOC：内容地图，主要存放dataview查询表
-	- 01-Diary：存放模板化的每日日志，其中每周事务是看板笔记默认存放地
-	- 02-Reading：存放文献库和文献阅读笔记
-	- 03-Projects：按各种实际的项目分类存储相关笔记
-	- 06-Cards: 主要存放一些试剂卡片
-	- 07-Archives：时间久远而且已经结束的project可以进行存档
-	- 08-Assets：存放附件，包括插图、视频、以及各种其它文件
-	- 09-Templates： 存放笔记模板
-
-> 注意子文件夹数目不要超过 10 个，否则会比较混乱。
+1. 下载安装软件：目前 obsidian 是开源免费的跨平台软件，可以直接到[官网](https://obsidian.md/download)下载安装包后安装。
 
 2. 下载了vault模板之后，解压到一个指定位置，可以是电脑上的硬盘，也可以是移动硬盘甚至U盘，然后重命名vault。比如我把 vault 命名为 working，然后放到了移动硬盘的 projects 目录下：`X:\projects\working`。
 
-### 安装zotero和相关插件
-
-- [Zotero](https://www.zotero.org/)：文献管理工具，有浏览器插件，支持直接拖拽pdf或者输入doi等方式快捷导入条目
-- [Zotfile](https://github.com/jlegewie/zotfile/releases)：自动 rename 附件，然后复制到制定目录，还能从 pdf 中提取高亮注释
-- [Mdnotes](https://github.com/argenos/zotero-mdnotes/releases/tag/0.1.3)：将文献记录按照模板生成 markdown 笔记
-- [Better Bibtex](https://github.com/retorquere/zotero-better-bibtex/releases/tag/v5.5.4)：生成 citation key，导出为更好的 bibtex 记录，也可以是 json，配合 obsidian 的 citations 插件使用。
-
-> 注意先安装插件，弄好设置之后，再登录zotero账户同步。
+3. 打开该模板库，注意关闭「安全模式」，关闭obsidian最新版提供的「实时预览」功能，进入到模板库中可查看 `03-Projects` 中的「黑曜石玩家指南」project，里边有非常完整的关于 `写日志`，`读文献`和`做课题项目`的工作流程操作说明。
 
 
-### zotero设置
-
-![zotero设置](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/image-20211127121213818.png)
-
-如上图所示注意保持一致，注意zotero附件**根目录设置为 vault 下的 `\02-Reading\pdf`，并选择使用相对路径**。另外先不要注册账户并登录同步，等到插件设置好了再说！
-
-### zotfile插件设置
-
-![zotfile插件设置](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211030122453.png)
-
-zotfile 是 zotero 中最强大的插件，注意**将 pdf下载的临时目录设置为桌面**，以后每次从网上下载 pdf 到桌面，该插件可以半自动把 pdf 重命名并转移到**指定目录**（`\02-Reading\pdf`)去，然后创建相对链接。
-
-### mdnotes插件设置
-
-![mdnotes插件设置](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211030122711.png)
-
-同上，注意一些路径的设定修改。
-
-### Better_Bibtex插件设置
-
-![better_bibtex插件设置](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211030122849.png)
-
-注意修改 citation key 的格式，如上图所示。
-
-### 注册zotero账户并登录
-
-![zotero同步账户设置](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211030123014.png)
-
-可以使用 zotero 同步自己的文献条目，但是尤其要注意不要同步全文内容（pdf），不然 zotero 提供的 200 M 空间是远远不够的。新用户注册[点此进入](https://www.zotero.org/user/register)。
-
-### Zotero文献库目录设计
-
-![文献库目录安排参考](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211030123407.png)
-
-目录结构非常重要，建议现有一个缓冲区`00-Inbox`，作为主题分类不清晰的文献的暂存目录，快速扫读之后再拖拽分类到其它目录中。
-
-### 向Zotero中导入文献
-
-![通过输入doi导入文献条目](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211030123608.png)
-
-推荐输入 DOI 的方式插入文献条目，这种方式抓取到的信息是最完整准确的。
-
-### 导出整个文献库到vault
-
-![导出文献库到obsidian库中](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211030123827.png)
-
-先导出为 JSON 文件，导出到 **指定目录**（`\02-Reading\pdf`）去，注意文件名修改为英文`MyLibrary`；然后再导出为 Better BibLaTeX（如下图所示)，同样修改为英文名，导出到同上目录。
-
-![导出文献库为bibtex](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/Pasted%20image%2020211030123935.png)
-
-
-### 安装python和依赖项
-
-一些自定义功能依赖于 python 脚本代码实现，建议安装 anaconda （清华TUNA镜像源）并将其添加到环境变量（安装时全打勾）。
-
-使用cmd命令行工具安装以下 python 模块：
-
-```bash
-pip install pyperclip bibtexparser
-```
-
-
-## 写日记
-
-按快捷键`Ctrl+Q`，打开 QuickAdd 命令面板，选择`⏱️随手记记`进行当天的日志记录。
-
-**强烈建议每天从日志开始撰写，右上角有一个小日历，点击对应日期即可打开每日日志**
-
-## 读文献
-
-1. 初次阅读：文献条目和pdf附件使用 `zotero` 软件管理，pdf的阅读和标注使用 `foxit-reader` 完成。
-2. 专题阅读：插入参考文献，可从zotero中选中一条或者多条参考文献，然后按`Ctrl+Shift+C` 复制 citation key 到粘贴板。然后切换到 obsidian 按`Ctrl+V` 拷贝到当前笔记。
-
-### zotero导出citation key 的设置
-
-1. 设置Better Bibtex 插件，Export>QuickCopy>format = Roam Cite Key
-2. 设置 zotero，导出，默认格式设置为 Better BibTex Quick Copy: Roam Cite Key
-
-## 看板工作流说明
-
-1. 使用 QuickAdd 开启相应的工作流。快捷键是 `Ctrl+Q`，打开 QuickAdd 面板，默认置底的是`🐮新建任务`，任务将被添加到看板的`TODO`板块。
-2. 切换到[[任务看板]]，如果要开始做某项任务，可以把它拖拽到`Doing`板块，如果任务较为复杂，需要记录，可右键单击任务卡片，从卡片新建笔记。新建文件默认自动放置到`01-Diary/本周事务`中。从[[本周事务表]]可以查看所有存在于该目录中的文件并统计任务持续时间。完成任务后，可以把任务卡片拖拽到`Done`板块，并归档。
-3. 工作流以一周为周期，可以固定在每周日进行周小结。在周日的当天日志中，打开 QuickAdd 命令面板，选择`🐷每周小结`，可以快速创建周小结。然后把将[[任务看板]]用 markdown 打开，将归档的内容剪切拷贝至周小结。然后将`01-Diary/本周事务`中已经完成的笔记，按照特定主题转移至相应的foler中。
-
-## 自定义导出
-
-一般情况下，可以使用 obsidian 内置的功能导出为 pdf。如果希望导出为可进行后续编辑的 word 文档，或者嵌入多媒体内容（如音频视频）的独立 html 网页文件，推荐使用本 vault 模板包含的QuickAdd快捷命令【`👑导出笔记`】。
-
-### 音乐嵌入示例
-
-《原神·晨曦酒庄-陈致逸》
-
-![[陈致逸,HOYO-MiX - Dawn Winery Theme 晨曦酒庄.mp3]]
-
-> 仅支持 mp3 或者 m4a 格式的音频文件
-
-### 视频嵌入示例
-
-《原神·游戏片段截取》
-
-![[PM.mp4]]
-
-> 仅支持 mp4 格式视频文件，此类多媒体文件直接拖拽入页面即可。
-
-### 参考文献示例
-
-张锋的这篇工作不错，后面 David 刘又出了一个类似的。[[@Segel2021]] [[@Banskota2022]]
-
-
-## 升级说明
-
-如果您已经按照前面的说明部署并使用了该 vault 模板的早期版本，您可以**下载最新的 Release**，解压后，将 「vault模板」 中的内容直接复制粘贴到您已经在使用的库中，即可轻松实现升级。升级仅覆盖以下目录的修改，请注意检查是否涉及您的个人笔记资料：
-
-```yaml
-[1]: /my_vault_template.
-
-# 以下复制目录结构和目录下所有内容
-[2]: /my_vault_template/.obsidian.
-[3]: /my_vault_template/00-MOC.
-[4]: /my_vault_template/09-Templates.
-
-# 以下仅复制指定的一些文件，不对其它目录结构和内容做修改
-[5]: /my_vault_template/02-Reading/pdfs/acs-nano.csl.
-[6]: /my_vault_template/02-Reading/pdfs/markdown.css.
-[7]: /my_vault_template/02-Reading/pdfs/Mdnotes Default Template.md.
-[8]: /my_vault_template/02-Reading/pdfs/template.docx.
-[9]: /my_vault_template/02-Reading/pdfs/paper2docx.py.
-[10]: /my_vault_template/02-Reading/pdfs/getCitationKeys.py.
-
-# 以下仅维持目录结构，不复制文件内容
-[11]: /my_vault_template\01-Diary/日志存档.
-[12]: /my_vault_template\01-Diary/周小结.
-[13]: /my_vault_template\01-Diary/月总结.
-[14]: /my_vault_template\01-Diary/本周事务.
-[15]: /my_vault_template\03-Projects.
-[16]: /my_vault_template\06-Cards.
-[17]: /my_vault_template\07-Archives.
-[18]: /my_vault_template\08-Assets/Excalidraw.
-```
 
 ### 更新日志
+
+#### 2022年3月29日（v1.3）
+
+**重要提示**：此版本对文件目录做出了重大调整，使用之前版本的用户不能直接通过复制粘贴到现有库的方式实现升级，建议先了解模板库中的教程再进行操作。
+
+- 完善了`写日志`，`读文献`和`做课题项目`的三大 workflow所需的相关功能
+- 撰写了详细的使用教程《黑曜石玩家指南》并内置库中。
+
 
 #### 2022年3月13日（v1.2）
 
 - 增加笔记自定义导出为word和html的功能（带参考文献，以及嵌入多媒体），方便分享
 - 修改更新 readme 文档关于【自定义导出】和【升级】的内容
 - 调整了[[阅读清单]]的说明和query和文献阅读笔记模板[[Mdnotes Default Template]]
+
+### 注意事项
+
+1. 由于对部分插件主题做了源代码级别的修改，请不要自行升级此模板库内的插件和主题，以免相关配置丢失（此类情况在更新 templater、dataview 等插件时容易遇见）。
+
+
+### 黑曜石玩家指南书籍目录
+
+**序言** 
+
+1. [[决定写obsidan教程]]
+2. [[一鼓作气之后]]
+3. [[结束这场战斗吧]]
+
+**第一章-obsidian入门** 
+
+1. [[软件下载安装]]
+2. [[zotero-obsidian联动配置]]
+3. [[开箱写日志]]
+4. [[obsidian撰写草稿]]
+5. [[使用手机撰写日志]]
+6. [[每周定期汇总小结]]
+7. [[在obsidian中写幻灯片]]
+8. [[本章小结-恭喜入门obsidian]]
+
+**第二章-obsidian读文献**
+
+1. [[当期文献速览]] 
+2. [[入库文献泛读]] 
+3. [[进一步阅读原文]] 
+4. [[解析文章骨架]] 
+5. [[重要综述如何阅读]] 
+6. [[阶段性文献阅读小结]] 
+7. [[主题阅读与比较阅读]] 
+8. [[跟踪领域内大牛]] 
+9. [[本章小结-恭喜习得内功]]
+
+**第三章-obsidian做课题**
+
+1. [[新建课题项目]] 
+2. [[规范的实验记录]] 
+3. [[整理实验方法]] 
+4. [[试剂耗材仪器建卡管理]] 
+5. [[工作小结与周汇报]] 
+6.  [[撰写论文草稿]] 
+7.  [[完整导出项目]]
+8.  [[本章小结-祝您科研精进]]
+
+**附录**
+
+1. [[obsidian快捷键]]
+2. [[obsidian第三方插件列表]]
+3. [[obsidian主题界面布局说明]]

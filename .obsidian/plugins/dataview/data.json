@@ -1,6 +1,11 @@
 {
   "renderNullAs": "\\-",
+  "taskLinkLocation": "end",
+  "taskLinkText": "🔗",
+  "taskCompletionTracking": false,
+  "taskCompletionText": "completion",
   "warnOnEmptyResult": true,
+  "refreshEnabled": true,
   "refreshInterval": 1000,
   "defaultDateFormat": "yyyy-MM-dd",
   "defaultDateTimeFormat": "yyyy-MM-dd HH:mm:ss",
@@ -10,5 +15,7 @@
   "inlineQueryPrefix": "=",
   "inlineJsQueryPrefix": "$=",
   "enableDataviewJs": true,
+  "enableInlineDataviewJs": true,
+  "prettyRenderInlineFields": true,
   "schemaVersion": 1
 }

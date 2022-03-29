@@ -1,9 +1,9 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
@@ -15,7 +15,7 @@
       }
     },
     {
-      "query": "path:02-Reading/pdfs",
+      "query": "path:02-Reading/mdnotes",
       "color": {
         "a": 1,
         "rgb": 11924170
@@ -36,13 +36,6 @@
       }
     },
     {
-      "query": "file:任务看板",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
-      }
-    },
-    {
       "query": "tag:#WeeklyNote",
       "color": {
         "a": 1,
@@ -60,6 +53,6 @@
   "repelStrength": 9.60302197802198,
   "linkStrength": 0.568063186813187,
   "linkDistance": 134,
-  "scale": 0.22920135941749584,
-  "close": true
+  "scale": 0.02773800453977955,
+  "close": false
 }

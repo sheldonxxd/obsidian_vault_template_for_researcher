@@ -5,10 +5,12 @@
     "contrast": 85,
     "sepia": 0
   },
-  "customDefaultPath": "05-Reading/pdfs/",
+  "debugLogging": false,
+  "customDefaultPath": "08-Assets/pdfs/",
   "annotationMarkdownSettings": {
     "includePrefix": true,
     "highlightHighlightedText": true,
-    "includePostfix": true
+    "includePostfix": true,
+    "annotationModeByDefault": true
   }
 }

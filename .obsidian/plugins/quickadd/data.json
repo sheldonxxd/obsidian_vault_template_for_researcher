@@ -1,40 +1,6 @@
 {
   "choices": [
     {
-      "id": "38c1c363-5d3e-4203-b7f4-7e18d7c7b9f1",
-      "name": "🐮新增任务",
-      "type": "Capture",
-      "command": false,
-      "appendLink": false,
-      "captureTo": "00-MOC/任务看板.md",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "- [ ] {{VALUE:New Task}} @[[<% tp.date.now(\"YYYY-MM-DD\") %>]] @@{<% tp.date.now(\"HH:mm:ss\") %>}\\n"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "## Todo",
-        "insertAtEnd": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
       "id": "13aa960e-9e3e-4aec-b6aa-35adf841a841",
       "name": "⏱️随手记记",
       "type": "Capture",
@@ -49,7 +15,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "- <% tp.date.now(\"HH:mm\") %> {{VALUE:Tracking}}\n"
+        "format": "\\n- <% tp.date.now(\"HH:mm\") %> {{VALUE:⏱️Tracking}}\n"
       },
       "insertAfter": {
         "enabled": true,
@@ -66,60 +32,6 @@
         "focus": true
       },
       "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "7fd22a75-876e-4c0b-8a9f-9a73161be569",
-      "name": "🐶文献调研",
-      "type": "Template",
-      "command": false,
-      "templatePath": "09-Templates/草稿模板.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": true,
-      "incrementFileName": true,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "e39d4897-4983-4819-8fa0-713039d8aa67",
-      "name": "😺代码整理",
-      "type": "Template",
-      "command": false,
-      "templatePath": "09-Templates/lab/代码整理.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "03-Projects/软件工具/python"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": true,
-      "incrementFileName": true,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
       "openFileInMode": "default"
     },
     {
@@ -151,6 +63,74 @@
       "openFileInMode": "default"
     },
     {
+      "id": "f42d88c6-48a3-4969-b71a-0b71507aeb12",
+      "name": "📒草稿归档",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "<% tp.user.auto_transfer() %>"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "c9c58a91-efdf-471e-b57f-f637f9478c4d",
+      "name": "🎞️PPT导出",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "<% tp.user.export_slides_embedding() %>"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
       "id": "175a90c9-c98f-422b-90f5-54268ccfdf72",
       "name": "🦁月度总结",
       "type": "Template",
@@ -179,13 +159,13 @@
       "openFileInMode": "default"
     },
     {
-      "id": "a506b2f6-0d81-421d-993f-1347c3da1873",
-      "name": "📂插入路径",
+      "id": "38c1c363-5d3e-4203-b7f4-7e18d7c7b9f1",
+      "name": "🐮新增任务",
       "type": "Capture",
       "command": false,
       "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
+      "captureTo": "00-MOC/任务看板.md",
+      "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": false,
         "createWithTemplate": false,
@@ -193,11 +173,11 @@
       },
       "format": {
         "enabled": true,
-        "format": "[📂{{VALUE}}](file:///{{VALUE}})"
+        "format": "- [ ] {{VALUE:New Task}} @[[<% tp.date.now(\"YYYY-MM-DD\") %>]] @@{<% tp.date.now(\"HH:mm:ss\") %>}\\n"
       },
       "insertAfter": {
-        "enabled": false,
-        "after": "",
+        "enabled": true,
+        "after": "## Todo",
         "insertAtEnd": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
@@ -245,6 +225,232 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "26267e74-e47e-4b21-8c2a-9ea6f1dbbdb9",
+      "name": "🐸任务存档",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "<% tp.user.archived_task_gantt() %>"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "a506b2f6-0d81-421d-993f-1347c3da1873",
+      "name": "📂插入路径",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "[📂{{VALUE}}](file:///{{VALUE}})"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "6cbe6f1f-61ae-434e-a809-33d12e951b33",
+      "name": "📦导出项目",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "<% tp.user.export_project() %>"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "2ba26c03-3c6d-4dd4-8ef4-b6f3d96abc4f",
+      "name": "📝PDF批注",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "<% tp.user.annotate_pdf() %>"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "faf8b089-7b0b-4d2c-84e2-c19567a85018",
+      "name": "🔎引文列表",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "<% tp.user.ref_list() %>"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "03a8caf8-f79e-4cf8-8404-cf88764e1fbe",
+      "name": "🧠思维导图",
+      "type": "Template",
+      "command": false,
+      "templatePath": "09-Templates/lab/思维导图.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "08-Assets/MindMap"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": true,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "a2112010-472e-44b2-8585-285f8975a4df",
+      "name": "🍭阅读小结",
+      "type": "Template",
+      "command": false,
+      "templatePath": "09-Templates/每周已阅文献小结.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE}}_文献阅读小结"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "02-Reading/summary"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": true,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
     }
   ],
   "macros": [
@@ -267,5 +473,6 @@
       ],
       "runOnStartup": false
     }
-  ]
+  ],
+  "inputPrompt": "single-line"
 }
