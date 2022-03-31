@@ -11,10 +11,11 @@
   "alwaysUpdateLinks": true,
   "foldIndent": true,
   "foldHeading": true,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "01-Diary/本周事务",
   "fileSortOrder": "alphabetical",
-  "legacyEditor": true,
-  "livePreview": true
+  "legacyEditor": false,
+  "livePreview": false,
+  "defaultViewMode": "source"
 }

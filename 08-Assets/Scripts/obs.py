@@ -9,13 +9,13 @@ import re
 import shutil
 import subprocess
 import platform
+import pyperclip
 
 from urllib.request import quote, urlopen
 from datetime import datetime
 import time
 import json
 
-from utils import find_wiki_links
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 # 2022-03-16 09:42:53
@@ -319,6 +319,7 @@ class Page:
         return filelist
     
     def getOutLinks(self):
+        '''不怕双链的一半存在于inline code中的搞法'''
         parts = self.main_text.split('[[')
         outlinks = []
         for part in parts:
@@ -328,7 +329,8 @@ class Page:
                 if r:
                     cut = cut[:r.start()]
                 outlinks.append(cut)
-        return outlinks     
+        return outlinks
+
 
 class Project:
     '''针对project进行处理'''
@@ -399,8 +401,13 @@ class Project:
         space = ['01-Diary/日志存档', 
                 '01-Diary/周小结', 
                 '01-Diary/月总结', 
-                '01-Diary/本周事务', 
+                '01-Diary/本周事务',
+                '02-Reading/mdnotes',
+                '02-Reading/1-summary',
+                '02-Reading/2-topics',
+                '02-Reading/3-people',
                 '03-Projects', 
+                '05-Life/01-Album',
                 '06-Cards', 
                 '07-Archives',
                 '08-Assets/Excalidraw',

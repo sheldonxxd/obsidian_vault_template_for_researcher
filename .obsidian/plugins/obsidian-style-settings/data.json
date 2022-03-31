@@ -4,9 +4,13 @@
   "blue-topaz-theme@@background-image-settings-markdown-page-random-options": "background-image-settings-markdown-page-random-blue",
   "blue-topaz-theme@@background-image-settings-markdown-page-random": false,
   "blue-topaz-theme@@remove-file-icons": true,
-  "blue-topaz-theme@@font-family-change-to-default": true,
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-default",
   "blue-topaz-theme@@translucent-setting-panel": false,
   "blue-topaz-theme@@background-settings-workplace-background-image": false,
-  "blue-topaz-theme@@no-wrapped-dvtable": false
+  "blue-topaz-theme@@no-wrapped-dvtable": false,
+  "checkbox@@check-color": true,
+  "blue-topaz-theme@@style-options-for-kanban-plugin-static": "style-options-for-kanban-plugin-static-default",
+  "blue-topaz-theme@@accent-strong@@light": "#820FC0",
+  "blue-topaz-theme@@hr-for-pagination": true,
+  "blue-topaz-theme@@print-strong-color@@light": "#820FC0"
 }

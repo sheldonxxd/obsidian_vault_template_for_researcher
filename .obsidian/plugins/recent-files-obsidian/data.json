@@ -1,32 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "黑曜石玩家指南",
-      "path": "03-Projects/黑曜石玩家指南/黑曜石玩家指南.md"
+      "basename": "99-黑曜石玩家指南",
+      "path": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
     },
     {
-      "basename": "202112201648",
-      "path": "06-Cards/202112201648.md"
+      "basename": "README",
+      "path": "README.md"
     },
     {
-      "basename": "AuthorRanking",
-      "path": "00-MOC/AuthorRanking.md"
+      "basename": "obsidian第三方插件列表",
+      "path": "03-Projects/99-黑曜石玩家指南/4-附录/obsidian第三方插件列表.md"
+    },
+    {
+      "basename": "obsidian主题界面布局说明",
+      "path": "03-Projects/99-黑曜石玩家指南/4-附录/obsidian主题界面布局说明.md"
+    },
+    {
+      "basename": "obsidian撰写草稿",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/obsidian撰写草稿.md"
+    },
+    {
+      "basename": "obsidian新建个人相片集",
+      "path": "01-Diary/本周事务/obsidian新建个人相片集.md"
+    },
+    {
+      "basename": "前期B超结果",
+      "path": "05-Life/01-Album/谢合吾/前期B超结果.md"
+    },
+    {
+      "basename": "2022春疫情在家的美食集锦",
+      "path": "05-Life/01-Album/私房菜/2022春疫情在家的美食集锦.md"
+    },
+    {
+      "basename": "整理实验方法",
+      "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/整理实验方法.md"
+    },
+    {
+      "basename": "规范的实验记录",
+      "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/规范的实验记录.md"
+    },
+    {
+      "basename": "新建课题项目",
+      "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/新建课题项目.md"
+    },
+    {
+      "basename": "跟踪领域内大牛",
+      "path": "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/跟踪领域内大牛.md"
+    },
+    {
+      "basename": "每周定期汇总小结",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/每周定期汇总小结.md"
+    },
+    {
+      "basename": "主题阅读与比较阅读",
+      "path": "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/主题阅读与比较阅读.md"
+    },
+    {
+      "basename": "阶段性文献阅读小结",
+      "path": "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/阶段性文献阅读小结.md"
+    },
+    {
+      "basename": "重要综述如何阅读",
+      "path": "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/重要综述如何阅读.md"
+    },
+    {
+      "basename": "Mdnotes Default Template",
+      "path": "08-Assets/Scripts/Mdnotes Default Template.md"
+    },
+    {
+      "basename": "解析文章骨架",
+      "path": "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/解析文章骨架.md"
+    },
+    {
+      "basename": "进一步阅读原文",
+      "path": "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/进一步阅读原文.md"
     },
     {
       "basename": "阅读清单",
       "path": "00-MOC/阅读清单.md"
     },
     {
-      "basename": "试剂库存管理",
-      "path": "00-MOC/试剂库存管理.md"
+      "basename": "入库文献泛读",
+      "path": "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/入库文献泛读.md"
+    },
+    {
+      "basename": "当期文献速览",
+      "path": "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/当期文献速览.md"
+    },
+    {
+      "basename": "使用手机撰写日志",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/使用手机撰写日志.md"
+    },
+    {
+      "basename": "zotero-obsidian联动配置",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/zotero-obsidian联动配置.md"
+    },
+    {
+      "basename": "开箱写日志",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/开箱写日志.md"
+    },
+    {
+      "basename": "obsidian快捷键",
+      "path": "03-Projects/99-黑曜石玩家指南/4-附录/obsidian快捷键.md"
+    },
+    {
+      "basename": "草稿模板",
+      "path": "09-Templates/草稿模板.md"
+    },
+    {
+      "basename": "软件下载安装",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/软件下载安装.md"
+    },
+    {
+      "basename": "本章小结-恭喜入门obsidian",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/本章小结-恭喜入门obsidian.md"
+    },
+    {
+      "basename": "一鼓作气之后",
+      "path": "03-Projects/99-黑曜石玩家指南/0-序言/一鼓作气之后.md"
+    },
+    {
+      "basename": "决定写obsidan教程",
+      "path": "03-Projects/99-黑曜石玩家指南/0-序言/决定写obsidan教程.md"
+    },
+    {
+      "basename": "结束这场战斗吧",
+      "path": "03-Projects/99-黑曜石玩家指南/0-序言/结束这场战斗吧.md"
+    },
+    {
+      "basename": "2022-03-31",
+      "path": "01-Diary/日志存档/2022-03-31.md"
     },
     {
       "basename": "任务看板",
       "path": "00-MOC/任务看板.md"
     },
     {
-      "basename": "本周事务表",
-      "path": "00-MOC/本周事务表.md"
+      "basename": "帮整本科生刘致远的大创申请",
+      "path": "01-Diary/本周事务/帮整本科生刘致远的大创申请.md"
+    },
+    {
+      "basename": "@Lin2015",
+      "path": "02-Reading/mdnotes/@Lin2015.md"
+    },
+    {
+      "basename": "超分辨多色成像",
+      "path": "02-Reading/2-topics/成像/超分辨多色成像.md"
+    },
+    {
+      "basename": "@Dey2021",
+      "path": "02-Reading/mdnotes/@Dey2021.md"
+    },
+    {
+      "basename": "2-DNA信息加密",
+      "path": "03-Projects/2-DNA信息加密/2-DNA信息加密.md"
+    },
+    {
+      "basename": "@Bancroft2001",
+      "path": "02-Reading/mdnotes/@Bancroft2001.md"
+    },
+    {
+      "basename": "@Davis1996",
+      "path": "02-Reading/mdnotes/@Davis1996.md"
+    },
+    {
+      "basename": "合成科学战略报告-第十五章DNA信息存储和计算-李茜",
+      "path": "08-Assets/合成科学战略报告-第十五章DNA信息存储和计算-李茜.pdf"
+    },
+    {
+      "basename": "2022-03-30",
+      "path": "01-Diary/日志存档/2022-03-30.md"
+    },
+    {
+      "basename": "日志模板",
+      "path": "09-Templates/日志模板.md"
+    },
+    {
+      "basename": "@Liu2022",
+      "path": "02-Reading/mdnotes/@Liu2022.md"
+    },
+    {
+      "basename": "@Shipman2017",
+      "path": "02-Reading/mdnotes/@Shipman2017.md"
+    },
+    {
+      "basename": "@Nalawansha2022",
+      "path": "02-Reading/mdnotes/@Nalawansha2022.md"
+    },
+    {
+      "basename": "@Zhang2021b",
+      "path": "02-Reading/mdnotes/@Zhang2021b.md"
+    },
+    {
+      "basename": "@Liu2021e",
+      "path": "02-Reading/mdnotes/@Liu2021e.md"
+    },
+    {
+      "basename": "@Liu2021f",
+      "path": "02-Reading/mdnotes/@Liu2021f.md"
     }
   ],
   "omittedPaths": [],

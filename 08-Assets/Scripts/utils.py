@@ -1,5 +1,5 @@
 import os, re
-from copy import deepcopy
+from PIL import Image
 
 def isMdnote(fp):
     '''判断一个文件是否为mdnote文献笔记'''
@@ -33,67 +33,20 @@ def fetch_front_matter(fp):
             info[key] = value
     return info
 
-
-def removeCodeBlock(content):
-    '''去除代码块和行内代码部分内容'''
-    it = re.finditer('\`{3}', content)
-    cuts = []
-    idx = 0
-    for match in it:
-        if idx%2:
-            x = match.start()
-        else:
-            x = match.end()
-        cuts.append(x)
-    assert len(cuts)%2==0, "remove code block error!"
-    content2 = deepcopy(content)
-    N = int(len(cuts)/2)
-    for i in range(N):
-        content2 = content2.replace(content[cuts[i]:cuts[i+1]], '')
-    it2 = re.finditer('\`', content2)
-    idx = 0
-    cuts = []
-    for match in it2:
-        if idx%2:
-            x = match.start()
-        else:
-            x = match.end()
-        cuts.append(x)
-    assert len(cuts)%2==0, "remove code block error!"
-    content3 = deepcopy(content2)
-    N = int(len(cuts)/2)
-    for i in range(N):
-        content3 = content3.replace(content2[cuts[i]:cuts[i+1]], '')
-    return content3
-
-
-
-def find_wiki_links(fp):
-    '''提取笔记中所有的wiki双链'''
-    with open(fp, 'r', encoding='utf-8') as f:
-        content = f.read()
-    content = removeCodeBlock(content)
-    it1 = re.finditer('\[\[', content)
-    xx = []
-    for match in it1:
-        x = match.end()
-        xx.append(x)
-    it2 = re.finditer('\]\]', content)
-    yy = []
-    for match in it2:
-        y = match.start()
-        yy.append(y)
-    names = []
-    for idx, x in enumerate(xx):
-        name = content[x : yy[idx]]
-        names.append(name)
-    # 继续对特殊字符进行处理，如|，^，# 这种
-    fnames = []
-    for k in names:
-        match = re.search('[\|\^\#]', k)
-        if match:
-            fname = k[:match.start()]
-        else:
-            fname = k
-        fnames.append(fname)
-    return fnames
+def png2jpg(fp):
+    '''
+    将比较大的png图片转成jpg格式
+    https://blog.csdn.net/weixin_40446557/article/details/104059660
+    '''
+    fname, ext = os.path.splitext(fp)
+    fp2 = fname + '.jpg'
+    assert ext=='.png', "not png file input!"
+    try:
+        img = Image.open(fp)
+        if img.mode=='RGBA':
+            r,g,b,a = img.split()
+            img = Image.merge("RGB", (r,g,b))
+        img.convert('RGB').save(fp2, quality=70)
+    except Exception as e:
+        print(str(e))
+    return fp2

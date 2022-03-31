@@ -33,6 +33,10 @@
     [
       "archived_task_gantt",
       "python ./08-Assets/Scripts/archived_task_gantt.py <% tp.file.path() %>"
+    ],
+    [
+      "compress_images",
+      "python ./08-Assets/Scripts/compress_images.py <% tp.file.path() %>"
     ]
   ],
   "trigger_on_file_creation": true,
@@ -45,6 +49,10 @@
     {
       "folder": "01-Diary/本周事务",
       "template": "09-Templates/草稿模板.md"
+    },
+    {
+      "folder": "05-Life/01-Album",
+      "template": "09-Templates/相册模板.md"
     }
   ],
   "syntax_highlighting": true,

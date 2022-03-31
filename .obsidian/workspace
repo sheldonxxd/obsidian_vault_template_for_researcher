@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "7bfea262dccce9cb",
+        "id": "3b139dbaeee1d82a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "03-Projects/黑曜石玩家指南/黑曜石玩家指南.md",
-            "mode": "preview"
+            "file": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
+            "mode": "preview",
+            "source": true
           }
         }
       }
@@ -39,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "DNA 加密",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -60,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 173
+    "width": 211
   },
   "right": {
     "id": "6e7011190a6a4416",
@@ -107,22 +108,12 @@
         "dimension": 61.398963730569946,
         "children": [
           {
-            "id": "450ad81cf27a4dff",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "03-Projects/黑曜石玩家指南/黑曜石玩家指南.md"
-              }
-            }
-          },
-          {
             "id": "227681cc38450669",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Projects/黑曜石玩家指南/黑曜石玩家指南.md",
+                "file": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,35 +133,33 @@
             }
           },
           {
-            "id": "6f50003083c68e65",
+            "id": "afd4de9cec7ca205",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
+              "type": "outline",
               "state": {
-                "file": "03-Projects/黑曜石玩家指南/黑曜石玩家指南.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": false
+                "file": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 219
   },
-  "active": "7bfea262dccce9cb",
+  "active": "3b139dbaeee1d82a",
   "lastOpenFiles": [
-    "03-Projects/黑曜石玩家指南/黑曜石玩家指南.md",
-    "06-Cards/202112201648.md",
-    "00-MOC/AuthorRanking.md",
-    "00-MOC/阅读清单.md",
-    "00-MOC/试剂库存管理.md",
-    "00-MOC/任务看板.md",
-    "00-MOC/本周事务表.md",
-    "03-Projects/黑曜石玩家指南/obsidian第三方插件列表.md",
-    "03-Projects/黑曜石玩家指南/obsidian快捷键.md",
-    "README.md"
+    "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
+    "README.md",
+    "03-Projects/99-黑曜石玩家指南/4-附录/obsidian第三方插件列表.md",
+    "03-Projects/99-黑曜石玩家指南/4-附录/obsidian主题界面布局说明.md",
+    "03-Projects/99-黑曜石玩家指南/1-obsidian入门/obsidian撰写草稿.md",
+    "01-Diary/本周事务/obsidian新建个人相片集.md",
+    "05-Life/01-Album/谢合吾/前期B超结果.md",
+    "05-Life/01-Album/私房菜/2022春疫情在家的美食集锦.md",
+    "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/整理实验方法.md",
+    "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/规范的实验记录.md"
   ]
 }

@@ -1,0 +1,60 @@
+/* search result item */
+.core-search-assistant_search-result-items-focus .tree-item-self {
+  background-color: var(--background-secondary-alt);
+  color: var(--text-normal);
+}
+.core-search-assistant_search-result-items-focus .tree-item-flair {
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+
+/* outline on search mode */
+body {
+  --search-mode-outline: var(--interactive-accent);
+}
+
+/* option modal */
+.core-search-assistant_option-modal div.modal {
+  background-color: var(--background-primary);
+}
+.core-search-assistant_option-modal kbd.suggestion-hotkey {
+  float: right;
+  margin-left: 0;
+  margin-right: 10px;
+  padding: 0 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: var(--background-secondary);
+}
+.core-search-assistant_option-modal span.suggestion-icon {
+  float: left;
+  margin-left: 0;
+  padding: 0 10px;
+  height: 1.5em;
+  display: flex;
+  align-items: center;
+}
+.core-search-assistant_option-modal div.suggestion-item {
+  position: relative;
+  padding-left: 10px;
+  cursor: default;
+  white-space: pre-wrap;
+}
+.core-search-assistant_option-modal div.suggestion-item.is-selected {
+  background-color: var(--background-secondary);
+}
+
+/*
+	text color
+*/
+span {
+  --highlight-search-match: var(--text-normal);
+}
+
+/*
+	background color
+*/
+span {
+  --highlight-search-match-bg: var(--text-highlight-bg);
+  --focus-search-match-bg: #ff9633;
+}

@@ -26,7 +26,8 @@
   "privacy-glasses",
   "Enhanced editing",
   "obsidian-mind-map",
-  "oz-image-plugin",
-  "sliding-panes-obsidian",
-  "buttons"
+  "buttons",
+  "obsidian-view-mode-by-frontmatter",
+  "obsidian-core-search-assistant-plugin",
+  "obsidian-float-toc-plugin"
 ]

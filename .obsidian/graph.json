@@ -22,14 +22,14 @@
       }
     },
     {
-      "query": "path:02-Reading/people",
+      "query": "path:02-Reading/3-people",
       "color": {
         "a": 1,
         "rgb": 15451397
       }
     },
     {
-      "query": "path:02-Reading/topics",
+      "query": "path:02-Reading/2-topics",
       "color": {
         "a": 1,
         "rgb": 3726463
@@ -53,6 +53,6 @@
   "repelStrength": 9.60302197802198,
   "linkStrength": 0.568063186813187,
   "linkDistance": 134,
-  "scale": 0.02773800453977955,
+  "scale": 0.027738004539779596,
   "close": false
 }
