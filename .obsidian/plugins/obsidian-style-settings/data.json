@@ -12,5 +12,6 @@
   "blue-topaz-theme@@style-options-for-kanban-plugin-static": "style-options-for-kanban-plugin-static-default",
   "blue-topaz-theme@@accent-strong@@light": "#820FC0",
   "blue-topaz-theme@@hr-for-pagination": true,
-  "blue-topaz-theme@@print-strong-color@@light": "#820FC0"
+  "blue-topaz-theme@@print-strong-color@@light": "#820FC0",
+  "blue-topaz-theme@@background-image-settings-switch": true
 }

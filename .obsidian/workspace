@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "3b139dbaeee1d82a",
+        "id": "98cc5d49cdfc2a41",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "DNA 加密",
+                "query": "tag:ideas",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -147,19 +147,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219
+    "width": 231
   },
-  "active": "3b139dbaeee1d82a",
+  "active": "98cc5d49cdfc2a41",
   "lastOpenFiles": [
     "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
     "README.md",
-    "03-Projects/99-黑曜石玩家指南/4-附录/obsidian第三方插件列表.md",
-    "03-Projects/99-黑曜石玩家指南/4-附录/obsidian主题界面布局说明.md",
-    "03-Projects/99-黑曜石玩家指南/1-obsidian入门/obsidian撰写草稿.md",
-    "01-Diary/本周事务/obsidian新建个人相片集.md",
-    "05-Life/01-Album/谢合吾/前期B超结果.md",
-    "05-Life/01-Album/私房菜/2022春疫情在家的美食集锦.md",
-    "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/整理实验方法.md",
-    "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/规范的实验记录.md"
+    "01-Diary/日志存档/2022-04-02.md",
+    "01-Diary/周小结/2022-04-02_周小结.md",
+    "01-Diary/本周事务/这是草稿.md",
+    "02-Reading/summary/2022-04-02_文献阅读小结.md",
+    "08-Assets/MindMap/MindMap-发.md",
+    "00-MOC/AuthorRanking.md",
+    "00-MOC/阅读清单.md",
+    "00-MOC/试剂库存管理.md"
   ]
 }

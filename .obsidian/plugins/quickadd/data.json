@@ -179,7 +179,7 @@
       "name": "🍭阅读小结",
       "type": "Template",
       "command": false,
-      "templatePath": "09-Templates/每周已阅文献小结.md",
+      "templatePath": "09-Templates/每周文献小结.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{DATE}}_文献阅读小结"
@@ -241,10 +241,10 @@
       "name": "🧠思维导图",
       "type": "Template",
       "command": false,
-      "templatePath": "09-Templates/lab/思维导图.md",
+      "templatePath": "09-Templates/思维导图模板.md",
       "fileNameFormat": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "MindMap-{{VALUE}}"
       },
       "folder": {
         "enabled": true,

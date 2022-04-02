@@ -29,5 +29,6 @@
   "buttons",
   "obsidian-view-mode-by-frontmatter",
   "obsidian-core-search-assistant-plugin",
-  "obsidian-float-toc-plugin"
+  "obsidian-float-toc-plugin",
+  "tag-word-cloud"
 ]

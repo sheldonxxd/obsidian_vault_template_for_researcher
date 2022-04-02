@@ -96,6 +96,6 @@ def test_move():
 if __name__=='__main__':
     # test_fetch_front_matter()
     # test_move()
-    test_shortLink()
+    # test_shortLink()
 
-    # main()
+    main()

@@ -15,7 +15,7 @@ share: false
 
 - `Ctrl+E`：页面预览
 - `Ctrl+Shift+E`：幻灯片预览
-- `Ctrl+Shift+M`：思维导图预览
+- `Ctrl+Alt+M`：思维导图预览
 - `Ctrl+Q`：quickAdd命令面板
 - `Alt+E`：Templater插入模板面板
 - `Ctrl+L`：锁定页面
