@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
-            "mode": "preview",
+            "file": "README.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
+                "file": "README.md"
               }
             }
           }
@@ -151,8 +151,8 @@
   },
   "active": "98cc5d49cdfc2a41",
   "lastOpenFiles": [
-    "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
     "README.md",
+    "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
     "01-Diary/日志存档/2022-04-02.md",
     "01-Diary/周小结/2022-04-02_周小结.md",
     "01-Diary/本周事务/这是草稿.md",

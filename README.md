@@ -26,6 +26,11 @@ date: 2022-03-13 09:57:43
 
 ### 更新日志
 
+**2022年4月30日（v1.6）**
+
+- 新增 「Obsidian-Tabs」、「Pane Relief」、「hover-editor」、「excel-to-markdown-table」等插件以增强 obsidian 使用便捷性。
+- 
+
 **2022年4月2日（v1.5）**
 
 - [[阅读清单]]的front-matter增加recent_limit项，以控制近期已阅文献表格显示长度。

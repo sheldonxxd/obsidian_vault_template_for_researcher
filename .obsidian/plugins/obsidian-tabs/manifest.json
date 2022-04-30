@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-tabs",
+	"name": "Obsidian Tabs",
+	"version": "1.0.5",
+	"minAppVersion": "0.11.13",
+	"description": "Opens new leaves in tabs.",
+	"author": "foreveryone",
+	"authorUrl": "https://github.com/gitobsidiantutorial/obsidian-tabs",
+	"isDesktopOnly": false
+}
