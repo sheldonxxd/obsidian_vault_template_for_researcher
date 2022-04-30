@@ -16,6 +16,6 @@
   "newFileFolderPath": "01-Diary/本周事务",
   "fileSortOrder": "alphabetical",
   "legacyEditor": false,
-  "livePreview": false,
+  "livePreview": true,
   "defaultViewMode": "source"
 }
