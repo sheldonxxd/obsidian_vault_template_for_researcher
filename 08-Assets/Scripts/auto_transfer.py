@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 import io, os, sys, shutil
 from obs import Obsidian
 from utils import fetch_front_matter
@@ -31,6 +32,7 @@ def main():
         name, ext = os.path.splitext(file)
         fp = os.path.join(this_week, file)
         if isCompleted(fp):
+            # print(fp)
             target = fetch_destination(fp)
             if isShortLink(target):
                 # 如果是符合格式的短码，解析真实相对路径

@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 from obs import Obsidian
 import os, datetime, re
 
@@ -26,9 +27,10 @@ def transform(line):
     3. 任务分类标签
     4. 任务名称
     '''
+    line = line.strip()
     end = line[6:25]
-    start = line[-26:-16] + ' ' + line[-10:-2]
-    content = line[26:-27]
+    start = line[-25:-15] + ' ' + line[-9:-1]
+    content = line[29:-29]
     ps = content.split(' ')
     tags = []
     name = ''
@@ -36,9 +38,11 @@ def transform(line):
         if p.startswith('#'):
             tags.append(p[1:])
         else:
-            match = re.search('[\@\-]', p)
-            if not match:
-                name = p
+            # match = re.search('[\@\-]', p)
+            # if not match:
+            #     name = p 
+            name += ' '+p
+    name = name.strip()
     if len(tags)==0:
         tags = ['Other']
     task_info = {
@@ -51,7 +55,7 @@ def transform(line):
     return task_info
 
 def test1():
-    line = r'- [x] 2022-03-29 14:42:54 -- #obsidian搞科研 这是一个测试 @[[2022-03-28]] @@{14:32:45}'
+    line = r'- [x] 2022-04-10 15:50:56 -- #写文章 [[FNA-PAINT-Intro-part1]] @[[2022-04-09]] @@{14:56:27}'
     print(transform(line))
 
 def dur(start, end):
@@ -128,13 +132,14 @@ def write_gantt(data):
 
 
 def test4():
-    line = r'- [x] 2022-03-29 14:42:54 -- #obsidian搞科研 这是一个测试 @[[2022-03-28]] @@{14:32:45}'
+    line = r'- [x] 2022-04-09 16:14:28 -- #写文章 [[起草FNA-PAINT工作的标题]] @[[2022-04-09]] @@{14:55:47}'
     data = transform(line)
     write_gantt([data])
 
 
 if __name__=='__main__':
     main()
+    # test1()
 
 
 

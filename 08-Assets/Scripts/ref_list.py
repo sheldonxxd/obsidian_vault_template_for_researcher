@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 from obs import Obsidian, CrossRef, BibFileIO
 from utils import get_citekey_from_filepath, isMdnote
 import re
@@ -6,7 +7,7 @@ import re
 def main():
     vault = Obsidian()
     fp = vault.inputs[1]
-    # fp = r"X:\projects\working\2022-03-26_文献阅读小结.md"
+    # fp = r"X:\projects\working\02-Reading\mdnotes\@Zhang2019b.md"
     hwj = BibFileIO()
     hwj.load(vault.paths['bib'])
     if isMdnote(fp):
@@ -16,6 +17,7 @@ def main():
         existed_doi_dict = hwj.doi2ckey
         entry = hwj.library[ckey]
         doi = entry['doi']
+        # print(doi)
         xxd = CrossRef(doi)
         refs = xxd.get_ref_doi_list()
         count = 0

@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 from obs import Obsidian, BibFileIO
 from utils import fetch_front_matter
 from collections import Counter
@@ -35,11 +36,16 @@ def main():
     # 排序
     assert top_n<len(rank), "Out of range!"
     for i in range(top_n):
-        item = rank[i]
-        name, count = item
-        last_name, first_name = name.split(', ')
-        # zotero默认存放的是 last name 在前
-        print(f'[[{first_name} {last_name}]] : {count}')
+        try:
+            item = rank[i]
+            name, count = item
+            last_name, first_name = name.split(', ')
+            # zotero默认存放的是 last name 在前
+            print(f'[[{first_name} {last_name}]] : {count}')
+        except Exception as e:
+            print(item)
+            print(str(e))
+            continue
 
 
 if __name__=='__main__':

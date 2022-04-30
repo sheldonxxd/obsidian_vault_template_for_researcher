@@ -1,9 +1,10 @@
-from obs import Project
+from obs import CrossRef
 
-fp = r"X:\projects\working\03-Projects\黑曜石玩家指南\本章小结-恭喜入门obsidian.md"
+def test(doi):
+    a = CrossRef(doi)
+    print(a.get_title())
 
-a = Project(fp)
-for f in a.filelist:
-    print(f)
-a.duplicate_vault_template()
-a.export_project()
+
+if __name__=='__main__':
+    doi = '10.1021/acs.analchem.0c01074'
+    test(doi)

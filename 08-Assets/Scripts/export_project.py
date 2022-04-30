@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 from obs import Obsidian, Project
 
 def main():

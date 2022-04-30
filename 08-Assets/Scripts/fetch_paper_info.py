@@ -1,4 +1,5 @@
 
+# -- coding: utf-8 --
 from obs import BibFileIO, Obsidian
 import os, sys, io, pyperclip
 import requests

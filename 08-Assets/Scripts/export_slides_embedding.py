@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 import os,sys, shutil, re, io
 import base64 
 from urllib.request import unquote, urlopen

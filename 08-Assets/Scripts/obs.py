@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 import bibtexparser
 from bibtexparser.bwriter import BibTexWriter
 from bibtexparser.bibdatabase import BibDatabase
@@ -9,18 +10,14 @@ import re
 import shutil
 import subprocess
 import platform
-import pyperclip
 
 from urllib.request import quote, urlopen
+import requests
 from datetime import datetime
 import time
 import json
+import random
 
-
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-# 2022-03-16 09:42:53
-# 出现print打印字符在cmd的一些错误
-# https://blog.csdn.net/jim7424994/article/details/22675759
 
 class Obsidian:
     '''
@@ -42,6 +39,10 @@ class Obsidian:
             'docx': os.path.join(sdir, 'template.docx'),
             'css': os.path.join(sdir, 'markdown.css'),
         }
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+        # 2022-03-16 09:42:53
+        # 出现print打印字符在cmd的一些错误
+        # https://blog.csdn.net/jim7424994/article/details/22675759
         
     def get_vault_rootdir(self):
         script_path = os.path.abspath(sys.argv[0])  
@@ -135,7 +136,7 @@ class Convertor():
         参考文献标记转换：将[[??]]转化为[@??]格式
         '''
         content2 = self.content
-        figures = re.findall('\!\[\[(.+)]]', self.content)
+        figures = re.findall('\!\[\[([^\!^\[]+)]]', self.content)
         for fig in figures:
             # 2022-03-13 12:07:52
             # 这里有好多种情况，如果是音频和视频，可以转成html标记
@@ -183,9 +184,21 @@ class Convertor():
             return True
         else:
             return False
+    
+    def fetch_iframes(self, text):
+        '''从文本中提取iframe'''
+        pattern = '\<iframe.+>\<\/iframe\>'
+        iframes = re.findall(pattern, text)
+        return iframes
+
+    def fetch_srcs(self, iframe):
+        '''从iframe代码中提取src'''
+        pattern = 'src=\"(.+)\"'
+        srcs = re.findall(pattern, iframe)
+        return srcs
 
     def getAssets(self):
-        fnames = re.findall('\!\[\[(.+)]]', self.content)
+        fnames = re.findall('\!\[\[([^\!^\[]+)]]', self.content)
         filelist = []
         for root, folders, files in os.walk(self.vault):
             for file in files:
@@ -214,6 +227,7 @@ class Convertor():
             ret = subprocess.Popen(command, shell=True, cwd=self.export_dir)           
         except Exception as e:
             print(str(e))
+        self.ex_html = os.path.abspath(target)
     
     def toBib(self):
         '''收集文稿中的citation导出为一个独立的bib文件'''
@@ -231,12 +245,51 @@ class CrossRef:
     '''根据doi从crossref上获取信息'''
     def __init__(self, doi):
         query = f'https://api.crossref.org/works/{quote(doi)}'
-        res = urlopen(query)  # 返回的是json二进制文件
-        assert res.getcode()==200, "Internet Connection Error/ Not found in CrossRef!"
-        data = json.loads(res.read())
-        self.entry = data['message']
         self.doi = doi
         self.query_date = datetime.today().strftime("%Y-%m-%d")
+        # fake_email = self.fake_email_address()
+        # print(fake_email)
+        email = "scu2011xxd@hotmail.com"
+        repo_url = "https://github.com/sheldonxxd/obsidian_vault_template_for_researcher"
+        repo_ver = "1.6"
+        explorers = [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+            'AppleWebKit/537.36 (KHTML, like Gecko)',
+            'Chrome/98.0.4758.102',
+            'Safari/537.36',
+            'Edg/98.0.1108.62',
+            f'ObsidianResearcherVault/{repo_ver} ({repo_url}; {email})',
+        ]
+        # 2022-04-27 21:43:30
+        # Include a “mailto:” in your User-Agent header.
+        # https://api.crossref.org/swagger-ui/index.html#/Works/get_works__doi_
+
+        headers = {'user-agent':' '.join(explorers),
+        }
+        try:
+            # res = urlopen(query)  # 返回的是json二进制文件
+            # data = json.loads(res.read())
+            
+            res = requests.get(url=query, 
+                               headers=headers, 
+                               stream=True,
+                               timeout=5)
+            # print(res.content)
+            data = json.loads(res.content)
+            
+            self.entry = data['message']
+        except Exception as e:
+            print(str(e))
+            self.entry = None
+
+    def fake_email_address(self):
+        coms = ['@hotmail.com', '@google.com', '@qq.com', '@163.com']
+        com = random.choice(coms)
+        rang = random.randint(4, 12)
+        chars = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'
+        name = "".join(random.choice(chars) for i in range(rang))
+        addr = name + com
+        return addr
 
     def get_cited_times(self):
         '''获取此文被引用的次数'''

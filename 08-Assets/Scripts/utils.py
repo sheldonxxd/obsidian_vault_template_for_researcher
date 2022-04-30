@@ -29,8 +29,8 @@ def fetch_front_matter(fp):
         items = part.split('\n')
         # print(items)
         for item in items:
-            key, value = item.strip().split(': ')
-            info[key] = value
+            key, value = item.split(': ')
+            info[key] = value.strip()
     return info
 
 def png2jpg(fp):
@@ -50,3 +50,5 @@ def png2jpg(fp):
     except Exception as e:
         print(str(e))
     return fp2
+
+
