@@ -39,8 +39,14 @@ def main():
         try:
             item = rank[i]
             name, count = item
-            last_name, first_name = name.split(', ')
-            # zotero默认存放的是 last name 在前
+            if ',' in name:
+                # zotero默认存放的是 last name 在前
+                last_name, first_name = name.split(', ')
+            else:
+                # Zotero中Jasmine（茉莉花）插件合并姓名
+                # 2022-04-30 11:57:12
+                last_name = name
+                first_name = ''
             print(f'[[{first_name} {last_name}]] : {count}')
         except Exception as e:
             print(item)
