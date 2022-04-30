@@ -13,6 +13,29 @@
             "mode": "source",
             "source": true
           }
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":true}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":2},\"to\":{\"line\":31,\"ch\":2}},\"scroll\":22.7906}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"08-Assets/Scripts/Mdnotes Default Template.md\",\"mode\":\"source\",\"source\":true}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":true}}",
+              "eState": "{\"scroll\":22.79062490463257}"
+            }
+          ]
         }
       }
     ],
@@ -32,6 +55,10 @@
             "state": {
               "type": "file-explorer",
               "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           },
           {
@@ -47,6 +74,10 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           },
           {
@@ -55,6 +86,10 @@
             "state": {
               "type": "starred",
               "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           }
         ]
@@ -81,6 +116,10 @@
                 "sortOrder": "frequency",
                 "useHierarchy": true
               }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           },
           {
@@ -89,6 +128,10 @@
             "state": {
               "type": "calendar",
               "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           },
           {
@@ -97,6 +140,10 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           }
         ],
@@ -122,6 +169,10 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           },
           {
@@ -130,6 +181,10 @@
             "state": {
               "type": "recent-files",
               "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           },
           {
@@ -140,6 +195,10 @@
               "state": {
                 "file": "README.md"
               }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           }
         ],
@@ -152,6 +211,7 @@
   "active": "98cc5d49cdfc2a41",
   "lastOpenFiles": [
     "README.md",
+    "08-Assets/Scripts/Mdnotes Default Template.md",
     "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
     "01-Diary/日志存档/2022-04-02.md",
     "01-Diary/周小结/2022-04-02_周小结.md",
@@ -159,7 +219,6 @@
     "02-Reading/summary/2022-04-02_文献阅读小结.md",
     "08-Assets/MindMap/MindMap-发.md",
     "00-MOC/AuthorRanking.md",
-    "00-MOC/阅读清单.md",
-    "00-MOC/试剂库存管理.md"
+    "00-MOC/阅读清单.md"
   ]
 }

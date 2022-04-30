@@ -23,12 +23,15 @@
   "obsidian-annotator",
   "obsidian-advanced-slides",
   "wikilinks-to-mdlinks-obsidian",
-  "privacy-glasses",
   "Enhanced editing",
   "obsidian-mind-map",
   "buttons",
   "obsidian-view-mode-by-frontmatter",
   "obsidian-core-search-assistant-plugin",
   "obsidian-float-toc-plugin",
-  "tag-word-cloud"
+  "tag-word-cloud",
+  "obsidian-tabs",
+  "pane-relief",
+  "obsidian-hover-editor",
+  "obsidian-excel-to-markdown-table"
 ]
