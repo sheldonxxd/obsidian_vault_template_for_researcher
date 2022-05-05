@@ -9,6 +9,22 @@
       "path": "README.md"
     },
     {
+      "basename": "2022-05-05",
+      "path": "01-Diary/日志存档/2022-05-05.md"
+    },
+    {
+      "basename": "2022-05-05_周小结",
+      "path": "01-Diary/周小结/2022-05-05_周小结.md"
+    },
+    {
+      "basename": "test_草稿归档",
+      "path": "03-Projects/98-test/test_草稿归档.md"
+    },
+    {
+      "basename": "这是草稿",
+      "path": "03-Projects/98-test/这是草稿.md"
+    },
+    {
       "basename": "在obsidian中写幻灯片",
       "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/在obsidian中写幻灯片.md"
     },

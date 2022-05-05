@@ -21,6 +21,66 @@
               "leaf": "98cc5d49cdfc2a41",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":103.57551984354444}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-05.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":3},\"to\":{\"line\":6,\"ch\":3}}}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/周小结/2022-05-05_周小结.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":0},\"to\":{\"line\":28,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/98-test/test_草稿归档.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":96},\"to\":{\"line\":12,\"ch\":96}},\"scroll\":0}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/周小结/2022-05-05_周小结.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":17.94791642824809}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-05.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/test_草稿归档.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-05.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":11},\"to\":{\"line\":11,\"ch\":11}}}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/98-test/这是草稿.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{}"
             },
             {
@@ -254,13 +314,13 @@
   "lastOpenFiles": [
     "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
     "README.md",
+    "01-Diary/日志存档/2022-05-05.md",
+    "01-Diary/周小结/2022-05-05_周小结.md",
+    "03-Projects/98-test/test_草稿归档.md",
+    "01-Diary/本周事务/test_草稿归档.md",
+    "03-Projects/98-test/这是草稿.md",
     "03-Projects/99-黑曜石玩家指南/1-obsidian入门/在obsidian中写幻灯片.md",
     "03-Projects/99-黑曜石玩家指南/4-附录/obsidian新建个人相片集.md",
-    "03-Projects/99-黑曜石玩家指南/4-附录/obsidian主题界面布局说明.md",
-    "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/新建课题项目.md",
-    "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/跟踪领域内大牛.md",
-    "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/主题阅读与比较阅读.md",
-    "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/阶段性文献阅读小结.md",
-    "03-Projects/99-黑曜石玩家指南/1-obsidian入门/软件下载安装.md"
+    "03-Projects/99-黑曜石玩家指南/4-附录/obsidian主题界面布局说明.md"
   ]
 }
