@@ -5,6 +5,38 @@
       "path": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
     },
     {
+      "basename": "2022-05-06",
+      "path": "01-Diary/日志存档/2022-05-06.md"
+    },
+    {
+      "basename": "新增目录",
+      "path": "03-Projects/98-test/新增目录.md"
+    },
+    {
+      "basename": "@Doose2005",
+      "path": "01-Diary/本周事务/@Doose2005.md"
+    },
+    {
+      "basename": "test2",
+      "path": "03-Projects/98-test/test2.md"
+    },
+    {
+      "basename": "对 shortlink再做一下测试",
+      "path": "03-Projects/98-test/对 shortlink再做一下测试.md"
+    },
+    {
+      "basename": "本周事务表",
+      "path": "00-MOC/本周事务表.md"
+    },
+    {
+      "basename": "阅读清单",
+      "path": "00-MOC/阅读清单.md"
+    },
+    {
+      "basename": "这是草稿",
+      "path": "03-Projects/98-test/这是草稿.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -19,10 +51,6 @@
     {
       "basename": "test_草稿归档",
       "path": "03-Projects/98-test/test_草稿归档.md"
-    },
-    {
-      "basename": "这是草稿",
-      "path": "03-Projects/98-test/这是草稿.md"
     },
     {
       "basename": "在obsidian中写幻灯片",

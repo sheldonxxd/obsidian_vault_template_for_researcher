@@ -21,61 +21,109 @@
               "leaf": "98cc5d49cdfc2a41",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":103.57551984354444}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-05.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":3},\"to\":{\"line\":6,\"ch\":3}}}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/周小结/2022-05-05_周小结.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":0},\"to\":{\"line\":28,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/98-test/test_草稿归档.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":96},\"to\":{\"line\":12,\"ch\":96}},\"scroll\":0}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/周小结/2022-05-05_周小结.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":17.94791642824809}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-05.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
             },
             {
               "leaf": "98cc5d49cdfc2a41",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/test_草稿归档.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-06.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/98-test/test2.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":0.7812}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-06.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":11},\"to\":{\"line\":26,\"ch\":2}},\"scroll\":3.90624994179234}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/@Doose2005.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-06.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":27},\"to\":{\"line\":13,\"ch\":27}},\"scroll\":10.960416396458944}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/98-test/test2.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":137},\"to\":{\"line\":12,\"ch\":137}},\"scroll\":0.781249988358468}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-06.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":32},\"to\":{\"line\":13,\"ch\":32}},\"scroll\":0.25}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/test2.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
             },
             {
               "leaf": "98cc5d49cdfc2a41",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-05.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":11},\"to\":{\"line\":11,\"ch\":11}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-06.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":26},\"to\":{\"line\":15,\"ch\":26}},\"scroll\":0.25}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-MOC/本周事务表.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-MOC/阅读清单.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0.256}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/对 shortlink再做一下测试.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-06.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}}}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/98-test/新增目录.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
             },
             {
               "leaf": "98cc5d49cdfc2a41",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/98-test/这是草稿.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/新增目录.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-06.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
             },
             {
               "leaf": "98cc5d49cdfc2a41",
@@ -87,55 +135,7 @@
               "leaf": "98cc5d49cdfc2a41",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":128,\"ch\":0},\"to\":{\"line\":128,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-附录/obsidian快捷键.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":19},\"to\":{\"line\":26,\"ch\":19}},\"scroll\":11.936701580549904}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":25.914583683013916}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"09-Templates/每周小结.md\",\"mode\":\"source\",\"source\":true}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":true}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":115},\"to\":{\"line\":30,\"ch\":115}},\"scroll\":22.7806}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"09-Templates/每周小结.md\",\"mode\":\"source\",\"source\":true}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":0},\"to\":{\"line\":26,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":true}}",
-              "eState": "{\"scroll\":22.78062505722046}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"08-Assets/Scripts/Mdnotes Default Template.md\",\"mode\":\"source\",\"source\":true}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":true}}",
-              "eState": "{\"scroll\":22.79062490463257}"
+              "eState": "{\"scroll\":103.57551984354444}"
             }
           ]
         }
@@ -313,14 +313,14 @@
   "active": "98cc5d49cdfc2a41",
   "lastOpenFiles": [
     "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
-    "README.md",
-    "01-Diary/日志存档/2022-05-05.md",
-    "01-Diary/周小结/2022-05-05_周小结.md",
-    "03-Projects/98-test/test_草稿归档.md",
-    "01-Diary/本周事务/test_草稿归档.md",
-    "03-Projects/98-test/这是草稿.md",
-    "03-Projects/99-黑曜石玩家指南/1-obsidian入门/在obsidian中写幻灯片.md",
-    "03-Projects/99-黑曜石玩家指南/4-附录/obsidian新建个人相片集.md",
-    "03-Projects/99-黑曜石玩家指南/4-附录/obsidian主题界面布局说明.md"
+    "01-Diary/日志存档/2022-05-06.md",
+    "03-Projects/98-test/新增目录.md",
+    "01-Diary/本周事务/@Doose2005.md",
+    "03-Projects/98-test/test2.md",
+    "01-Diary/本周事务/test2.md",
+    "03-Projects/98-test/对 shortlink再做一下测试.md",
+    "00-MOC/本周事务表.md",
+    "00-MOC/阅读清单.md",
+    "01-Diary/本周事务/对 shortlink再做一下测试.md"
   ]
 }

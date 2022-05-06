@@ -82,7 +82,8 @@ def shortLinkDecode(rootdir, target):
 
 def test_shortLink():
     rootdir = r"X:\projects\working"
-    target = "03-6"
+    # target = "03-6"
+    target = "10-本科毕设"
     if isShortLink(target):
         target = shortLinkDecode(rootdir, target)
     print(target)   
@@ -93,7 +94,6 @@ def test_move():
     fp1= r"C:\Users\sheldon\Desktop\细菌运动-4.gif"
     fp2 = r"C:\Users\sheldon\Desktop\新建文件夹"
     shutil.move(fp1, fp2)
-
 
 if __name__=='__main__':
     # test_fetch_front_matter()
