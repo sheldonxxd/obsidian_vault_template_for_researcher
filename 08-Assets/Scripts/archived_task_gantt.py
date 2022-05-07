@@ -1,6 +1,7 @@
 # -- coding: utf-8 --
 from obs import Obsidian
-import os, datetime, re
+import os, datetime, re, sys, io
+import pyperclip
 
 def main():
     vault = Obsidian()
@@ -90,6 +91,8 @@ def dur(start, end):
             dur_str += f'{c}{ds[idx]}'
         idx += 1
     # 精度调整为分钟
+    if d=='0' and h=='0' and m=='0':
+        dur_str = '1min'
     return dur_str
 
 def test2():
@@ -120,15 +123,19 @@ def write_gantt(data):
         tags.extend(task['tags'])
     tags = list(set(tags)) # 去重一下
     sections = ''
+    counter = 1
     for idx, tag in enumerate(tags):
         section = f'section {tag}\n'
         sections += section
         for task in data:
             if tag in task['tags']:
-                item = f"{task['name']} :t{idx+1}, {task['start']}, {task['duration']}\n"
+                item = f"{task['name']} :t{counter}, {task['start']}, {task['duration']}\n"
                 sections += item
+                counter += 1
     content = head + sections + '```'
     print(content)
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    pyperclip.copy(content)
 
 
 def test4():

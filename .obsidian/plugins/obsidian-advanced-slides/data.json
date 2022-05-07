@@ -1,11 +1,11 @@
 {
-  "port": "3000",
+  "port": "2022",
   "autoReload": true,
   "exportDirectory": "/",
   "enableChalkboard": true,
   "enableOverview": false,
   "enableMenu": true,
-  "theme": "beige",
+  "theme": "black",
   "highlightTheme": "zenburn",
   "transition": "convex",
   "transitionSpeed": "default",
