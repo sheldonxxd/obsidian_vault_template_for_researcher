@@ -3,11 +3,12 @@
   "autoPin": "onMove",
   "triggerDelay": 300,
   "closeDelay": 600,
-  "autoFocus": true,
+  "autoFocus": false,
   "rollDown": true,
   "snapToEdges": true,
   "initialHeight": "340px",
   "initialWidth": "400px",
   "showViewHeader": false,
-  "imageZoom": true
+  "imageZoom": true,
+  "hoverEmbeds": false
 }

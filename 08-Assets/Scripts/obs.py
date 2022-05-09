@@ -327,7 +327,7 @@ class CrossRef:
         journal = self.get_journal_name()
         date = self.get_published_date()
         cited_times = self.get_cited_times()
-        ref_url = f'https://doi.org/{ref_doi}'
+        ref_url = f'https://doi.org/{self.doi}'
         line = f'[{title}]({ref_url}), **{journal}**, date: {date}, cited: {cited_times}.'
         return line      
 
