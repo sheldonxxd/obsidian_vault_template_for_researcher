@@ -1,0 +1,9 @@
+2022-05-10 11:20:44 - root - ERROR     - test.py  : 28 line - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "d:\projects\codes\others\gitlab-repos\obsidian_vault_template_for_researcher\08-Assets\Scripts\test.py", line 26, in <module>
+    test(doi)
+  File "d:\projects\codes\others\gitlab-repos\obsidian_vault_template_for_researcher\08-Assets\Scripts\test.py", line 17, in test
+    print(a.get_title())
+  File "d:\projects\codes\others\gitlab-repos\obsidian_vault_template_for_researcher\08-Assets\Scripts\crossref.py", line 60, in get_title
+    return self.entry['title'][0]
+TypeError: 'NoneType' object is not subscriptable
