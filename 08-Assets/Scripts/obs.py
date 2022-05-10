@@ -11,12 +11,7 @@ import shutil
 import subprocess
 import platform
 
-from urllib.request import quote, urlopen
-import requests
-from datetime import datetime
-import time
-import json
-import random
+from urllib.request import quote
 
 
 class Obsidian:
@@ -239,97 +234,6 @@ class Convertor():
             self.bib_worker.new_library = new_lib
             fp2 = os.path.join(self.export_dir, f'refs.bib')
             self.bib_worker.save(fp2)
-
-
-class CrossRef:
-    '''根据doi从crossref上获取信息'''
-    def __init__(self, doi):
-        query = f'https://api.crossref.org/works/{quote(doi)}'
-        self.doi = doi
-        self.query_date = datetime.today().strftime("%Y-%m-%d")
-        # fake_email = self.fake_email_address()
-        # print(fake_email)
-        email = "scu2011xxd@hotmail.com"
-        repo_url = "https://github.com/sheldonxxd/obsidian_vault_template_for_researcher"
-        repo_ver = "1.6"
-        explorers = [
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
-            'AppleWebKit/537.36 (KHTML, like Gecko)',
-            'Chrome/98.0.4758.102',
-            'Safari/537.36',
-            'Edg/98.0.1108.62',
-            f'ObsidianResearcherVault/{repo_ver} ({repo_url}; {email})',
-        ]
-        # 2022-04-27 21:43:30
-        # Include a “mailto:” in your User-Agent header.
-        # https://api.crossref.org/swagger-ui/index.html#/Works/get_works__doi_
-
-        headers = {'user-agent':' '.join(explorers),
-        }
-        try:
-            # res = urlopen(query)  # 返回的是json二进制文件
-            # data = json.loads(res.read())
-            
-            res = requests.get(url=query, 
-                               headers=headers, 
-                               stream=True,
-                               timeout=5)
-            # print(res.content)
-            data = json.loads(res.content)
-            
-            self.entry = data['message']
-        except Exception as e:
-            print(str(e))
-            self.entry = None
-
-    def fake_email_address(self):
-        coms = ['@hotmail.com', '@google.com', '@qq.com', '@163.com']
-        com = random.choice(coms)
-        rang = random.randint(4, 12)
-        chars = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'
-        name = "".join(random.choice(chars) for i in range(rang))
-        addr = name + com
-        return addr
-
-    def get_cited_times(self):
-        '''获取此文被引用的次数'''
-        return self.entry['is-referenced-by-count']
-
-    def get_title(self):
-        '''获取文章标题'''
-        return self.entry['title'][0]
-
-    def get_journal_name(self):
-        '''获取期刊名称'''
-        return self.entry['container-title'][0]
-
-    def get_published_date(self):
-        '''获取发表日期'''
-        date = datetime.fromtimestamp(self.entry['created']['timestamp']/1000)
-        return date.strftime("%Y-%m-%d")
-
-    def get_ref_doi_list(self):
-        '''获取参考文献doi列表'''
-        ref_list = self.entry['reference']
-        # print(ref_list)
-        # 2022-03-26 10:36:47
-        # 有些ref没有doi，所以直接过滤掉好了
-        # ref_list2 = list(map(lambda x:x['DOI'], ref_list))
-        ref_list2 = []
-        for ref in ref_list:
-            if 'DOI' in ref.keys():
-                ref_list2.append(ref['DOI'])
-        return ref_list2
-
-    def get_bibliography(self):
-        '''自定义输出bibliography，包含标题，期刊，日期和引用次数'''
-        title = self.get_title()
-        journal = self.get_journal_name()
-        date = self.get_published_date()
-        cited_times = self.get_cited_times()
-        ref_url = f'https://doi.org/{self.doi}'
-        line = f'[{title}]({ref_url}), **{journal}**, date: {date}, cited: {cited_times}.'
-        return line      
 
 
 class Page:

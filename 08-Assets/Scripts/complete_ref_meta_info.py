@@ -1,6 +1,8 @@
 # -- coding: utf-8 --
-from obs import Obsidian, BibFileIO, CrossRef
+from obs import Obsidian, BibFileIO
 from utils import isMdnote, get_citekey_from_filepath
+from crossref import CrossRef
+import os, json
 
 def main():
     vault = Obsidian()
@@ -17,20 +19,30 @@ def main():
     worker.load(bibfile)
     info = worker.library[ckey]
     doi = info['doi']
-    bus = CrossRef(doi)
-    if bus.entry is not None:
+   
+    xxd = CrossRef(doi)
+    base, ext = os.path.splitext(fp)
+    json_cache_file = base + '.json'
+    if os.path.exists(json_cache_file):
+        with open(json_cache_file, 'r') as fj:
+            xxd.entry = json.load(fj)
+    else:
+        xxd.connect()
+        xxd.save(json_cache_file)
+
+    if xxd.entry is not None:
         data = {
-            'journal': bus.get_journal_name(),
-            'publish_date': bus.get_published_date(),
-            'cited_times': bus.get_cited_times(),
-            'queryAt': bus.query_date,
+            'journal': xxd.get_journal_name(),
+            'publish_date': xxd.get_published_date(),
+            'cited_times': xxd.get_cited_times(),
+            'queryAt': xxd.query_date,
         }
     else:
         data = {
             'journal': info['journaltitle'],
             'publish_date': info['date'],
             'cited_times': 0,
-            'queryAt': bus.query_date,
+            'queryAt': xxd.query_date,
         }        
     content = "\n### CrossRef Statistics"
     for key in data:

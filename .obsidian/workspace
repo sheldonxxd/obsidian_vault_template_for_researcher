@@ -26,6 +26,30 @@
             {
               "leaf": "98cc5d49cdfc2a41",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":44},\"to\":{\"line\":87,\"ch\":44}},\"scroll\":66.29773836807125}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"09-Templates/每周小结.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":0},\"to\":{\"line\":26,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "98cc5d49cdfc2a41",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-07.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
             },
@@ -112,30 +136,6 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-06.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":27},\"to\":{\"line\":13,\"ch\":27}},\"scroll\":10.960416396458944}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/98-test/test2.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":137},\"to\":{\"line\":12,\"ch\":137}},\"scroll\":0.781249988358468}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-06.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":32},\"to\":{\"line\":13,\"ch\":32}},\"scroll\":0.25}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/test2.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "98cc5d49cdfc2a41",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-06.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":26},\"to\":{\"line\":15,\"ch\":26}},\"scroll\":0.25}"
             }
           ]
         }
@@ -313,14 +313,14 @@
   "active": "98cc5d49cdfc2a41",
   "lastOpenFiles": [
     "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
+    "README.md",
+    "09-Templates/每周小结.md",
     "01-Diary/日志存档/2022-05-07.md",
     "01-Diary/本周事务/@Doose2005.md",
     "01-Diary/本周事务/@Doose2005.md",
     "00-MOC/任务看板.md",
-    "README.md",
     "01-Diary/日志存档/2022-05-06.md",
     "03-Projects/98-test/新增目录.md",
-    "03-Projects/98-test/test2.md",
-    "01-Diary/本周事务/test2.md"
+    "03-Projects/98-test/test2.md"
   ]
 }

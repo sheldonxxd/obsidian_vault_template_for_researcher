@@ -5,16 +5,20 @@
       "path": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
     },
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "每周小结",
+      "path": "09-Templates/每周小结.md"
+    },
+    {
       "basename": "2022-05-07",
       "path": "01-Diary/日志存档/2022-05-07.md"
     },
     {
       "basename": "任务看板",
       "path": "00-MOC/任务看板.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "2022-05-06",
@@ -91,10 +95,6 @@
     {
       "basename": "决定写obsidan教程",
       "path": "03-Projects/99-黑曜石玩家指南/0-序言/决定写obsidan教程.md"
-    },
-    {
-      "basename": "每周小结",
-      "path": "09-Templates/每周小结.md"
     },
     {
       "basename": "obsidian快捷键",
