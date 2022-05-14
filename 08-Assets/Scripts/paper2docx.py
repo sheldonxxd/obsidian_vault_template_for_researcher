@@ -1,6 +1,6 @@
 # coding=utf-8
 import os, time
-from obs import Convertor
+from convertor import Convertor
 
 def main():
     try:
@@ -31,10 +31,9 @@ def main():
         print(str(e)) 
 
 def test():
-    fp = r"X:\projects\working\05-Life\01-Album\私房菜\菜少只能各种拌面.md"
+    fp = r"X:\projects\working\README.md"
     try:
-        xxd = Convertor()
-        xxd.md = fp
+        xxd = Convertor(fp)
         xxd.toDesktop()
         xxd.toDocx()
         xxd.toBib()
@@ -44,6 +43,4 @@ def test():
 
 if __name__=='__main__':
     main() 
-    # test()  
-    # 2022-03-22 19:47:06 complete
 
