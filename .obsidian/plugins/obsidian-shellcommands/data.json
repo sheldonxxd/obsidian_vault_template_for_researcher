@@ -13,15 +13,15 @@
   "shell_commands": {
     "0": {
       "platform_specific_commands": {
-        "default": "python ./08-Assets/Scripts/complete_ref_meta_info.py {{file_path:absolute}}"
+        "default": "python ./08-Assets/Scripts/auto_transfer.py"
       },
       "shells": {},
-      "alias": "complete_ref_info",
+      "alias": "test_草稿归档",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_channels": {
         "stdout": "current-file-caret",
-        "stderr": "notification"
+        "stderr": "current-file-caret"
       },
       "output_channel_order": "stdout-first",
       "events": {},
@@ -29,15 +29,15 @@
     },
     "1": {
       "platform_specific_commands": {
-        "default": "python ./08-Assets/Scripts/insert_cloud_music.py \"{{clipboard}}\""
+        "default": "python ./08-Assets/Scripts/ref_list.py {{file_path:absolute}}"
       },
       "shells": {},
-      "alias": "insert_cloud_music",
+      "alias": "test_引文列表",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_channels": {
         "stdout": "current-file-caret",
-        "stderr": "notification"
+        "stderr": "current-file-caret"
       },
       "output_channel_order": "stdout-first",
       "events": {},
@@ -45,15 +45,15 @@
     },
     "2": {
       "platform_specific_commands": {
-        "default": "python ./08-Assets/Scripts/insert_cloud_mv.py \"{{clipboard}}\""
+        "default": "python ./08-Assets/Scripts/author_count.py {{file_path:absolute}}"
       },
       "shells": {},
-      "alias": "insert_cloud_mv",
+      "alias": "test_作者统计",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_channels": {
         "stdout": "current-file-caret",
-        "stderr": "notification"
+        "stderr": "current-file-caret"
       },
       "output_channel_order": "stdout-first",
       "events": {},
@@ -61,10 +61,10 @@
     },
     "3": {
       "platform_specific_commands": {
-        "default": "python ./08-Assets/Scripts/test.py"
+        "default": "python ./08-Assets/Scripts/paper2docx.py {{file_path:absolute}}"
       },
       "shells": {},
-      "alias": "test_shell",
+      "alias": "test_导出笔记",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_channels": {

@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "99-黑曜石玩家指南",
+      "path": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "2022-05-14",
+      "path": "01-Diary/日志存档/2022-05-14.md"
+    },
+    {
+      "basename": "obsidian撰写草稿",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/obsidian撰写草稿.md"
+    },
+    {
+      "basename": "AuthorRanking",
+      "path": "00-MOC/AuthorRanking.md"
+    },
+    {
+      "basename": "本周事务表",
+      "path": "00-MOC/本周事务表.md"
+    },
+    {
+      "basename": "阅读清单",
+      "path": "00-MOC/阅读清单.md"
+    },
+    {
+      "basename": "草稿模板",
+      "path": "09-Templates/草稿模板.md"
+    },
+    {
+      "basename": "愿望清单",
+      "path": "00-MOC/愿望清单.md"
+    },
+    {
+      "basename": "试剂库存管理",
+      "path": "00-MOC/试剂库存管理.md"
+    },
+    {
+      "basename": "任务看板",
+      "path": "00-MOC/任务看板.md"
+    },
+    {
       "basename": "2022-05-06",
       "path": "01-Diary/日志存档/2022-05-06.md"
     },
@@ -9,24 +53,8 @@
       "path": "01-Diary/日志存档/2022-05-07.md"
     },
     {
-      "basename": "99-黑曜石玩家指南",
-      "path": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
-    },
-    {
-      "basename": "本周事务表",
-      "path": "00-MOC/本周事务表.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "每周小结",
       "path": "09-Templates/每周小结.md"
-    },
-    {
-      "basename": "任务看板",
-      "path": "00-MOC/任务看板.md"
     },
     {
       "basename": "新增目录",
@@ -39,10 +67,6 @@
     {
       "basename": "对 shortlink再做一下测试",
       "path": "03-Projects/98-test/对 shortlink再做一下测试.md"
-    },
-    {
-      "basename": "阅读清单",
-      "path": "00-MOC/阅读清单.md"
     },
     {
       "basename": "这是草稿",

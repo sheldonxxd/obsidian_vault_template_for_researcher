@@ -2,7 +2,7 @@
 title: @Doose2005
 date: 2022-05-06 19:05:38
 excerpt: 为啥要做？做完后有何收获感想体会？
-tags: 
+tags: 文献
 rating: ⭐
 status: complete
 destination: 03-98
@@ -38,4 +38,4 @@ obsidianUIMode: source
 23. [10.1364/OL.11.000288](https://doi.org/10.1364/OL.11.000288)
 24. [10.1364/OL.26.000825](https://doi.org/10.1364/OL.26.000825)
 
- Currently 0 references inside library! @2022-05-06
+ Currently 0 references inside library! @2022-05-14

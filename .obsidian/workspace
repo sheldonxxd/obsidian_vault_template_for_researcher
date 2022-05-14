@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-Diary/日志存档/2022-05-06.md",
-            "mode": "source",
+            "file": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
+            "mode": "preview",
             "source": false
           }
         },
@@ -20,14 +20,20 @@
             {
               "leaf": "25ca1b3c6cc78c99",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-06.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
             },
             {
               "leaf": "25ca1b3c6cc78c99",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-07.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":26},\"to\":{\"line\":13,\"ch\":26}},\"scroll\":7.797}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":89,\"ch\":0},\"to\":{\"line\":89,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-14.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":4.166666666666667}"
             },
             {
               "leaf": "25ca1b3c6cc78c99",
@@ -38,8 +44,98 @@
             {
               "leaf": "25ca1b3c6cc78c99",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-MOC/本周事务表.md\",\"mode\":\"preview\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-14.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":23.1840278102016}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-14.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":66},\"to\":{\"line\":52,\"ch\":66}},\"scroll\":42.449479500452675}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/python代码说明与调试方法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":12},\"to\":{\"line\":8,\"ch\":12}},\"scroll\":0}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/obsidian模板库更新方法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-14.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":11},\"to\":{\"line\":45,\"ch\":0}},\"scroll\":34.93652069121455}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/obsidian模板库更新方法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/python代码说明与调试方法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":12.40000025431315}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-14.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":34.317045624402105}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/python代码说明与调试方法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":1},\"to\":{\"line\":18,\"ch\":1}},\"scroll\":13.866666158040365}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-14.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":41},\"to\":{\"line\":17,\"ch\":41}},\"scroll\":3}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/python代码说明与调试方法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/日志存档/2022-05-14.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":26},\"to\":{\"line\":17,\"ch\":71}},\"scroll\":3}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/python代码说明与调试方法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":151},\"to\":{\"line\":14,\"ch\":151}},\"scroll\":0}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/obsidian模板库更新方法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":22},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "25ca1b3c6cc78c99",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/python代码说明与调试方法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":0}"
             }
           ]
         }
@@ -102,7 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222
+    "width": 207
   },
   "right": {
     "id": "6e7011190a6a4416",
@@ -166,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Diary/日志存档/2022-05-06.md"
+                "file": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
               }
             },
             "pane-relief:history-v1": {
@@ -180,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Diary/日志存档/2022-05-06.md",
+                "file": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,15 +312,15 @@
   },
   "active": "25ca1b3c6cc78c99",
   "lastOpenFiles": [
-    "01-Diary/日志存档/2022-05-06.md",
-    "01-Diary/日志存档/2022-05-07.md",
     "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
-    "00-MOC/本周事务表.md",
     "README.md",
-    "09-Templates/每周小结.md",
-    "01-Diary/本周事务/@Doose2005.md",
-    "01-Diary/本周事务/@Doose2005.md",
-    "00-MOC/任务看板.md",
-    "03-Projects/98-test/新增目录.md"
+    "01-Diary/日志存档/2022-05-14.md",
+    "01-Diary/本周事务/python代码说明与调试方法.md",
+    "01-Diary/本周事务/obsidian模板库更新方法.md",
+    "03-Projects/99-黑曜石玩家指南/1-obsidian入门/obsidian撰写草稿.md",
+    "00-MOC/AuthorRanking.md",
+    "00-MOC/本周事务表.md",
+    "00-MOC/阅读清单.md",
+    "01-Diary/本周事务/test3.md"
   ]
 }
