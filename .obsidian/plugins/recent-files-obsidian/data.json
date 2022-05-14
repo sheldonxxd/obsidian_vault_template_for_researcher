@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-05-06",
+      "path": "01-Diary/日志存档/2022-05-06.md"
+    },
+    {
+      "basename": "2022-05-07",
+      "path": "01-Diary/日志存档/2022-05-07.md"
+    },
+    {
       "basename": "99-黑曜石玩家指南",
       "path": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
+    },
+    {
+      "basename": "本周事务表",
+      "path": "00-MOC/本周事务表.md"
     },
     {
       "basename": "README",
@@ -13,16 +25,8 @@
       "path": "09-Templates/每周小结.md"
     },
     {
-      "basename": "2022-05-07",
-      "path": "01-Diary/日志存档/2022-05-07.md"
-    },
-    {
       "basename": "任务看板",
       "path": "00-MOC/任务看板.md"
-    },
-    {
-      "basename": "2022-05-06",
-      "path": "01-Diary/日志存档/2022-05-06.md"
     },
     {
       "basename": "新增目录",
@@ -35,10 +39,6 @@
     {
       "basename": "对 shortlink再做一下测试",
       "path": "03-Projects/98-test/对 shortlink再做一下测试.md"
-    },
-    {
-      "basename": "本周事务表",
-      "path": "00-MOC/本周事务表.md"
     },
     {
       "basename": "阅读清单",

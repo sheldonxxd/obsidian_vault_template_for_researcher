@@ -1,0 +1,107 @@
+{
+  "strategy": "japanese",
+  "matchStrategy": "prefix",
+  "maxNumberOfSuggestions": 5,
+  "maxNumberOfWordsAsPhrase": 3,
+  "minNumberOfCharactersTriggered": 0,
+  "minNumberOfWordsTriggeredPhrase": 1,
+  "complementAutomatically": true,
+  "delayMilliSeconds": 310,
+  "disableSuggestionsDuringImeOn": false,
+  "insertAfterCompletion": true,
+  "firstCharactersDisableSuggestions": ":/^【[\\$#@^&*(!~`",
+  "showMatchStrategy": true,
+  "showIndexingStatus": true,
+  "descriptionOnSuggestion": "Short",
+  "selectSuggestionKeys": "Enter",
+  "additionalCycleThroughSuggestionsKeys": "None",
+  "openSourceFileKey": "None",
+  "propagateEsc": false,
+  "enableCurrentFileComplement": true,
+  "onlyComplementEnglishOnCurrentFileComplement": false,
+  "enableCurrentVaultComplement": false,
+  "includeCurrentVaultPathPrefixPatterns": "",
+  "excludeCurrentVaultPathPrefixPatterns": "",
+  "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
+  "enableCustomDictionaryComplement": false,
+  "customDictionaryPaths": "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt",
+  "columnDelimiter": "Tab",
+  "customDictionaryWordRegexPattern": "",
+  "delimiterToHideSuggestion": "",
+  "delimiterToDivideSuggestionsForDisplayFromInsertion": "",
+  "caretLocationSymbolAfterComplement": "",
+  "displayedTextSuffix": " => ...",
+  "enableInternalLinkComplement": true,
+  "suggestInternalLinkWithAlias": false,
+  "excludeInternalLinkPathPrefixPatterns": "",
+  "enableFrontMatterComplement": true,
+  "frontMatterComplementMatchStrategy": "inherit",
+  "insertCommaAfterFrontMatterCompletion": false,
+  "showLogAboutPerformanceInConsole": false,
+  "selectionHistoryTree": {
+    "分析3x4折纸双色PAINT数据": {
+      "分析3x4折纸双色PAINT数据": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1652404098066
+        }
+      }
+    },
+    "电泳": {
+      "电泳": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1652356198017
+        }
+      }
+    },
+    "mL": {
+      "mL": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1652358031394
+        }
+      }
+    },
+    "μL": {
+      "μL": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1652358087245
+        }
+      }
+    },
+    "min": {
+      "min": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1652358694878
+        }
+      }
+    },
+    "Hao Yan": {
+      "Hao Yan": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1652363111129
+        }
+      }
+    },
+    "Tetrahedron": {
+      "Tetrahedron": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1652363218445
+        }
+      }
+    },
+    "Peng Yin": {
+      "Peng Yin": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1652363243383
+        }
+      }
+    }
+  }
+}

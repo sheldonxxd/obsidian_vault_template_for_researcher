@@ -1,0 +1,79 @@
+{
+  "settings_version": "0.11.0",
+  "debug": false,
+  "obsidian_command_palette_prefix": "Execute: ",
+  "preview_variables_in_command_palette": true,
+  "show_autocomplete_menu": true,
+  "working_directory": "",
+  "default_shells": {},
+  "error_message_duration": 20,
+  "notification_message_duration": 10,
+  "output_channel_clipboard_also_outputs_to_notification": true,
+  "enable_events": true,
+  "shell_commands": {
+    "0": {
+      "platform_specific_commands": {
+        "default": "python ./08-Assets/Scripts/complete_ref_meta_info.py {{file_path:absolute}}"
+      },
+      "shells": {},
+      "alias": "complete_ref_info",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "current-file-caret",
+        "stderr": "notification"
+      },
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled"
+    },
+    "1": {
+      "platform_specific_commands": {
+        "default": "python ./08-Assets/Scripts/insert_cloud_music.py \"{{clipboard}}\""
+      },
+      "shells": {},
+      "alias": "insert_cloud_music",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "current-file-caret",
+        "stderr": "notification"
+      },
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled"
+    },
+    "2": {
+      "platform_specific_commands": {
+        "default": "python ./08-Assets/Scripts/insert_cloud_mv.py \"{{clipboard}}\""
+      },
+      "shells": {},
+      "alias": "insert_cloud_mv",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "current-file-caret",
+        "stderr": "notification"
+      },
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled"
+    },
+    "3": {
+      "platform_specific_commands": {
+        "default": "python ./08-Assets/Scripts/test.py"
+      },
+      "shells": {},
+      "alias": "test_shell",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "current-file-caret",
+        "stderr": "current-file-caret"
+      },
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled"
+    }
+  }
+}
