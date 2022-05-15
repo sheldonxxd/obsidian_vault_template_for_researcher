@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-05-15",
+      "path": "01-Diary/日志存档/2022-05-15.md"
+    },
+    {
+      "basename": "2022-05-05_周小结",
+      "path": "01-Diary/周小结/2022-05-05_周小结.md"
+    },
+    {
+      "basename": "本周事务表",
+      "path": "00-MOC/本周事务表.md"
+    },
+    {
       "basename": "99-黑曜石玩家指南",
       "path": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "python代码说明与调试方法",
+      "path": "03-Projects/99-黑曜石玩家指南/4-附录/python代码说明与调试方法.md"
+    },
+    {
+      "basename": "Utils",
+      "path": "08-Assets/Scripts/Utils.md"
+    },
+    {
+      "basename": "Buttons",
+      "path": "08-Assets/Scripts/Buttons.md"
     },
     {
       "basename": "2022-05-14",
       "path": "01-Diary/日志存档/2022-05-14.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "obsidian撰写草稿",
@@ -19,10 +43,6 @@
     {
       "basename": "AuthorRanking",
       "path": "00-MOC/AuthorRanking.md"
-    },
-    {
-      "basename": "本周事务表",
-      "path": "00-MOC/本周事务表.md"
     },
     {
       "basename": "阅读清单",
@@ -57,32 +77,8 @@
       "path": "09-Templates/每周小结.md"
     },
     {
-      "basename": "新增目录",
-      "path": "03-Projects/98-test/新增目录.md"
-    },
-    {
-      "basename": "test2",
-      "path": "03-Projects/98-test/test2.md"
-    },
-    {
-      "basename": "对 shortlink再做一下测试",
-      "path": "03-Projects/98-test/对 shortlink再做一下测试.md"
-    },
-    {
-      "basename": "这是草稿",
-      "path": "03-Projects/98-test/这是草稿.md"
-    },
-    {
       "basename": "2022-05-05",
       "path": "01-Diary/日志存档/2022-05-05.md"
-    },
-    {
-      "basename": "2022-05-05_周小结",
-      "path": "01-Diary/周小结/2022-05-05_周小结.md"
-    },
-    {
-      "basename": "test_草稿归档",
-      "path": "03-Projects/98-test/test_草稿归档.md"
     },
     {
       "basename": "在obsidian中写幻灯片",

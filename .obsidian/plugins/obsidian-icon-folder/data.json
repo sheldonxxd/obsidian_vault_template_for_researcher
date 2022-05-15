@@ -13,7 +13,9 @@
       "bottom": 2,
       "left": 2
     },
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "RiToolsLine"
+    ],
     "recentlyUsedIconsSize": 5
   },
   "09-Templates": "RiAndroidLine",
