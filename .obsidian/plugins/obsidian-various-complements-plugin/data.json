@@ -6,7 +6,7 @@
   "minNumberOfCharactersTriggered": 0,
   "minNumberOfWordsTriggeredPhrase": 1,
   "complementAutomatically": true,
-  "delayMilliSeconds": 310,
+  "delayMilliSeconds": 150,
   "disableSuggestionsDuringImeOn": false,
   "insertAfterCompletion": true,
   "firstCharactersDisableSuggestions": ":/^【[\\$#@^&*(!~`",
@@ -164,6 +164,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1652511680717
+        }
+      }
+    },
+    "文档": {
+      "文档": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1653038169327
+        }
+      }
+    },
+    "workflow": {
+      "workflow": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1653038458761
         }
       }
     }

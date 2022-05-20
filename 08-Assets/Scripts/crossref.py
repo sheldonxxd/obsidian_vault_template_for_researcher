@@ -79,6 +79,10 @@ class CrossRef:
         for ref in ref_list:
             if 'DOI' in ref.keys():
                 ref_list2.append(ref['DOI'])
+            else:
+                # 2022-05-20 14:48:39
+                # 为了能够保持跟pdf中一直的引文顺序，对于没有doi的直接收藏key
+                ref_list2.append(ref['key'])
         return ref_list2
 
     def get_bibliography(self):

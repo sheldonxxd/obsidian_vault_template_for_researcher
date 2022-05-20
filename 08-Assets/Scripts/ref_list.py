@@ -45,7 +45,12 @@ def main():
                 count += 1
             else:
                 ref_url = f'https://doi.org/{ref_doi}'
-                line = f'{idx+1}. [{ref_doi}]({ref_url})'
+                if ref_doi.startswith("10."):
+                    line = f'{idx+1}. [{ref_doi}]({ref_url})'
+                else:
+                    # 2022-05-20 14:51:07
+                    # 此类并没有doi，只是一个占位符号
+                    line = f'{idx+1}. This reference does not have DOI 😵'
             print(line)
         print(f'\n Currently {count} references inside library! @{xxd.query_date}')
     else:

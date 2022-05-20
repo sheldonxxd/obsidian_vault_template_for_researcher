@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "99-黑曜石玩家指南",
+      "path": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "更新日志",
+      "path": "03-Projects/99-黑曜石玩家指南/4-附录/更新日志.md"
+    },
+    {
+      "basename": "Utils",
+      "path": "08-Assets/Scripts/Utils.md"
+    },
+    {
+      "basename": "Buttons",
+      "path": "08-Assets/Scripts/Buttons.md"
+    },
+    {
       "basename": "2022-05-15",
       "path": "01-Diary/日志存档/2022-05-15.md"
     },
@@ -13,28 +33,12 @@
       "path": "00-MOC/本周事务表.md"
     },
     {
-      "basename": "99-黑曜石玩家指南",
-      "path": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
-    },
-    {
       "basename": "python代码说明与调试方法",
       "path": "03-Projects/99-黑曜石玩家指南/4-附录/python代码说明与调试方法.md"
     },
     {
-      "basename": "Utils",
-      "path": "08-Assets/Scripts/Utils.md"
-    },
-    {
-      "basename": "Buttons",
-      "path": "08-Assets/Scripts/Buttons.md"
-    },
-    {
       "basename": "2022-05-14",
       "path": "01-Diary/日志存档/2022-05-14.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "obsidian撰写草稿",
@@ -111,10 +115,6 @@
     {
       "basename": "软件下载安装",
       "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/软件下载安装.md"
-    },
-    {
-      "basename": "决定写obsidan教程",
-      "path": "03-Projects/99-黑曜石玩家指南/0-序言/决定写obsidan教程.md"
     },
     {
       "basename": "obsidian快捷键",
