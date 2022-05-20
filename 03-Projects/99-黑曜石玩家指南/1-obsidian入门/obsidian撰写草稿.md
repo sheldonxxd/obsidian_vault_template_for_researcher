@@ -111,7 +111,6 @@ markdown 中输入表格一直都不大方便，不过在 obsidian 中情况还�
 
 事实上得益于插件，你还可以直接在 obsidian  中对表格进行计算，下载表格中的数据另存为 csv文件。但是这里限于篇幅不做过多讲述，感兴趣的朋友可自行查看插件列表。
 
-于2022年4月30日新增了 excel-to-markdown-table 插件，用户可以直接从 excel 表格中复制，然后粘贴到 obsidian 中，直接转换为 markdown style 的表格。
 
 ### 插入其它附件
 

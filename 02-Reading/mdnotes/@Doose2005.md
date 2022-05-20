@@ -1,15 +1,14 @@
 ---
-title: @Doose2005
-date: 2022-05-06 19:05:38
-excerpt: 为啥要做？做完后有何收获感想体会？
-tags: 文献
-rating: ⭐
-status: complete
-destination: 03-98
+alias: Doose2005
+rating: ⭐⭐
 share: false
-obsidianUIMode: source
+ptype: article
+tags: 测试
 ---
 
+### 初读印象
+
+comment:: 这是测试用的文献笔记。
 
 ### References
 

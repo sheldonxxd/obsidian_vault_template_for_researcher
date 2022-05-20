@@ -9,6 +9,7 @@ destination: 03-Projects/黑曜石玩家指南
 share: false
 ---
 
+
 %%这就是第一张封面，不需要多么花里胡哨，title、author、date信息有了就够了%%
 
 ### 在obsidian中写幻灯片
@@ -129,3 +130,13 @@ sheldonxxd
 4. 专注于内容，无需担心排版错误
 5. 有助于养成简洁风格「一图一句一张片」
 6. 轻松撰写公式，如 $y = x_{1}\times\frac{\pi}{\lambda}$
+
+---
+
+### 重要提醒
+
+此类幻灯片仅作为草稿和非正式场合使用，
+
+如果需在比较重要的场合展示，建议使用`quickAdd:👑导出笔记`将草稿和相关素材导出后，
+
+在 Powerpoint 或 Keynote 此类软件中进一步编辑。
