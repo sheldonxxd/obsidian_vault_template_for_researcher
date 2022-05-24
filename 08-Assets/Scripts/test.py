@@ -14,6 +14,7 @@ from crossref import CrossRef
 
 def test(doi):
     a = CrossRef(doi)
+    a.connect()
     print(a.get_title())
 
 
@@ -21,7 +22,7 @@ def test(doi):
 
 if __name__=='__main__':
     try:
-        doi = '10.1021/acs.fflctem.0c01074'  # 一个无效的doi
+        doi = '10.1088/1361-6420/aa72b2'  # 一个无效的doi
         test(doi)
     except Exception as e:
         logging.exception(e)
