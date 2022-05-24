@@ -5,12 +5,12 @@
       "path": "README.md"
     },
     {
-      "basename": "日志模板",
-      "path": "09-Templates/日志模板.md"
-    },
-    {
       "basename": "更新日志",
       "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/更新日志.md"
+    },
+    {
+      "basename": "日志模板",
+      "path": "09-Templates/日志模板.md"
     },
     {
       "basename": "每周文献小结",
