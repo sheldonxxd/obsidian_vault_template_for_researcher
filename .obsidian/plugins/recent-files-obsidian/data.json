@@ -5,16 +5,20 @@
       "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian模板库更新方法.md"
     },
     {
-      "basename": "每周文献小结",
-      "path": "09-Templates/每周文献小结.md"
+      "basename": "python代码说明与调试方法",
+      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/python代码说明与调试方法.md"
+    },
+    {
+      "basename": "更新日志",
+      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/更新日志.md"
     },
     {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "更新日志",
-      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/更新日志.md"
+      "basename": "每周文献小结",
+      "path": "09-Templates/每周文献小结.md"
     },
     {
       "basename": "日志模板",
@@ -31,10 +35,6 @@
     {
       "basename": "@Doose2005",
       "path": "02-Reading/mdnotes/@Doose2005.md"
-    },
-    {
-      "basename": "python代码说明与调试方法",
-      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/python代码说明与调试方法.md"
     },
     {
       "basename": "99-黑曜石玩家指南",

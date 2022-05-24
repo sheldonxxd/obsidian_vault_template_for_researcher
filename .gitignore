@@ -8,4 +8,4 @@
 # 忽略的文件
 08-Assets/Scripts/MyLibrary.bib
 .obsidian/workspace
-.obsidian/plugins/*/*.json
+.obsidian/plugins/recent-files-obsidian/data.json

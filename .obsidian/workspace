@@ -7,12 +7,40 @@
         "id": "b925b1fa789215ee",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian模板库更新方法.md",
+            "mode": "source",
+            "source": false
+          }
         },
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian模板库更新方法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-obsidian附录/python代码说明与调试方法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":14.16393442879246}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-obsidian附录/更新日志.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":19},\"to\":{\"line\":7,\"ch\":19}},\"scroll\":0}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":66,\"ch\":1},\"to\":{\"line\":66,\"ch\":1}},\"scroll\":55.73003209709994}"
+            },
             {
               "leaf": "b925b1fa789215ee",
               "group": null,
@@ -108,30 +136,6 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":73,\"ch\":0},\"to\":{\"line\":73,\"ch\":0}},\"scroll\":46.480032345452614}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/5-感谢/sheldonxxd.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":22},\"to\":{\"line\":2,\"ch\":22}}}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/5-感谢/5-感谢.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":15},\"to\":{\"line\":0,\"ch\":15}}}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":70,\"ch\":9},\"to\":{\"line\":70,\"ch\":9}},\"scroll\":54.3689}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/5-感谢/sheldonxxd.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         }
@@ -257,7 +261,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian模板库更新方法.md"
+              }
             },
             "pane-relief:history-v1": {
               "pos": 0,
@@ -270,6 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian模板库更新方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -334,15 +341,15 @@
   },
   "active": "b925b1fa789215ee",
   "lastOpenFiles": [
-    "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian新建个人相片集.md",
     "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian模板库更新方法.md",
-    "09-Templates/每周文献小结.md",
-    "README.md",
+    "03-Projects/99-黑曜石玩家指南/4-obsidian附录/python代码说明与调试方法.md",
     "03-Projects/99-黑曜石玩家指南/4-obsidian附录/更新日志.md",
+    "README.md",
+    "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian新建个人相片集.md",
+    "09-Templates/每周文献小结.md",
     "09-Templates/日志模板.md",
     "02-Reading/summary/2022-05-24_文献阅读小结.md",
     "01-Diary/日志存档/2022-05-24.md",
-    "02-Reading/mdnotes/@Doose2005.md",
-    "03-Projects/99-黑曜石玩家指南/5-感谢/sheldonxxd.md"
+    "02-Reading/mdnotes/@Doose2005.md"
   ]
 }
