@@ -18,7 +18,7 @@ class CrossRef:
         query = f'https://api.crossref.org/works/{quote(self.doi)}'
         email = self.fake_email_address()
         repo_url = "https://github.com/sheldonxxd/obsidian_vault_template_for_researcher"
-        repo_ver = "1.6"
+        repo_ver = "1.7"
         explorers = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
             'AppleWebKit/537.36 (KHTML, like Gecko)',

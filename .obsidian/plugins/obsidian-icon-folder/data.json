@@ -25,6 +25,5 @@
   "02-Reading": "RiArticleLine",
   "01-Diary": "RiBaiduLine",
   "00-MOC": "RiBankLine",
-  "06-Cards": "RiDatabase2Line",
-  "05-Life": "RiLeafLine"
+  "06-Cards": "RiDatabase2Line"
 }

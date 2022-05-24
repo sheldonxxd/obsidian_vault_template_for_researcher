@@ -7,16 +7,30 @@
         "id": "b925b1fa789215ee",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "README.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         },
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian新建个人相片集.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":25.08842653394579}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian模板库更新方法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"09-Templates/每周文献小结.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
             {
               "leaf": "b925b1fa789215ee",
               "group": null,
@@ -118,24 +132,6 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/5-感谢/sheldonxxd.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/5-感谢/5-感谢.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/未命名.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":54.36892273549546}"
             }
           ]
         }
@@ -261,9 +257,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             },
             "pane-relief:history-v1": {
               "pos": 0,
@@ -276,7 +270,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -341,15 +334,15 @@
   },
   "active": "b925b1fa789215ee",
   "lastOpenFiles": [
+    "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian新建个人相片集.md",
+    "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian模板库更新方法.md",
+    "09-Templates/每周文献小结.md",
     "README.md",
     "03-Projects/99-黑曜石玩家指南/4-obsidian附录/更新日志.md",
     "09-Templates/日志模板.md",
-    "09-Templates/每周文献小结.md",
     "02-Reading/summary/2022-05-24_文献阅读小结.md",
     "01-Diary/日志存档/2022-05-24.md",
     "02-Reading/mdnotes/@Doose2005.md",
-    "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian模板库更新方法.md",
-    "03-Projects/99-黑曜石玩家指南/5-感谢/sheldonxxd.md",
-    "03-Projects/99-黑曜石玩家指南/5-感谢/5-感谢.md"
+    "03-Projects/99-黑曜石玩家指南/5-感谢/sheldonxxd.md"
   ]
 }

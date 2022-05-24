@@ -1,0 +1,2 @@
+2022-05-24 20:37:44 - urllib3.connectionpool - DEBUG     - connectionpool.py : 975 line - Starting new HTTPS connection (1): api.crossref.org:443
+2022-05-24 20:37:45 - urllib3.connectionpool - DEBUG     - connectionpool.py : 461 line - https://api.crossref.org:443 "GET /works/10.1088/1361-6420/aa72b2 HTTP/1.1" 200 1798

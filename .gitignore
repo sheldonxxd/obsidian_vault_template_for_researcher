@@ -3,6 +3,7 @@
 02-Reading/
 03-Projects/98-test/
 08-Assets/Scripts/__pycache__/
+.trash/
 
 # 忽略的文件
 08-Assets/Scripts/MyLibrary.bib
