@@ -140,3 +140,7 @@ sheldonxxd
 如果需在比较重要的场合展示，建议使用`quickAdd:👑导出笔记`将草稿和相关素材导出后，
 
 在 Powerpoint 或 Keynote 此类软件中进一步编辑。
+
+---
+
+page:: 7

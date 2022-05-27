@@ -44,3 +44,8 @@ AssertionError: destination is not a valid path!
 - 引文列表功能的问题，参考  issue [#8](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher/issues/8)
 - 任务存档功能的问题，参考 [issue 16](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher/issues/16)
 - 草稿归档功能的问题，参考 [issue 15](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher/issues/15) 
+
+
+---
+
+page:: 29

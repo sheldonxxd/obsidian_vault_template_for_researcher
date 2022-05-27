@@ -1,144 +1,96 @@
 {
   "recentFiles": [
     {
-      "basename": "obsidian模板库更新方法",
-      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian模板库更新方法.md"
-    },
-    {
-      "basename": "python代码说明与调试方法",
-      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/python代码说明与调试方法.md"
-    },
-    {
-      "basename": "更新日志",
-      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/更新日志.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "每周文献小结",
-      "path": "09-Templates/每周文献小结.md"
-    },
-    {
-      "basename": "日志模板",
-      "path": "09-Templates/日志模板.md"
-    },
-    {
-      "basename": "2022-05-24_文献阅读小结",
-      "path": "02-Reading/summary/2022-05-24_文献阅读小结.md"
-    },
-    {
-      "basename": "2022-05-24",
-      "path": "01-Diary/日志存档/2022-05-24.md"
-    },
-    {
-      "basename": "@Doose2005",
-      "path": "02-Reading/mdnotes/@Doose2005.md"
-    },
-    {
-      "basename": "99-黑曜石玩家指南",
-      "path": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
-    },
-    {
-      "basename": "2022-05-20",
-      "path": "01-Diary/日志存档/2022-05-20.md"
-    },
-    {
-      "basename": "Mdnotes Default Template",
-      "path": "08-Assets/Scripts/Mdnotes Default Template.md"
-    },
-    {
-      "basename": "在obsidian中写幻灯片",
-      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/在obsidian中写幻灯片.md"
-    },
-    {
-      "basename": "使用手机撰写日志",
-      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/使用手机撰写日志.md"
-    },
-    {
-      "basename": "obsidian撰写草稿",
-      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/obsidian撰写草稿.md"
-    },
-    {
-      "basename": "软件下载安装",
-      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/软件下载安装.md"
-    },
-    {
-      "basename": "zotero-obsidian联动配置",
-      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/zotero-obsidian联动配置.md"
-    },
-    {
-      "basename": "Utils",
-      "path": "08-Assets/Scripts/Utils.md"
-    },
-    {
-      "basename": "Buttons",
-      "path": "08-Assets/Scripts/Buttons.md"
-    },
-    {
-      "basename": "2022-05-15",
-      "path": "01-Diary/日志存档/2022-05-15.md"
-    },
-    {
-      "basename": "2022-05-05_周小结",
-      "path": "01-Diary/周小结/2022-05-05_周小结.md"
-    },
-    {
-      "basename": "本周事务表",
-      "path": "00-MOC/本周事务表.md"
-    },
-    {
-      "basename": "2022-05-14",
-      "path": "01-Diary/日志存档/2022-05-14.md"
-    },
-    {
-      "basename": "AuthorRanking",
-      "path": "00-MOC/AuthorRanking.md"
     },
     {
       "basename": "阅读清单",
       "path": "00-MOC/阅读清单.md"
     },
     {
-      "basename": "草稿模板",
-      "path": "09-Templates/草稿模板.md"
+      "basename": "任务看板",
+      "path": "00-MOC/任务看板.md"
+    },
+    {
+      "basename": "python代码说明与调试方法",
+      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/python代码说明与调试方法.md"
+    },
+    {
+      "basename": "obsidian第三方插件列表",
+      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian第三方插件列表.md"
+    },
+    {
+      "basename": "obsidian快捷键",
+      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian快捷键.md"
+    },
+    {
+      "basename": "99-黑曜石玩家指南",
+      "path": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
+    },
+    {
+      "basename": "卡片模板",
+      "path": "09-Templates/卡片模板.md"
+    },
+    {
+      "basename": "更新日志",
+      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/更新日志.md"
+    },
+    {
+      "basename": "主题文献比较查询表",
+      "path": "09-Templates/主题文献比较查询表.md"
+    },
+    {
+      "basename": "新建课题项目",
+      "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/新建课题项目.md"
     },
     {
       "basename": "愿望清单",
       "path": "00-MOC/愿望清单.md"
     },
     {
-      "basename": "试剂库存管理",
-      "path": "00-MOC/试剂库存管理.md"
+      "basename": "本周事务表",
+      "path": "00-MOC/本周事务表.md"
     },
     {
-      "basename": "任务看板",
-      "path": "00-MOC/任务看板.md"
+      "basename": "文件夹目录模板",
+      "path": "09-Templates/文件夹目录模板.md"
     },
     {
-      "basename": "2022-05-06",
-      "path": "01-Diary/日志存档/2022-05-06.md"
+      "basename": "工作小结与周汇报",
+      "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/工作小结与周汇报.md"
     },
     {
-      "basename": "2022-05-07",
-      "path": "01-Diary/日志存档/2022-05-07.md"
+      "basename": "撰写论文草稿",
+      "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/撰写论文草稿.md"
     },
     {
-      "basename": "每周小结",
-      "path": "09-Templates/每周小结.md"
+      "basename": "obsidian模板库更新方法",
+      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian模板库更新方法.md"
     },
     {
-      "basename": "2022-05-05",
-      "path": "01-Diary/日志存档/2022-05-05.md"
+      "basename": "本章小结-祝您科研精进",
+      "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/本章小结-祝您科研精进.md"
     },
     {
-      "basename": "obsidian主题界面布局说明",
-      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian主题界面布局说明.md"
+      "basename": "完整导出项目",
+      "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/完整导出项目.md"
     },
     {
-      "basename": "新建课题项目",
-      "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/新建课题项目.md"
+      "basename": "试剂耗材仪器建卡管理",
+      "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/试剂耗材仪器建卡管理.md"
+    },
+    {
+      "basename": "整理实验方法",
+      "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/整理实验方法.md"
+    },
+    {
+      "basename": "规范的实验记录",
+      "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/规范的实验记录.md"
+    },
+    {
+      "basename": "本章小结-恭喜习得内功",
+      "path": "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/本章小结-恭喜习得内功.md"
     },
     {
       "basename": "跟踪领域内大牛",
@@ -153,12 +105,100 @@
       "path": "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/阶段性文献阅读小结.md"
     },
     {
-      "basename": "obsidian快捷键",
-      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian快捷键.md"
+      "basename": "重要综述如何阅读",
+      "path": "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/重要综述如何阅读.md"
     },
     {
-      "basename": "2022-04-02",
-      "path": "01-Diary/日志存档/2022-04-02.md"
+      "basename": "解析文章骨架",
+      "path": "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/解析文章骨架.md"
+    },
+    {
+      "basename": "进一步阅读原文",
+      "path": "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/进一步阅读原文.md"
+    },
+    {
+      "basename": "入库文献泛读",
+      "path": "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/入库文献泛读.md"
+    },
+    {
+      "basename": "当期文献速览",
+      "path": "03-Projects/99-黑曜石玩家指南/2-obsidian读文献/当期文献速览.md"
+    },
+    {
+      "basename": "在obsidian中写幻灯片",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/在obsidian中写幻灯片.md"
+    },
+    {
+      "basename": "本章小结-恭喜入门obsidian",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/本章小结-恭喜入门obsidian.md"
+    },
+    {
+      "basename": "每周定期汇总小结",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/每周定期汇总小结.md"
+    },
+    {
+      "basename": "使用手机撰写日志",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/使用手机撰写日志.md"
+    },
+    {
+      "basename": "obsidian撰写草稿",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/obsidian撰写草稿.md"
+    },
+    {
+      "basename": "开箱写日志",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/开箱写日志.md"
+    },
+    {
+      "basename": "zotero-obsidian联动配置",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/zotero-obsidian联动配置.md"
+    },
+    {
+      "basename": "软件下载安装",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/软件下载安装.md"
+    },
+    {
+      "basename": "试剂库存管理",
+      "path": "00-MOC/试剂库存管理.md"
+    },
+    {
+      "basename": "AuthorRanking",
+      "path": "00-MOC/AuthorRanking.md"
+    },
+    {
+      "basename": "Utils",
+      "path": "08-Assets/Scripts/Utils.md"
+    },
+    {
+      "basename": "Buttons",
+      "path": "08-Assets/Scripts/Buttons.md"
+    },
+    {
+      "basename": "日志模板",
+      "path": "09-Templates/日志模板.md"
+    },
+    {
+      "basename": "每周小结",
+      "path": "09-Templates/每周小结.md"
+    },
+    {
+      "basename": "每周文献小结",
+      "path": "09-Templates/每周文献小结.md"
+    },
+    {
+      "basename": "2022-05-24_文献阅读小结",
+      "path": "02-Reading/summary/2022-05-24_文献阅读小结.md"
+    },
+    {
+      "basename": "2022-05-24",
+      "path": "01-Diary/日志存档/2022-05-24.md"
+    },
+    {
+      "basename": "@Doose2005",
+      "path": "02-Reading/mdnotes/@Doose2005.md"
+    },
+    {
+      "basename": "2022-05-20",
+      "path": "01-Diary/日志存档/2022-05-20.md"
     }
   ],
   "omittedPaths": [],

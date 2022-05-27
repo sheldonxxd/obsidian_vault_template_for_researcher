@@ -1,7 +1,7 @@
 ---
 title: obsidian快捷键
 date: 2022-03-29 13:39:48
-excerpt: 为啥要做？做完后有何收获感想体会？
+excerpt: 掌握常用的快捷键事半功倍。
 tags: obsidian附录
 rating: ⭐
 status: complete
@@ -27,3 +27,6 @@ share: false
 - `Alt+T`：跳转到今日日志页面
 - `Ctrl+0` ：将编辑器的实时预览切换为纯文本编辑模式
 
+---
+
+page:: 26
