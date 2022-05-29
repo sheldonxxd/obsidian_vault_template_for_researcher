@@ -5,6 +5,14 @@
       "path": "README.md"
     },
     {
+      "basename": "zotero-obsidian联动配置",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/zotero-obsidian联动配置.md"
+    },
+    {
+      "basename": "软件下载安装",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/软件下载安装.md"
+    },
+    {
       "basename": "阅读清单",
       "path": "00-MOC/阅读清单.md"
     },
@@ -147,14 +155,6 @@
     {
       "basename": "开箱写日志",
       "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/开箱写日志.md"
-    },
-    {
-      "basename": "zotero-obsidian联动配置",
-      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/zotero-obsidian联动配置.md"
-    },
-    {
-      "basename": "软件下载安装",
-      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/软件下载安装.md"
     },
     {
       "basename": "试剂库存管理",

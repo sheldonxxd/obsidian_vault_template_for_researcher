@@ -38,6 +38,10 @@ title: 友情提示
 
 ### zotfile插件安装和设置
 
+```ad-tip
+如果你经常用iPad看文献，且有较强的多平台多设备云同步的需求，建议不要使用zotfile插件，这并不会影响本模板库的使用。
+```
+
 ![[Pasted image 20220321154948.png]]
 
 zotfile 是 zotero 中最强大的插件，点击 zotero 菜单栏的「工具」> 「插件」，可以进入插件管理器，然后点开齿轮，选择从文件安装插件。插件为`.xpi`后缀的文件，在[[软件下载安装]]中已经提及。后面的 mdnotes 和 better bibtex 插件的安装同此操作。
@@ -86,6 +90,10 @@ zotfile 是 zotero 中最强大的插件，点击 zotero 菜单栏的「工具�
 - template.docx：用于将笔记导出word文档的模板
 - paper2docx.py：导出笔记为docx和html 的python代码
 
+
+### 关于坚果云同步的说明
+
+此模板库由于本人从不用iPad看文献做笔记的原因，zotero 的附件使用 zotfile 存储于 `08-Assets/pdfs` 目录中，暂时无法使用坚果云 WebDAV 服务实现zotero iPad 和 Desktop 的同步。如果你基本是使用 Zotero iPad 看文献，并且使用坚果云进行同步pdf附件。**不要使用 zotfile 插件即可**。
 
 ```ad-info
 title: 下节预告

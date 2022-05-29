@@ -21,7 +21,19 @@
               "leaf": "b925b1fa789215ee",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":37.35000077883402}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":21},\"to\":{\"line\":28,\"ch\":21}},\"scroll\":20.7535}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/1-obsidian入门/zotero-obsidian联动配置.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":101,\"ch\":0},\"to\":{\"line\":101,\"ch\":0}},\"scroll\":86.70747154126678}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":8},\"to\":{\"line\":27,\"ch\":8}},\"scroll\":20.753508280666345}"
             },
             {
               "leaf": "b925b1fa789215ee",
@@ -124,18 +136,6 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{\"scroll\":21.589323973740548}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":0},\"to\":{\"line\":67,\"ch\":0}},\"scroll\":54.73003467996777}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian主题界面布局说明.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
             }
           ]
         }
@@ -342,14 +342,14 @@
   "active": "b925b1fa789215ee",
   "lastOpenFiles": [
     "README.md",
+    "03-Projects/99-黑曜石玩家指南/1-obsidian入门/zotero-obsidian联动配置.md",
+    "03-Projects/99-黑曜石玩家指南/1-obsidian入门/软件下载安装.md",
     "00-MOC/阅读清单.md",
     "00-MOC/任务看板.md",
     "03-Projects/99-黑曜石玩家指南/4-obsidian附录/python代码说明与调试方法.md",
     "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian第三方插件列表.md",
     "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian快捷键.md",
     "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
-    "09-Templates/卡片模板.md",
-    "03-Projects/99-黑曜石玩家指南/4-obsidian附录/更新日志.md",
-    "09-Templates/主题文献比较查询表.md"
+    "09-Templates/卡片模板.md"
   ]
 }
