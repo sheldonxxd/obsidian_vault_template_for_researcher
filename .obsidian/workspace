@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
-            "mode": "source",
+            "file": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
+            "mode": "preview",
             "source": false
           }
         },
@@ -20,8 +20,104 @@
             {
               "leaf": "b925b1fa789215ee",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":20.40625}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-obsidian附录/结束语.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":56,\"ch\":9},\"to\":{\"line\":56,\"ch\":9}},\"scroll\":42.99166742960612}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":12.71181089546424}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-obsidian附录/结束语.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":35.91041644414266}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":21},\"to\":{\"line\":28,\"ch\":21}},\"scroll\":20.7535}"
+              "eState": "{\"scroll\":54.09114496875558}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-MOC/本周事务表.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-MOC/愿望清单.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":0.1333}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-MOC/试剂库存管理.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"00-MOC/任务看板.md\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":19},\"to\":{\"line\":57,\"ch\":19}},\"scroll\":0}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/结束语.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":16},\"to\":{\"line\":6,\"ch\":16}},\"scroll\":0}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-obsidian附录/python代码说明与调试方法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01-Diary/本周事务/结束语.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":0},\"to\":{\"line\":67,\"ch\":0}},\"scroll\":46.92447846765736}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-obsidian附录/python代码说明与调试方法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":0},\"to\":{\"line\":46,\"ch\":0}},\"scroll\":25.737980105071063}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/1-obsidian入门/软件下载安装.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":0},\"to\":{\"line\":26,\"ch\":0}},\"scroll\":23.6232658602788}"
+            },
+            {
+              "leaf": "b925b1fa789215ee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":10},\"to\":{\"line\":27,\"ch\":10}},\"scroll\":21.661458333333332}"
             },
             {
               "leaf": "b925b1fa789215ee",
@@ -40,102 +136,6 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-MOC/阅读清单.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"00-MOC/任务看板.md\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-obsidian附录/python代码说明与调试方法.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian第三方插件列表.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":41},\"to\":{\"line\":26,\"ch\":41}},\"scroll\":0}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian快捷键.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":11.49403128835133}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":20.244128244203182}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian第三方插件列表.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":47},\"to\":{\"line\":18,\"ch\":47}},\"scroll\":19.305555384468157}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":20.466192170818506}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/4-obsidian附录/更新日志.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":54.73611044607783}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-MOC/愿望清单.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0.2333}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-MOC/阅读清单.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":36.0435}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00-MOC/本周事务表.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"00-MOC/任务看板.md\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/3-obsidian做课题/新建课题项目.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":43},\"to\":{\"line\":44,\"ch\":43}},\"scroll\":0}"
-            },
-            {
-              "leaf": "b925b1fa789215ee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":21.589323973740548}"
             }
           ]
         }
@@ -262,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
               }
             },
             "pane-relief:history-v1": {
@@ -276,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -341,15 +341,15 @@
   },
   "active": "b925b1fa789215ee",
   "lastOpenFiles": [
-    "README.md",
-    "03-Projects/99-黑曜石玩家指南/1-obsidian入门/zotero-obsidian联动配置.md",
-    "03-Projects/99-黑曜石玩家指南/1-obsidian入门/软件下载安装.md",
-    "00-MOC/阅读清单.md",
-    "00-MOC/任务看板.md",
-    "03-Projects/99-黑曜石玩家指南/4-obsidian附录/python代码说明与调试方法.md",
-    "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian第三方插件列表.md",
-    "03-Projects/99-黑曜石玩家指南/4-obsidian附录/obsidian快捷键.md",
     "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md",
-    "09-Templates/卡片模板.md"
+    "03-Projects/99-黑曜石玩家指南/4-obsidian附录/结束语.md",
+    "README.md",
+    "00-MOC/本周事务表.md",
+    "00-MOC/愿望清单.md",
+    "00-MOC/试剂库存管理.md",
+    "00-MOC/任务看板.md",
+    "01-Diary/本周事务/结束语.md",
+    "03-Projects/99-黑曜石玩家指南/4-obsidian附录/python代码说明与调试方法.md",
+    "03-Projects/99-黑曜石玩家指南/1-obsidian入门/软件下载安装.md"
   ]
 }

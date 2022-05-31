@@ -39,9 +39,9 @@ AssertionError: destination is not a valid path!
 ### 常见issue列表
 
 - windows 系统无法调用 python，参考 [issue 15](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher/issues/15) 
-- 非 windows 系统无法正常调用 python，参考 [issue 16](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher/issues/16)
+- 非 windows 系统无法正常调用 python，参考 [issue 16](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher/issues/16) 和 [issue 20](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher/issues/20#issuecomment-1128860155)
 - [[AuthorRanking]] 的问题，参考 [issue 13](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher/issues/13) 和 [issue 17](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher/issues/17)
-- 引文列表功能的问题，参考  issue [#8](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher/issues/8)
+- 引文列表功能的问题，参考  issue [#8](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher/issues/8) 和 [issue 28](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher/issues/28#issuecomment-1141619386) 。
 - 任务存档功能的问题，参考 [issue 16](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher/issues/16)
 - 草稿归档功能的问题，参考 [issue 15](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher/issues/15) 
 
