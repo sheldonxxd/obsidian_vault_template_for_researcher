@@ -74,6 +74,22 @@
       "output_channel_order": "stdout-first",
       "events": {},
       "command_palette_availability": "enabled"
+    },
+    "4": {
+      "platform_specific_commands": {
+        "default": "python ./08-Assets/Scripts/export_project.py {{file_path:absolute}}"
+      },
+      "shells": {},
+      "alias": "test_导出项目",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "current-file-bottom",
+        "stderr": "current-file-bottom"
+      },
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled"
     }
   }
 }

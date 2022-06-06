@@ -10,6 +10,7 @@ import re
 import shutil
 import platform
 
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 class Obsidian:
     '''
@@ -31,10 +32,6 @@ class Obsidian:
             'docx': os.path.join(sdir, 'template.docx'),
             'css': os.path.join(sdir, 'markdown.css'),
         }
-        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-        # 2022-03-16 09:42:53
-        # 出现print打印字符在cmd的一些错误
-        # https://blog.csdn.net/jim7424994/article/details/22675759
         
     def get_vault_rootdir(self):
         script_path = os.path.abspath(sys.argv[0])  

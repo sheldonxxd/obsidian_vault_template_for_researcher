@@ -1,5 +1,4 @@
 import os, re
-# from PIL import Image
 
 def isMdnote(fp):
     '''判断一个文件是否为mdnote文献笔记'''
@@ -29,26 +28,11 @@ def fetch_front_matter(fp):
         items = part.split('\n')
         # print(items)
         for item in items:
-            key, value = item.split(': ')
+            cuts = item.split(":")
+            key = cuts[0]
+            value = ':'.join(cuts[1:])
             info[key] = value.strip()
     return info
 
-# def png2jpg(fp):
-#     '''
-#     将比较大的png图片转成jpg格式
-#     https://blog.csdn.net/weixin_40446557/article/details/104059660
-#     '''
-#     fname, ext = os.path.splitext(fp)
-#     fp2 = fname + '.jpg'
-#     assert ext=='.png', "not png file input!"
-#     try:
-#         img = Image.open(fp)
-#         if img.mode=='RGBA':
-#             r,g,b,a = img.split()
-#             img = Image.merge("RGB", (r,g,b))
-#         img.convert('RGB').save(fp2, quality=70)
-#     except Exception as e:
-#         print(str(e))
-#     return fp2
 
 

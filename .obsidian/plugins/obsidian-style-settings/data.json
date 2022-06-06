@@ -18,5 +18,8 @@
   "time@@time-color@@light": "#4E62CD",
   "time@@time-color@@dark": "#4E62CD",
   "blue-topaz-theme@@list-style-change-options": "list-no-border",
-  "blue-topaz-theme@@style-options-for-buttons-plugin": true
+  "blue-topaz-theme@@style-options-for-buttons-plugin": true,
+  "blue-topaz-theme@@remove-arrow": true,
+  "blue-topaz-theme@@folder-icons": true,
+  "blue-topaz-theme@@folder-style-change-options-colorful": true
 }

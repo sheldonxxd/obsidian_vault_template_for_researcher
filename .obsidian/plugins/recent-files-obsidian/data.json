@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "完整导出项目",
+      "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/完整导出项目.md"
+    },
+    {
+      "basename": "常用工具",
+      "path": "08-Assets/Scripts/常用工具.md"
+    },
+    {
       "basename": "99-黑曜石玩家指南",
       "path": "03-Projects/99-黑曜石玩家指南/99-黑曜石玩家指南.md"
+    },
+    {
+      "basename": "python代码说明与调试方法",
+      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/python代码说明与调试方法.md"
+    },
+    {
+      "basename": "test3",
+      "path": "03-Projects/98-test/test3.md"
+    },
+    {
+      "basename": "zotero-obsidian联动配置",
+      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/zotero-obsidian联动配置.md"
+    },
+    {
+      "basename": "文件夹目录模板",
+      "path": "09-Templates/文件夹目录模板.md"
     },
     {
       "basename": "结束语",
       "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/结束语.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "更新日志",
+      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/更新日志.md"
     },
     {
       "basename": "本周事务表",
@@ -29,16 +57,8 @@
       "path": "00-MOC/任务看板.md"
     },
     {
-      "basename": "python代码说明与调试方法",
-      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/python代码说明与调试方法.md"
-    },
-    {
       "basename": "软件下载安装",
       "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/软件下载安装.md"
-    },
-    {
-      "basename": "zotero-obsidian联动配置",
-      "path": "03-Projects/99-黑曜石玩家指南/1-obsidian入门/zotero-obsidian联动配置.md"
     },
     {
       "basename": "阅读清单",
@@ -57,20 +77,12 @@
       "path": "09-Templates/卡片模板.md"
     },
     {
-      "basename": "更新日志",
-      "path": "03-Projects/99-黑曜石玩家指南/4-obsidian附录/更新日志.md"
-    },
-    {
       "basename": "主题文献比较查询表",
       "path": "09-Templates/主题文献比较查询表.md"
     },
     {
       "basename": "新建课题项目",
       "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/新建课题项目.md"
-    },
-    {
-      "basename": "文件夹目录模板",
-      "path": "09-Templates/文件夹目录模板.md"
     },
     {
       "basename": "工作小结与周汇报",
@@ -87,10 +99,6 @@
     {
       "basename": "本章小结-祝您科研精进",
       "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/本章小结-祝您科研精进.md"
-    },
-    {
-      "basename": "完整导出项目",
-      "path": "03-Projects/99-黑曜石玩家指南/3-obsidian做课题/完整导出项目.md"
     },
     {
       "basename": "试剂耗材仪器建卡管理",
@@ -169,10 +177,6 @@
       "path": "00-MOC/AuthorRanking.md"
     },
     {
-      "basename": "Utils",
-      "path": "08-Assets/Scripts/Utils.md"
-    },
-    {
       "basename": "Buttons",
       "path": "08-Assets/Scripts/Buttons.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2022-05-24",
       "path": "01-Diary/日志存档/2022-05-24.md"
-    },
-    {
-      "basename": "@Doose2005",
-      "path": "02-Reading/mdnotes/@Doose2005.md"
     }
   ],
   "omittedPaths": [],
