@@ -14,11 +14,11 @@ date: 2022-03-13 09:57:43
 
 ### 下载并打开vault模板库并查看说明书
 
-1. 下载安装软件：目前 obsidian 是开源免费的跨平台软件，可以直接到[官网](https://obsidian.md/download)下载安装包后安装。
+1. 下载安装软件：目前 obsidian 是开源免费的跨平台软件，建议[到代码仓库下载 v0.14.6 版本安装包](https://github.com/obsidianmd/obsidian-releases/releases/tag/v0.14.6)后安装（更新的版本可能存在兼容性问题）。安装后请关闭自动更新，后续也不要更新本库其它内置插件。如需回退obsidian版本，请参考[ issue 47](https://github.com/sheldonxxd/obsidian_vault_template_for_researcher/issues/47)。
 
-2. 下载了vault模板之后，解压到一个指定位置，可以是电脑上的硬盘，也可以是移动硬盘甚至U盘，然后重命名vault。比如我把 vault 命名为 working，然后放到了移动硬盘的 projects 目录下：`X:\projects\working`。
+2. 建议通过git clone下载此vault模板，之后解压到一个指定位置，可以是电脑上的硬盘，也可以是移动硬盘甚至U盘，然后重命名vault。比如我把 vault 命名为 working，然后放到了移动硬盘的 projects 目录下：`X:\projects\working`。
 
-3. 打开该模板库，注意关闭「安全模式」，关闭obsidian最新版提供的「实时预览」功能，进入到模板库中可查看 `03-Projects` 中的「黑曜石玩家指南」project，里边有非常完整的关于 `写日志`，`读文献`和`做课题项目`的工作流程操作说明。
+3. 打开该模板库，注意关闭「安全模式」，关闭「自动更新」，进入到模板库中可查看 `03-Projects` 中的「黑曜石玩家指南」project，里边有非常完整的关于 `写日志`，`读文献`和`做课题项目`的工作流程操作说明。
 
 
 ### 黑曜石玩家指南书籍目录
