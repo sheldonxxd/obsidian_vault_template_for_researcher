@@ -9,7 +9,7 @@ date: 2022-03-13 09:57:43
 
 从接触到使用 obsidian 已经有一段时间了，感觉这个工具用好了应该对搞科研有较大帮助。软件界面如下：
 
-![obsidian界面概览](https://sheldon-notes.oss-cn-shanghai.aliyuncs.com/img/image-20211120145712338.png)
+![obsidian界面概览](https://obsidian.md/images/screenshot-1.0-hero-combo.png)
 
 
 ### 下载并打开vault模板库并查看说明书
