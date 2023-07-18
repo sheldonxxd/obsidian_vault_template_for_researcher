@@ -7,10 +7,7 @@ date: 2022-03-13 09:57:43
 
 ### 写在前面
 
-从接触到使用 obsidian 已经有一段时间了，感觉这个工具用好了应该对搞科研有较大帮助。软件界面如下：
-
-![obsidian界面概览](https://obsidian.md/images/screenshot-1.0-hero-combo.png)
-
+**❗本项目已停止更新**，已基于最新版的obsidian(v1.3.5)重新打造面向研究生的极简obsidian模板库，感兴趣可移步新开的另一个👉repo:[obsidian_vault_template_for_graduate_student](https://github.com/sheldonxxd/obsidian_vault_template_for_graduate_student)。
 
 ### 下载并打开vault模板库并查看说明书
 
